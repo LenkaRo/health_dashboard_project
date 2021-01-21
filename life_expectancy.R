@@ -1,0 +1,56 @@
+#################################
+# Life Expectancy in Scotland   #
+#################################
+
+# Data source: statistics.gov.uk (uses 3 year age groups)
+#
+# We are looking at a graph showing the life expectancy in Scotland for females and males based on the year they were born
+# Both lines have a steady upward trend until the year of 2015, where we see a drop. 
+# The line then carries on in a horizontal way suggesting no changes in life expectancy for either gender.
+#
+# The LE in Scotland for those born between 2016 and 2018 was 77.2 years for males and 81.2 years for females
+#
+# Regarding to nrscotland.gov.uk, this stall/drop in LE in Scotland is especially seen in some particular councils and correlates with SIMD (Scottish index of multiple deprivation)
+# There is a big gap in life expectancy between the most and least deprived areas. The gap is roughly 13 years for males and around 10 years for females. 
+# This gap is even bigger for healthy life expectancy: around 24 years for females and 23 years for males.
+
+# load in libraries
+library(tidyverse)
+library(here)
+library(janitor)
+
+# read in data
+# check your pwd, here::here()
+life_expectancy <- read_csv(here("data/life_expectancy.csv")) %>% clean_names()
+
+# subset and summarise data needed for the life expectancy graph
+life_expectancy_years <- life_expectancy %>% 
+  arrange(date_code) %>% 
+  filter(age == "0 years") %>% 
+  group_by(date_code, sex) %>% 
+  summarise(avg_life_expectancy = mean(value))
+
+# plot the graph
+life_expectancy_years %>% 
+  group_by(sex) %>% 
+  ggplot() +
+  aes(x = date_code, y = avg_life_expectancy, colour = sex) +
+  geom_point() +
+  geom_line() +
+  expand_limits(y = 60) +
+  theme_classic() +
+  scale_y_continuous(breaks = seq(from = 60, to = 85, by = 2)) +
+  theme(axis.text.x = element_text(angle = 90)) +
+  theme(legend.title = element_blank()) +
+  labs(
+    x = "",
+    y = "Life Expectancy in years",
+    title = "Life Expectancy at Birth in Scotland"
+  )
+
+# calculate the life expectancy statistics
+life_expectancy %>% 
+  group_by(sex) %>% 
+  filter(age == "0 years") %>% 
+  filter(date_code == "2016-2018") %>% 
+  summarise(avg_life_exp = mean(value))
