@@ -1,0 +1,11 @@
+---
+title: "List of resources"
+output: html_notebook
+---
+
+# SIMD
+https://simd.scot/#/simd2020/BTTTFTT/9/-4.0000/55.9000/
+
+# Government report of health priorities
+https://www.gov.scot/publications/scotlands-public-health-priorities/
+

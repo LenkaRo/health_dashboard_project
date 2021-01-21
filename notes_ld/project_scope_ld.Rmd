@@ -1,0 +1,40 @@
+# Aim:
+use data to understand public health in Scotland.
+In order to improve health and make it easier to be healthy.
+to know where and how to focus public health efforts
+
+# Outcome:
+a dashboard that offers a breakdown of Scottish health and related insights.
+- An overview of Scottish public health over the past 5-10 years.
+- A closer look at a specific health topic (e.g., drug use, mental illness, obesity, specific health conditions, exercise)
+  Temporal: How has this issue changed over time?
+    (Is it getting better or worse?)
+  Geographic: How does this issue differ between areas in Scotland?
+    (Where should efforts be focussed?)
+  Demographic: Who is most affected by this issue?
+    (Who should be targeted with efforts?)
+
+# Questions:
+What prevents people from making healthy decisions?
+How do we define health?
+What impacts have different approaches had?
+What services/campaigns have been most succcesful to overall public health, to our specific topic or to comparable topics?
+Effects of access to education and internet?
+Geographical variation of life expectancy ( a focus from report)
+P1: How do crime rates, public cleanliness, air quality, graffiti levels, public art, independent shops, affect health?
+What metric can we use for each priority?
+
+# Metrics:
+Life expectancy
+Quality of life (reported)
+National happiness index
+
+# Audience for dashboard:
+public services, third sector, community organisations
+
+# Setting our scope:
+How many years data? Range 5:10
+What topic?
+What metric will we use to indicate health?
+What topics are comparable to our topic?
+What countries can we compare to?
