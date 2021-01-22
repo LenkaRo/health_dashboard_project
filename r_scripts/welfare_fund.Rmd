@@ -1,0 +1,49 @@
+
+```{r}
+library(tidyverse)
+library(here)
+library(janitor)
+library(scales)
+```
+
+# Read in data, skipping 12 rows of introduction
+```{r}
+welfare <- read_csv(here("data/welfare_fund.csv"), skip = 8) %>% 
+  clean_names()
+```
+
+# Pivot longer
+```{r}
+welfare <- welfare %>% 
+  pivot_longer(cols = x2013_2014:x2019_2020,
+               names_to = "year",
+               names_prefix = "x",
+               values_to = "expenditure")
+```
+
+# Visualise
+```{r}
+welfare %>% 
+  filter(reference_area == "Scotland") %>% 
+  ggplot() +
+  aes(x = year, y = expenditure, group = reference_area, colour = reference_area) +
+  geom_line() +
+  geom_point() +
+  labs(
+    title = "Cost of crisis grants",
+    x = "Year measured",
+    y = "Expenditure"
+  ) +
+  theme(axis.text.x = element_text(angle = 90)) +
+  scale_y_continuous(labels = scales::comma)
+```
+
+Interesting to compare this with level of satisfaction with council. 3 distinct periods - 
+2013-2015 increasing satisfaction, gradual increase crisis grant expenditure, 2015-2017: slow decline of council satisfaction, gradual increase crisis expenditure then decline.
+2017-2019: rapid decline of council satisfaction, rapid increase in crisis grant expenditure.
+
+Impact of austerity.
+Who was in power.
+Levels of inequality.
+Edit year labels to end of year so we can match with other data sets.
+
