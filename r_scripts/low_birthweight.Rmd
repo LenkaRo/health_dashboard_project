@@ -10,7 +10,7 @@ library(janitor)
 
 # Read in data, skipping 9 rows of introduction
 ```{r}
-birthweight <- read_csv(here("data/low-birthweight.csv"), skip = 9) %>% 
+birthweight <- read_csv(here("data/inequality/low-birthweight.csv"), skip = 9) %>% 
   clean_names()
 
 birthweight %>% 

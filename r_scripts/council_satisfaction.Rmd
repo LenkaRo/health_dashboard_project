@@ -7,7 +7,7 @@ library(janitor)
 
 # Read in data, skipping 12 rows of introduction
 ```{r}
-satisfaction <- read_csv(here("data/council_satisfaction.csv"), skip = 12) %>% 
+satisfaction <- read_csv(here("data/inequality/council_satisfaction.csv"), skip = 12) %>% 
   clean_names()
 ```
 

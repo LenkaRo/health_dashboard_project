@@ -8,7 +8,7 @@ library(scales)
 
 # Read in data, skipping 12 rows of introduction
 ```{r}
-welfare <- read_csv(here("data/welfare_fund.csv"), skip = 8) %>% 
+welfare <- read_csv(here("data/inequality/welfare_fund.csv"), skip = 8) %>% 
   clean_names()
 ```
 
