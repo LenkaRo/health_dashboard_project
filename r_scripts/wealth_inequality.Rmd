@@ -9,19 +9,6 @@ wealth <- read_csv(here("data/inequality/total_wealth_by_decile.csv")) %>%
   clean_names() %>% 
   select(-x1)
 ```
-# Rename columns to year end
-
-```{r}
-
-```
-
-```{r}
-rename_with(
-  
-)
-```
-
-
 
 ```{r}
 wealth <- wealth %>% 
@@ -32,6 +19,11 @@ wealth <- wealth %>%
   )
 ```
 
+# Rename columns to year end
+
+```{r}
+
+```
 
 ```{r}
 wealth %>% 
