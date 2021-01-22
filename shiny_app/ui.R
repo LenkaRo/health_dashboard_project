@@ -33,7 +33,7 @@ shinyUI(fluidPage(
                     #             min = 1,
                     #             max = 50,
                     #             value = 30)
-                )
+                ),
 
                 mainPanel(
                     # eg. Show a plot of the Life Expectancy in Scotland
