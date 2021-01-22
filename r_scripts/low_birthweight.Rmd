@@ -6,9 +6,6 @@ title: "Explore low birthweight"
 library(tidyverse)
 library(here)
 library(janitor)
-library(stringr)
-
-here()
 ```
 
 # Read in data, skipping 9 rows of introduction
