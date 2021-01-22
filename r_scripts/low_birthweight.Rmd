@@ -1,0 +1,35 @@
+---
+title: "Explore low birthweight"
+---
+
+```{r}
+library(tidyverse)
+library(here)
+library(janitor)
+library(stringr)
+
+here()
+```
+
+# Read in data, skipping 9 rows of introduction
+```{r}
+birthweight <- read_csv(here("data/low-birthweight.csv"), skip = 9) %>% 
+  clean_names()
+
+birthweight %>% 
+  filter(reference_area != "Scotland") %>%
+#  mutate(area_code = str_remove_all("http://statistics.gov.scot/id/statistical-geography/", ref_area))
+```
+
+Visualise data - long load time.
+```{r}
+birthweight %>% 
+  # arrange(desc(lb_count)) %>% 
+  # head(30) %>% 
+  ggplot() +
+  aes(x = reorder(reference_area, count), y = count) +
+  geom_col()
+```
+Needs total number of births to give a proportion of low birthweight.
+Needsa different way of grouping areas so we can see changes.
+
