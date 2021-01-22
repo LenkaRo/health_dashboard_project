@@ -1,4 +1,5 @@
 library(shiny)
+library(here)
 
 # Define server logic required to eg draw a histogram
 shinyServer(function(input, output) {
@@ -13,12 +14,11 @@ shinyServer(function(input, output) {
     ### life expectancy graph 
     output$life_expectancy_graph <- renderPlot({
         
-        source("r_scripts/life_expectancy.R")
+        here("r_scripts/life_expectancy.R")
+        life_expectancy
         
     })
     
     
 }
 )
-
-shinyApp(ui = ui, server = server)
