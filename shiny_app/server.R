@@ -14,7 +14,7 @@ shinyServer(function(input, output) {
     ### life expectancy graph 
     output$life_expectancy_graph <- renderPlot({
         
-        here("r_scripts/life_expectancy.R")
+        source(here("r_scripts/life_expectancy.R"))
         life_expectancy
         
     })
