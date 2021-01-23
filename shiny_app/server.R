@@ -19,6 +19,13 @@ shinyServer(function(input, output) {
         
     })
     
+    output$bmi_graph <- renderPlot({
+        
+        source(here("r_scripts/bmi.R"))
+        bmi_graph
+        
+    })
+    
     
 }
 )
