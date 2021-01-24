@@ -1,0 +1,601 @@
+reference_area,category,year,ratio
+Scotland,healthy_weight,2010,84.66
+Scotland,healthy_weight,2011,84.64
+Scotland,healthy_weight,2012,84.59
+Scotland,healthy_weight,2013,85.04
+Scotland,healthy_weight,2014,84.01
+Scotland,healthy_weight,2015,84.69
+Scotland,healthy_weight,2016,84.65
+Scotland,healthy_weight,2017,83.77
+Scotland,healthy_weight,2018,84.27
+Scotland,healthy_weight,2019,84.15
+Ayrshire and Arran,healthy_weight,2010,83.37
+Ayrshire and Arran,healthy_weight,2011,81.19
+Ayrshire and Arran,healthy_weight,2012,82.21
+Ayrshire and Arran,healthy_weight,2013,82.82
+Ayrshire and Arran,healthy_weight,2014,79.22
+Ayrshire and Arran,healthy_weight,2015,83.04
+Ayrshire and Arran,healthy_weight,2016,82.69
+Ayrshire and Arran,healthy_weight,2017,82.08
+Ayrshire and Arran,healthy_weight,2018,84.69
+Ayrshire and Arran,healthy_weight,2019,84.04
+Borders,healthy_weight,2010,85.11
+Borders,healthy_weight,2011,86.62
+Borders,healthy_weight,2012,86.13
+Borders,healthy_weight,2013,86.51
+Borders,healthy_weight,2014,84.91
+Borders,healthy_weight,2015,85.56
+Borders,healthy_weight,2016,85.73
+Borders,healthy_weight,2017,84.04
+Borders,healthy_weight,2018,84.54
+Borders,healthy_weight,2019,86.31
+Dumfries and Galloway,healthy_weight,2010,82.18
+Dumfries and Galloway,healthy_weight,2011,84.91
+Dumfries and Galloway,healthy_weight,2012,83.54
+Dumfries and Galloway,healthy_weight,2013,84.32
+Dumfries and Galloway,healthy_weight,2014,83.22
+Dumfries and Galloway,healthy_weight,2015,82.35
+Dumfries and Galloway,healthy_weight,2016,81.08
+Dumfries and Galloway,healthy_weight,2017,79.03
+Dumfries and Galloway,healthy_weight,2018,83.37
+Dumfries and Galloway,healthy_weight,2019,81.98
+Fife,healthy_weight,2010,83.51
+Fife,healthy_weight,2011,83.52
+Fife,healthy_weight,2012,84.97
+Fife,healthy_weight,2013,85.52
+Fife,healthy_weight,2014,83.07
+Fife,healthy_weight,2015,83.28
+Fife,healthy_weight,2016,84.69
+Fife,healthy_weight,2017,83.15
+Fife,healthy_weight,2018,83.84
+Fife,healthy_weight,2019,85.56
+Forth Valley,healthy_weight,2010,84.71
+Forth Valley,healthy_weight,2011,85.79
+Forth Valley,healthy_weight,2012,85.38
+Forth Valley,healthy_weight,2013,86.01
+Forth Valley,healthy_weight,2014,84.07
+Forth Valley,healthy_weight,2015,86.43
+Forth Valley,healthy_weight,2016,85.09
+Forth Valley,healthy_weight,2017,85.29
+Forth Valley,healthy_weight,2018,84.44
+Forth Valley,healthy_weight,2019,83.97
+Grampian,healthy_weight,2010,85.62
+Grampian,healthy_weight,2011,86.17
+Grampian,healthy_weight,2012,84.92
+Grampian,healthy_weight,2013,85.14
+Grampian,healthy_weight,2014,83.09
+Grampian,healthy_weight,2015,84.48
+Grampian,healthy_weight,2016,83.64
+Grampian,healthy_weight,2017,84.33
+Grampian,healthy_weight,2018,84.27
+Grampian,healthy_weight,2019,85.86
+Greater Glasgow and Clyde,healthy_weight,2010,85.52
+Greater Glasgow and Clyde,healthy_weight,2011,87.62
+Greater Glasgow and Clyde,healthy_weight,2012,84.53
+Greater Glasgow and Clyde,healthy_weight,2013,85.41
+Greater Glasgow and Clyde,healthy_weight,2014,85.43
+Greater Glasgow and Clyde,healthy_weight,2015,85.86
+Greater Glasgow and Clyde,healthy_weight,2016,85.5
+Greater Glasgow and Clyde,healthy_weight,2017,84.76
+Greater Glasgow and Clyde,healthy_weight,2018,85.11
+Greater Glasgow and Clyde,healthy_weight,2019,84.14
+Highland,healthy_weight,2010,82.57
+Highland,healthy_weight,2011,82.81
+Highland,healthy_weight,2012,83.76
+Highland,healthy_weight,2013,84.15
+Highland,healthy_weight,2014,82.86
+Highland,healthy_weight,2015,83.12
+Highland,healthy_weight,2016,83.97
+Highland,healthy_weight,2017,82.89
+Highland,healthy_weight,2018,83.23
+Highland,healthy_weight,2019,81.04
+Lanarkshire,healthy_weight,2010,86.77
+Lanarkshire,healthy_weight,2011,86.45
+Lanarkshire,healthy_weight,2012,85.18
+Lanarkshire,healthy_weight,2013,85.19
+Lanarkshire,healthy_weight,2014,85.22
+Lanarkshire,healthy_weight,2015,85.73
+Lanarkshire,healthy_weight,2016,85.03
+Lanarkshire,healthy_weight,2017,84.61
+Lanarkshire,healthy_weight,2018,84.35
+Lanarkshire,healthy_weight,2019,82.83
+Lothian,healthy_weight,2010,84.18
+Lothian,healthy_weight,2011,84.53
+Lothian,healthy_weight,2012,85.31
+Lothian,healthy_weight,2013,85.38
+Lothian,healthy_weight,2014,84.93
+Lothian,healthy_weight,2015,84.81
+Lothian,healthy_weight,2016,85.43
+Lothian,healthy_weight,2017,83.66
+Lothian,healthy_weight,2018,84.58
+Lothian,healthy_weight,2019,84.83
+Orkney,healthy_weight,2010,NA
+Orkney,healthy_weight,2011,80.3
+Orkney,healthy_weight,2012,78.54
+Orkney,healthy_weight,2013,81.43
+Orkney,healthy_weight,2014,76.39
+Orkney,healthy_weight,2015,84.98
+Orkney,healthy_weight,2016,82.14
+Orkney,healthy_weight,2017,84.38
+Orkney,healthy_weight,2018,83.61
+Orkney,healthy_weight,2019,78
+Shetland,healthy_weight,2010,80.59
+Shetland,healthy_weight,2011,86.67
+Shetland,healthy_weight,2012,82.66
+Shetland,healthy_weight,2013,84.91
+Shetland,healthy_weight,2014,88.08
+Shetland,healthy_weight,2015,81.18
+Shetland,healthy_weight,2016,84.62
+Shetland,healthy_weight,2017,82.61
+Shetland,healthy_weight,2018,82.78
+Shetland,healthy_weight,2019,85.9
+Tayside,healthy_weight,2010,84.44
+Tayside,healthy_weight,2011,83.26
+Tayside,healthy_weight,2012,84.2
+Tayside,healthy_weight,2013,84.67
+Tayside,healthy_weight,2014,83.65
+Tayside,healthy_weight,2015,83.18
+Tayside,healthy_weight,2016,84.22
+Tayside,healthy_weight,2017,82.38
+Tayside,healthy_weight,2018,82.43
+Tayside,healthy_weight,2019,84.49
+Western Isles,healthy_weight,2010,80.83
+Western Isles,healthy_weight,2011,77.91
+Western Isles,healthy_weight,2012,82.86
+Western Isles,healthy_weight,2013,80.95
+Western Isles,healthy_weight,2014,81.78
+Western Isles,healthy_weight,2015,81.6
+Western Isles,healthy_weight,2016,89.69
+Western Isles,healthy_weight,2017,84.03
+Western Isles,healthy_weight,2018,80.23
+Western Isles,healthy_weight,2019,82.04
+Scotland,overweight,2010,8.84
+Scotland,overweight,2011,8.77
+Scotland,overweight,2012,8.84
+Scotland,overweight,2013,8.84
+Scotland,overweight,2014,9.22
+Scotland,overweight,2015,8.74
+Scotland,overweight,2016,8.61
+Scotland,overweight,2017,9.26
+Scotland,overweight,2018,9.04
+Scotland,overweight,2019,9.03
+Ayrshire and Arran,overweight,2010,9.58
+Ayrshire and Arran,overweight,2011,10.88
+Ayrshire and Arran,overweight,2012,11.01
+Ayrshire and Arran,overweight,2013,9.63
+Ayrshire and Arran,overweight,2014,12.14
+Ayrshire and Arran,overweight,2015,9.61
+Ayrshire and Arran,overweight,2016,9.83
+Ayrshire and Arran,overweight,2017,10.28
+Ayrshire and Arran,overweight,2018,8.65
+Ayrshire and Arran,overweight,2019,9.49
+Borders,overweight,2010,8.76
+Borders,overweight,2011,7.71
+Borders,overweight,2012,7.69
+Borders,overweight,2013,8.27
+Borders,overweight,2014,9.39
+Borders,overweight,2015,8.81
+Borders,overweight,2016,8.1
+Borders,overweight,2017,10.28
+Borders,overweight,2018,9.86
+Borders,overweight,2019,8.51
+Dumfries and Galloway,overweight,2010,10.56
+Dumfries and Galloway,overweight,2011,9.25
+Dumfries and Galloway,overweight,2012,8.57
+Dumfries and Galloway,overweight,2013,9.52
+Dumfries and Galloway,overweight,2014,9.69
+Dumfries and Galloway,overweight,2015,10.48
+Dumfries and Galloway,overweight,2016,11.7
+Dumfries and Galloway,overweight,2017,12.84
+Dumfries and Galloway,overweight,2018,10.52
+Dumfries and Galloway,overweight,2019,10.51
+Fife,overweight,2010,9.66
+Fife,overweight,2011,9.69
+Fife,overweight,2012,8.68
+Fife,overweight,2013,8.9
+Fife,overweight,2014,9.79
+Fife,overweight,2015,9.69
+Fife,overweight,2016,8.73
+Fife,overweight,2017,9.42
+Fife,overweight,2018,9.42
+Fife,overweight,2019,7.69
+Forth Valley,overweight,2010,9.15
+Forth Valley,overweight,2011,8.41
+Forth Valley,overweight,2012,8.33
+Forth Valley,overweight,2013,8.79
+Forth Valley,overweight,2014,9.59
+Forth Valley,overweight,2015,7.91
+Forth Valley,overweight,2016,8.92
+Forth Valley,overweight,2017,9.22
+Forth Valley,overweight,2018,9.3
+Forth Valley,overweight,2019,9.64
+Grampian,overweight,2010,7.89
+Grampian,overweight,2011,7.78
+Grampian,overweight,2012,8.46
+Grampian,overweight,2013,9
+Grampian,overweight,2014,9.89
+Grampian,overweight,2015,8.76
+Grampian,overweight,2016,8.9
+Grampian,overweight,2017,9.04
+Grampian,overweight,2018,9.69
+Grampian,overweight,2019,8.63
+Greater Glasgow and Clyde,overweight,2010,8.14
+Greater Glasgow and Clyde,overweight,2011,6.65
+Greater Glasgow and Clyde,overweight,2012,8.88
+Greater Glasgow and Clyde,overweight,2013,8.53
+Greater Glasgow and Clyde,overweight,2014,8.29
+Greater Glasgow and Clyde,overweight,2015,8.12
+Greater Glasgow and Clyde,overweight,2016,7.73
+Greater Glasgow and Clyde,overweight,2017,8.13
+Greater Glasgow and Clyde,overweight,2018,8.39
+Greater Glasgow and Clyde,overweight,2019,8.62
+Highland,overweight,2010,10.72
+Highland,overweight,2011,9.92
+Highland,overweight,2012,9.96
+Highland,overweight,2013,9.14
+Highland,overweight,2014,9.58
+Highland,overweight,2015,10.1
+Highland,overweight,2016,9.08
+Highland,overweight,2017,10.07
+Highland,overweight,2018,9.92
+Highland,overweight,2019,11.08
+Lanarkshire,overweight,2010,7.32
+Lanarkshire,overweight,2011,7.22
+Lanarkshire,overweight,2012,7.76
+Lanarkshire,overweight,2013,8.33
+Lanarkshire,overweight,2014,8.1
+Lanarkshire,overweight,2015,7.64
+Lanarkshire,overweight,2016,8.14
+Lanarkshire,overweight,2017,8.57
+Lanarkshire,overweight,2018,9.02
+Lanarkshire,overweight,2019,9.2
+Lothian,overweight,2010,9.28
+Lothian,overweight,2011,8.36
+Lothian,overweight,2012,8.58
+Lothian,overweight,2013,9
+Lothian,overweight,2014,8.85
+Lothian,overweight,2015,8.45
+Lothian,overweight,2016,8.34
+Lothian,overweight,2017,9.4
+Lothian,overweight,2018,8.24
+Lothian,overweight,2019,8.83
+Orkney,overweight,2010,NA
+Orkney,overweight,2011,13.13
+Orkney,overweight,2012,14.59
+Orkney,overweight,2013,7.14
+Orkney,overweight,2014,11.57
+Orkney,overweight,2015,10.8
+Orkney,overweight,2016,8.93
+Orkney,overweight,2017,10.42
+Orkney,overweight,2018,10.93
+Orkney,overweight,2019,15.5
+Shetland,overweight,2010,10.55
+Shetland,overweight,2011,8.75
+Shetland,overweight,2012,11.44
+Shetland,overweight,2013,7.33
+Shetland,overweight,2014,8.46
+Shetland,overweight,2015,10.1
+Shetland,overweight,2016,10.62
+Shetland,overweight,2017,9.88
+Shetland,overweight,2018,10.99
+Shetland,overweight,2019,5.29
+Tayside,overweight,2010,9.11
+Tayside,overweight,2011,10.43
+Tayside,overweight,2012,9.23
+Tayside,overweight,2013,9.03
+Tayside,overweight,2014,9.56
+Tayside,overweight,2015,10.03
+Tayside,overweight,2016,9.38
+Tayside,overweight,2017,10.16
+Tayside,overweight,2018,9.83
+Tayside,overweight,2019,8.8
+Western Isles,overweight,2010,9.33
+Western Isles,overweight,2011,13.65
+Western Isles,overweight,2012,10
+Western Isles,overweight,2013,11.51
+Western Isles,overweight,2014,9.29
+Western Isles,overweight,2015,9.91
+Western Isles,overweight,2016,2.29
+Western Isles,overweight,2017,9.24
+Western Isles,overweight,2018,10.85
+Western Isles,overweight,2019,12.62
+Scotland,underweight,2010,0.54
+Scotland,underweight,2011,0.59
+Scotland,underweight,2012,0.43
+Scotland,underweight,2013,0.34
+Scotland,underweight,2014,0.36
+Scotland,underweight,2015,0.35
+Scotland,underweight,2016,0.36
+Scotland,underweight,2017,0.31
+Scotland,underweight,2018,0.26
+Scotland,underweight,2019,0.27
+Ayrshire and Arran,underweight,2010,0.71
+Ayrshire and Arran,underweight,2011,0.28
+Ayrshire and Arran,underweight,2012,0.43
+Ayrshire and Arran,underweight,2013,0.32
+Ayrshire and Arran,underweight,2014,0.61
+Ayrshire and Arran,underweight,2015,0.45
+Ayrshire and Arran,underweight,2016,0.37
+Ayrshire and Arran,underweight,2017,0.36
+Ayrshire and Arran,underweight,2018,0.34
+Ayrshire and Arran,underweight,2019,0.35
+Borders,underweight,2010,0.26
+Borders,underweight,2011,0.46
+Borders,underweight,2012,0.18
+Borders,underweight,2013,0.09
+Borders,underweight,2014,0.09
+Borders,underweight,2015,0.09
+Borders,underweight,2016,0.55
+Borders,underweight,2017,0.09
+Borders,underweight,2018,0.27
+Borders,underweight,2019,0
+Dumfries and Galloway,underweight,2010,0
+Dumfries and Galloway,underweight,2011,0
+Dumfries and Galloway,underweight,2012,0.34
+Dumfries and Galloway,underweight,2013,0.28
+Dumfries and Galloway,underweight,2014,0.16
+Dumfries and Galloway,underweight,2015,0
+Dumfries and Galloway,underweight,2016,0.07
+Dumfries and Galloway,underweight,2017,0.3
+Dumfries and Galloway,underweight,2018,0.15
+Dumfries and Galloway,underweight,2019,0
+Fife,underweight,2010,0.35
+Fife,underweight,2011,0.38
+Fife,underweight,2012,0.28
+Fife,underweight,2013,0.13
+Fife,underweight,2014,0.52
+Fife,underweight,2015,0.3
+Fife,underweight,2016,0.17
+Fife,underweight,2017,0.37
+Fife,underweight,2018,0.25
+Fife,underweight,2019,0.22
+Forth Valley,underweight,2010,0.39
+Forth Valley,underweight,2011,0.16
+Forth Valley,underweight,2012,0.29
+Forth Valley,underweight,2013,0.15
+Forth Valley,underweight,2014,0.21
+Forth Valley,underweight,2015,0.24
+Forth Valley,underweight,2016,0.28
+Forth Valley,underweight,2017,0.22
+Forth Valley,underweight,2018,0.24
+Forth Valley,underweight,2019,0.14
+Grampian,underweight,2010,0.45
+Grampian,underweight,2011,0.54
+Grampian,underweight,2012,0.5
+Grampian,underweight,2013,0.27
+Grampian,underweight,2014,0.31
+Grampian,underweight,2015,0.29
+Grampian,underweight,2016,0.52
+Grampian,underweight,2017,0.16
+Grampian,underweight,2018,0.2
+Grampian,underweight,2019,0.19
+Greater Glasgow and Clyde,underweight,2010,0.55
+Greater Glasgow and Clyde,underweight,2011,0.87
+Greater Glasgow and Clyde,underweight,2012,0.27
+Greater Glasgow and Clyde,underweight,2013,0.28
+Greater Glasgow and Clyde,underweight,2014,0.33
+Greater Glasgow and Clyde,underweight,2015,0.46
+Greater Glasgow and Clyde,underweight,2016,0.33
+Greater Glasgow and Clyde,underweight,2017,0.33
+Greater Glasgow and Clyde,underweight,2018,0.18
+Greater Glasgow and Clyde,underweight,2019,0.15
+Highland,underweight,2010,0.13
+Highland,underweight,2011,0.24
+Highland,underweight,2012,0.33
+Highland,underweight,2013,0.32
+Highland,underweight,2014,0.32
+Highland,underweight,2015,0.36
+Highland,underweight,2016,0.35
+Highland,underweight,2017,0.28
+Highland,underweight,2018,0.26
+Highland,underweight,2019,0.12
+Lanarkshire,underweight,2010,0.85
+Lanarkshire,underweight,2011,1.15
+Lanarkshire,underweight,2012,1.29
+Lanarkshire,underweight,2013,1.06
+Lanarkshire,underweight,2014,0.79
+Lanarkshire,underweight,2015,0.62
+Lanarkshire,underweight,2016,0.59
+Lanarkshire,underweight,2017,0.44
+Lanarkshire,underweight,2018,0.46
+Lanarkshire,underweight,2019,0.57
+Lothian,underweight,2010,0.8
+Lothian,underweight,2011,0.78
+Lothian,underweight,2012,0.21
+Lothian,underweight,2013,0.23
+Lothian,underweight,2014,0.14
+Lothian,underweight,2015,0.31
+Lothian,underweight,2016,0.34
+Lothian,underweight,2017,0.38
+Lothian,underweight,2018,0.31
+Lothian,underweight,2019,0.37
+Orkney,underweight,2010,NA
+Orkney,underweight,2011,0
+Orkney,underweight,2012,0
+Orkney,underweight,2013,0.48
+Orkney,underweight,2014,0.46
+Orkney,underweight,2015,0
+Orkney,underweight,2016,0
+Orkney,underweight,2017,0.52
+Orkney,underweight,2018,0
+Orkney,underweight,2019,0
+Shetland,underweight,2010,0.84
+Shetland,underweight,2011,0.42
+Shetland,underweight,2012,0.37
+Shetland,underweight,2013,0
+Shetland,underweight,2014,0
+Shetland,underweight,2015,0
+Shetland,underweight,2016,0
+Shetland,underweight,2017,0
+Shetland,underweight,2018,0
+Shetland,underweight,2019,0
+Tayside,underweight,2010,0.36
+Tayside,underweight,2011,0.7
+Tayside,underweight,2012,0.18
+Tayside,underweight,2013,0.12
+Tayside,underweight,2014,0.14
+Tayside,underweight,2015,0.12
+Tayside,underweight,2016,0.22
+Tayside,underweight,2017,0.14
+Tayside,underweight,2018,0.12
+Tayside,underweight,2019,0.18
+Western Isles,underweight,2010,1.55
+Western Isles,underweight,2011,0.8
+Western Isles,underweight,2012,0
+Western Isles,underweight,2013,1.19
+Western Isles,underweight,2014,0.37
+Western Isles,underweight,2015,0
+Western Isles,underweight,2016,0
+Western Isles,underweight,2017,0.42
+Western Isles,underweight,2018,0
+Western Isles,underweight,2019,0.49
+Scotland,obese_or_severly obese,2010,5.95
+Scotland,obese_or_severly obese,2011,6
+Scotland,obese_or_severly obese,2012,6.14
+Scotland,obese_or_severly obese,2013,5.77
+Scotland,obese_or_severly obese,2014,6.41
+Scotland,obese_or_severly obese,2015,6.22
+Scotland,obese_or_severly obese,2016,6.38
+Scotland,obese_or_severly obese,2017,6.66
+Scotland,obese_or_severly obese,2018,6.43
+Scotland,obese_or_severly obese,2019,6.55
+Ayrshire and Arran,obese_or_severly obese,2010,6.35
+Ayrshire and Arran,obese_or_severly obese,2011,7.65
+Ayrshire and Arran,obese_or_severly obese,2012,6.35
+Ayrshire and Arran,obese_or_severly obese,2013,7.23
+Ayrshire and Arran,obese_or_severly obese,2014,8.03
+Ayrshire and Arran,obese_or_severly obese,2015,6.9
+Ayrshire and Arran,obese_or_severly obese,2016,7.11
+Ayrshire and Arran,obese_or_severly obese,2017,7.28
+Ayrshire and Arran,obese_or_severly obese,2018,6.31
+Ayrshire and Arran,obese_or_severly obese,2019,6.12
+Borders,obese_or_severly obese,2010,5.87
+Borders,obese_or_severly obese,2011,5.2
+Borders,obese_or_severly obese,2012,6.01
+Borders,obese_or_severly obese,2013,5.13
+Borders,obese_or_severly obese,2014,5.6
+Borders,obese_or_severly obese,2015,5.54
+Borders,obese_or_severly obese,2016,5.62
+Borders,obese_or_severly obese,2017,5.59
+Borders,obese_or_severly obese,2018,5.33
+Borders,obese_or_severly obese,2019,5.19
+Dumfries and Galloway,obese_or_severly obese,2010,7.27
+Dumfries and Galloway,obese_or_severly obese,2011,5.84
+Dumfries and Galloway,obese_or_severly obese,2012,7.54
+Dumfries and Galloway,obese_or_severly obese,2013,5.88
+Dumfries and Galloway,obese_or_severly obese,2014,6.93
+Dumfries and Galloway,obese_or_severly obese,2015,7.17
+Dumfries and Galloway,obese_or_severly obese,2016,7.15
+Dumfries and Galloway,obese_or_severly obese,2017,7.83
+Dumfries and Galloway,obese_or_severly obese,2018,5.96
+Dumfries and Galloway,obese_or_severly obese,2019,7.51
+Fife,obese_or_severly obese,2010,6.48
+Fife,obese_or_severly obese,2011,6.42
+Fife,obese_or_severly obese,2012,6.07
+Fife,obese_or_severly obese,2013,5.45
+Fife,obese_or_severly obese,2014,6.62
+Fife,obese_or_severly obese,2015,6.73
+Fife,obese_or_severly obese,2016,6.41
+Fife,obese_or_severly obese,2017,7.07
+Fife,obese_or_severly obese,2018,6.49
+Fife,obese_or_severly obese,2019,6.53
+Forth Valley,obese_or_severly obese,2010,5.75
+Forth Valley,obese_or_severly obese,2011,5.65
+Forth Valley,obese_or_severly obese,2012,6.01
+Forth Valley,obese_or_severly obese,2013,5.05
+Forth Valley,obese_or_severly obese,2014,6.12
+Forth Valley,obese_or_severly obese,2015,5.43
+Forth Valley,obese_or_severly obese,2016,5.71
+Forth Valley,obese_or_severly obese,2017,5.27
+Forth Valley,obese_or_severly obese,2018,6.03
+Forth Valley,obese_or_severly obese,2019,6.25
+Grampian,obese_or_severly obese,2010,6.05
+Grampian,obese_or_severly obese,2011,5.52
+Grampian,obese_or_severly obese,2012,6.12
+Grampian,obese_or_severly obese,2013,5.6
+Grampian,obese_or_severly obese,2014,6.71
+Grampian,obese_or_severly obese,2015,6.46
+Grampian,obese_or_severly obese,2016,6.94
+Grampian,obese_or_severly obese,2017,6.47
+Grampian,obese_or_severly obese,2018,5.83
+Grampian,obese_or_severly obese,2019,5.32
+Greater Glasgow and Clyde,obese_or_severly obese,2010,5.8
+Greater Glasgow and Clyde,obese_or_severly obese,2011,4.85
+Greater Glasgow and Clyde,obese_or_severly obese,2012,6.31
+Greater Glasgow and Clyde,obese_or_severly obese,2013,5.79
+Greater Glasgow and Clyde,obese_or_severly obese,2014,5.95
+Greater Glasgow and Clyde,obese_or_severly obese,2015,5.56
+Greater Glasgow and Clyde,obese_or_severly obese,2016,6.44
+Greater Glasgow and Clyde,obese_or_severly obese,2017,6.78
+Greater Glasgow and Clyde,obese_or_severly obese,2018,6.33
+Greater Glasgow and Clyde,obese_or_severly obese,2019,7.09
+Highland,obese_or_severly obese,2010,6.57
+Highland,obese_or_severly obese,2011,7.03
+Highland,obese_or_severly obese,2012,5.94
+Highland,obese_or_severly obese,2013,6.4
+Highland,obese_or_severly obese,2014,7.24
+Highland,obese_or_severly obese,2015,6.42
+Highland,obese_or_severly obese,2016,6.6
+Highland,obese_or_severly obese,2017,6.76
+Highland,obese_or_severly obese,2018,6.59
+Highland,obese_or_severly obese,2019,7.77
+Lanarkshire,obese_or_severly obese,2010,5.06
+Lanarkshire,obese_or_severly obese,2011,5.18
+Lanarkshire,obese_or_severly obese,2012,5.78
+Lanarkshire,obese_or_severly obese,2013,5.43
+Lanarkshire,obese_or_severly obese,2014,5.88
+Lanarkshire,obese_or_severly obese,2015,6.01
+Lanarkshire,obese_or_severly obese,2016,6.23
+Lanarkshire,obese_or_severly obese,2017,6.38
+Lanarkshire,obese_or_severly obese,2018,6.17
+Lanarkshire,obese_or_severly obese,2019,7.4
+Lothian,obese_or_severly obese,2010,5.73
+Lothian,obese_or_severly obese,2011,6.33
+Lothian,obese_or_severly obese,2012,5.91
+Lothian,obese_or_severly obese,2013,5.4
+Lothian,obese_or_severly obese,2014,6.08
+Lothian,obese_or_severly obese,2015,6.43
+Lothian,obese_or_severly obese,2016,5.89
+Lothian,obese_or_severly obese,2017,6.57
+Lothian,obese_or_severly obese,2018,6.87
+Lothian,obese_or_severly obese,2019,5.98
+Orkney,obese_or_severly obese,2010,NA
+Orkney,obese_or_severly obese,2011,6.57
+Orkney,obese_or_severly obese,2012,6.87
+Orkney,obese_or_severly obese,2013,10.95
+Orkney,obese_or_severly obese,2014,11.57
+Orkney,obese_or_severly obese,2015,4.23
+Orkney,obese_or_severly obese,2016,8.93
+Orkney,obese_or_severly obese,2017,4.69
+Orkney,obese_or_severly obese,2018,5.46
+Orkney,obese_or_severly obese,2019,6.5
+Shetland,obese_or_severly obese,2010,8.02
+Shetland,obese_or_severly obese,2011,4.17
+Shetland,obese_or_severly obese,2012,5.54
+Shetland,obese_or_severly obese,2013,7.76
+Shetland,obese_or_severly obese,2014,3.46
+Shetland,obese_or_severly obese,2015,8.71
+Shetland,obese_or_severly obese,2016,4.76
+Shetland,obese_or_severly obese,2017,7.51
+Shetland,obese_or_severly obese,2018,6.23
+Shetland,obese_or_severly obese,2019,8.81
+Tayside,obese_or_severly obese,2010,6.1
+Tayside,obese_or_severly obese,2011,5.61
+Tayside,obese_or_severly obese,2012,6.4
+Tayside,obese_or_severly obese,2013,6.18
+Tayside,obese_or_severly obese,2014,6.65
+Tayside,obese_or_severly obese,2015,6.67
+Tayside,obese_or_severly obese,2016,6.18
+Tayside,obese_or_severly obese,2017,7.32
+Tayside,obese_or_severly obese,2018,7.62
+Tayside,obese_or_severly obese,2019,6.53
+Western Isles,obese_or_severly obese,2010,8.29
+Western Isles,obese_or_severly obese,2011,7.63
+Western Isles,obese_or_severly obese,2012,7.14
+Western Isles,obese_or_severly obese,2013,6.35
+Western Isles,obese_or_severly obese,2014,8.55
+Western Isles,obese_or_severly obese,2015,8.49
+Western Isles,obese_or_severly obese,2016,8.02
+Western Isles,obese_or_severly obese,2017,6.3
+Western Isles,obese_or_severly obese,2018,8.91
+Western Isles,obese_or_severly obese,2019,4.85
