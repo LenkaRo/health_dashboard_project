@@ -48,8 +48,8 @@ life_expectancy <- read_csv(here("data/life_expectancy/life_expectancy.csv")) %>
   group_by(sex) %>% 
   ggplot() +
   aes(x = date_code, y = avg_life_expectancy, colour = sex) +
+  geom_line(aes(group = sex)) +
   geom_point() +
-  geom_line() +
   expand_limits(y = 60) +
   theme_classic() +
   scale_y_continuous(breaks = seq(from = 60, to = 85, by = 2)) +

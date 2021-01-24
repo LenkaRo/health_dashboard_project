@@ -39,7 +39,9 @@ shinyUI(fluidPage(
                     # eg. Show a plot of the Life Expectancy in Scotland
                     plotOutput("life_expectancy_graph"),
                     
-                    plotOutput("bmi_graph")
+                    plotOutput("bmi_graph"),
+                    
+                    plotOutput("physical_activity_graph")
                 )
             )
         ),
