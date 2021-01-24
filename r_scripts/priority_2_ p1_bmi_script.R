@@ -30,7 +30,7 @@ library(here)
 
 p1_bmi_for_graph <- read_csv(here::here("data/priority_2_data/p1_bmi_for_graph.csv"))
 
-p1_bmi_for_graph %>%
+p1_bmi_for_graph <- p1_bmi_for_graph %>%
 #This filter is currently a placeholder for a select box button listing the different "reference_area" options. Although this button will return an individual regions data (as below), I'd also like to add a couple of widgets that don't necessarily require inputs. The first would be a checkbox group button to select which of the weight categories you'd like to have. The second would be a slider to adjust the date range.
   filter(reference_area == "Scotland") %>% 
   

@@ -11,6 +11,13 @@ shinyServer(function(input, output) {
     #         filter( == input$something_from_UI)
     # })
     
+    output$priority_2_p1_bmi_graph <- renderPlot({
+        
+        source(here("r_scripts/priority_2_ p1_bmi_script.R"))
+        p1_bmi_for_graph
+        
+    })
+    
     ### life expectancy graph 
     output$life_expectancy_graph <- renderPlot({
         
