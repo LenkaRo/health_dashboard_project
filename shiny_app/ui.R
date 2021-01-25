@@ -36,10 +36,10 @@ shinyUI(fluidPage(
                 ),
 
                 mainPanel(
-                    plotOutput("priority_2_p1_bmi_graph"),
-                    
                     # eg. Show a plot of the Life Expectancy in Scotland
                     plotOutput("life_expectancy_graph"),
+                    
+                    plotOutput("priority_2_p1_bmi_graph"),
                     
                     plotOutput("bmi_graph"),
                     
