@@ -1,8 +1,3 @@
-library(shiny)
-library(shinythemes)
-library(ggthemes)
-library(tidyverse)
-
 # Define UI for application that draws a presentation with three tabs (add text, graphs, action buttons etc)
 shinyUI(fluidPage(
     

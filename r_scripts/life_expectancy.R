@@ -36,16 +36,10 @@ library(tidyverse)
 library(here)
 library(janitor)
 
-# read in data
-# check your pwd, here::here()
-# subset and summarise data needed for the life expectancy graph
+# read in tidy data
+
 # plot the graph
-life_expectancy <- read_csv(here("data/life_expectancy/life_expectancy.csv")) %>% clean_names() %>% 
-  arrange(date_code) %>% 
-  filter(age == "0 years") %>% 
-  group_by(date_code, sex) %>% 
-  summarise(avg_life_expectancy = mean(value)) %>% 
-  group_by(sex) %>% 
+life_expectancy_graph <- read_csv(here("data/life_expectancy/life_expectancy_tidy.csv")) %>% 
   ggplot() +
   aes(x = date_code, y = avg_life_expectancy, colour = sex) +
   geom_line(aes(group = sex)) +
