@@ -1,0 +1,20 @@
+Back to Index sheet,,,,,,
+"Table 205: Doctor diagnosed asthma, by SIMD quintiles (age-standardised), 2018",,,,,,
+"Base: Aged 16+
+
+Doctor diagnosed asthma (ConDr)",,SIMD 2016 quintiles,,,,
+,,(5th) Least deprived,4th,3rd,2nd,(1st) Most deprived
+,,%,%,%,%,%
+Male,Yes,20,13,18,15,21
+,No,80,87,82,85,79
+Female,Yes,15,15,15,20,21
+,No,85,85,85,80,79
+All adults,Yes,18,14,17,17,21
+,No,82,86,83,83,79
+All,,100,100,100,100,100
+Unweighted base,Male,402,501,413,420,337
+,Female,545,645,519,571,452
+,All adults,947,1146,932,991,789
+Weighted base,Male,441,506,445,514,408
+,Female,505,564,454,524,443
+,All adults,946,1070,900,1038,852
