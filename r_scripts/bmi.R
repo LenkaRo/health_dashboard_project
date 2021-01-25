@@ -14,106 +14,47 @@
 # In 2018, a 36 pages long action plan called A More Active Scotland was published. It's aim has been to find ways to encourage people to be more physically active
 # (just to pick an example, it was suggesting to increase investment that support active travel, eg making towns and cities safer for walkers and cyclist)
 # This actions plan cooperates with various has further impact to other action plans, for instance plans aiming to lower carbon emission etc.
-# In July last year, the Scottish Government published a plan called A Healthier Future – Scotland's Diet and Healthy Weight Delivery Plan. The plan sets out a vision for everyone in Scotland to eat well and have a healthy weight.
+# In 2017, the Scottish Government published a plan called A Healthier Future – Scotland's Diet and Healthy Weight Delivery Plan. The plan sets out a vision for everyone in Scotland to eat well and have a healthy weight.
 #
 # Diet, physical activity and sedentary behavior are strongly associated with BMI
 
 
-# Graph - BMI by age, time series - 2018
+# Graph - BMI in adults (16+), time series - 2008-2018
 # 
-# Data source: Supplementary tables are available on the Scottish Government SHeS website, eg for 2018 https://www.gov.scot/publications/scottish-health-survey-2018-volume-1-main-report/
-#                                                                                                 2008 - 2012 https://www.gov.scot/publications/scottish-health-survey-2012-volume-1-main-report/pages/11/#table71
-#              (downloaded as .xls file, only one sheet with relevant statistics kept, saved as .numbers file, exported as .csv file, relevant numbers extracted, tables joined to carry out time-series analysis)
-#   
-# We are looking at a graph showing Prevalence of overweight including obesity (BMI 25 and over) among adults aged 16 and over, 2008 to 2018
+# Data source: Scottish Health Survey-Scotland level data: a data cube column (Indicators of population health and related risk factors from the Scottish Health Survey (2008-2019))
+#              available from: https://statistics.gov.scot/slice?dataset=http%3A%2F%2Fstatistics.gov.scot%2Fdata%2Fscottish-health-survey-scotland-level-data&http%3A%2F%2Fpurl.org%2Flinked-data%2Fcube%23measureType=http%3A%2F%2Fstatistics.gov.scot%2Fdef%2Fmeasure-properties%2Fpercent&http%3A%2F%2Fpurl.org%2Flinked-data%2Fsdmx%2F2009%2Fdimension%23refPeriod=http%3A%2F%2Freference.data.gov.uk%2Fid%2Fyear%2F2018&http%3A%2F%2Fstatistics.gov.scot%2Fdef%2Fdimension%2FscottishHealthSurveyIndicator=http%3A%2F%2Fstatistics.gov.scot%2Fdef%2Fconcept%2Fscottish-health-survey-indicator%2Foverweight-overweight-including-obese&http%3A%2F%2Fstatistics.gov.scot%2Fdef%2Fdimension%2Fsex=http%3A%2F%2Fstatistics.gov.scot%2Fdef%2Fconcept%2Fsex%2Fall
+# 
+# Resource: Scottish Health Survey 2018: main report - revised 2020, chapter 7 Obesity
+#           available from: https://www.gov.scot/publications/scottish-health-survey-2018-volume-1-main-report/pages/62/
 #
-# In 2018, 2/3 two thirds (65%) of adults aged 16 and over were overweight, including 28% who were obese.
-# The numbers are remaining broadly stable since 2008
-
+# We are looking at a graph showing Prevalence of overweight including obesity (BMI 25 and over) among adults aged 16 and over, further split by gender, 2008 to 2018
+#
+# In 2018, two thirds (65%) of adults were overweight, including 28% who were obese, with both these trends remaining stable since 2008
+# A greater proportion of men were overweight or obese than women.
+# This has considerable individual, social, and economic consequences, obesity continues to be a key priority and a major challenge for the Scottish government, the NHS and other public services.
+# The cost to the health service in Scotland of overweight and obesity combined is estimated to be between £363 and £600 million (most of these costs are incurred because of associated conditions such as cardiovascular disease and type 2 diabetes, rather than direct costs of treating or managing overweight and obesity)
 
 # load in libraries
 library(tidyverse)
 library(here)
 library(lubridate)
+library(janitor)
 
-bmi_2018 <- tibble(
-  gender = c("Male", "Female"),
-  BMI_25_and_over = c(68, 63),
-  year = c(2018, 2018)
-)
+overweight <- read_csv(here("data/priority_6/BMI/scottish_health_survey.csv")) %>% clean_names() 
 
-bmi_2017 <- tibble(
-  gender = c("Male", "Female"),
-  BMI_25_and_over = c(68, 63),
-  year = c(2017, 2017)
-)
+years <- unique(overweight$date_code) %>% sort()
 
-bmi_2016 <- tibble(
-  gender = c("Male", "Female"),
-  BMI_25_and_over = c(68, 61),
-  year = c(2016, 2016)
-)
-
-bmi_2015 <- tibble(
-  gender = c("Male", "Female"),
-  BMI_25_and_over = c(67, 62),
-  year = c(2015, 2015)
-)
-
-bmi_2014 <- tibble(
-  gender = c("Male", "Female"),
-  BMI_25_and_over = c(69, 61),
-  year = c(2014, 2014)
-)
-
-bmi_2013 <- tibble(
-  gender = c("Male", "Female"),
-  BMI_25_and_over = c(68, 61),
-  year = c(2013, 2013)
-)
-
-bmi_2012 <- tibble(
-  gender = c("Male", "Female"),
-  BMI_25_and_over = c(68, 60),
-  year = c(2012, 2012)
-)
-
-bmi_2011 <- tibble(
-  gender = c("Male", "Female"),
-  BMI_25_and_over = c(67, 60),
-  year = c(2011, 2011)
-)
-
-bmi_2010 <- tibble(
-  gender = c("Male", "Female"),
-  BMI_25_and_over = c(66, 62),
-  year = c(2010, 2010)
-)
-
-bmi_2009 <- tibble(
-  gender = c("Male", "Female"),
-  BMI_25_and_over = c(66, 61),
-  year = c(2009, 2009)
-)
-
-bmi_2008 <- tibble(
-  gender = c("Male", "Female"),
-  BMI_25_and_over = c(63, 62),
-  year = c(2008, 2008)
-)
-
-bmi_all <- rbind(bmi_2008, bmi_2009, bmi_2010, bmi_2011, bmi_2012, bmi_2013, 
-                 bmi_2014, bmi_2015, bmi_2016, bmi_2017, bmi_2018) 
-
-years <- unique(bmi_all$year)
-
-# plot graph BMI
-bmi_graph <- bmi_all %>% 
-  group_by(gender) %>% 
+bmi_graph <- overweight %>% 
+  filter(measurement == "Percent") %>% 
+  filter(sex == "Female" | sex == "Male") %>% 
+  filter(date_code != "2019") %>% 
+  filter(scottish_health_survey_indicator == "Overweight: Overweight (including obese)") %>% 
+  arrange(date_code) %>% 
+  group_by(sex) %>% 
   ggplot() +
-  aes(x = year, y = BMI_25_and_over, col = gender) +
+  aes(x = date_code, y = value, colour = sex) +
+  geom_line(aes(group = sex)) +
   geom_point() +
-  geom_line() +
   expand_limits(y = c(0, 80)) +
   theme_classic() +
   theme(legend.title = element_blank()) +
@@ -124,3 +65,5 @@ bmi_graph <- bmi_all %>%
     title = "Prevalence of overweight incl. obesity among adults aged 16 and over",
     subtitle = "(BMI 25 kg/m² and over)"
   )
+
+# unique(overweight$scottish_health_survey_indicator)
