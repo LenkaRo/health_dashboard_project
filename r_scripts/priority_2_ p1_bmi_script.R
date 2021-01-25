@@ -20,7 +20,9 @@ library(here)
 
 # Primary 1 Children Body Mass Index - Clinical
 
-# Percent of children who are classed as healthy weight, overweight, obese or severely obese at their Primary 1 review
+# Percent of children who are classed as healthy weight, underweight, overweight, obese or severely obese at their Primary 1 review
+
+#Note: In Scotland, the school year begins in mid-August and children normally start in Primary One between the ages of 4 and a half and 5 and a half. 
 
 #A full publication report and technical report are available. All publications and supporting material to this topic area can be found on the ISD Scotland - Child Health Website.
 
@@ -32,19 +34,22 @@ p1_bmi_for_graph <- read_csv(here::here("data/priority_2_data/p1_bmi_for_graph.c
 
 p1_bmi_for_graph %>%
 #This filter is currently a placeholder for a select box button listing the different "reference_area" options. Although this button will return an individual regions data (as below), I'd also like to add a couple of widgets that don't necessarily require inputs. The first would be a checkbox group button to select which of the weight categories you'd like to have. The second would be a slider to adjust the date range.
-  filter(reference_area == "Scotland") %>% 
+  filter(reference_area == "Scotland",
+         year %in% 2008:2018) %>% 
   
   ggplot() +
   aes(x = year, y = ratio, fill = category) +
   geom_bar(stat = "identity") + 
   theme_classic() +
-  scale_x_continuous(breaks = 2010: 2019) +
+  scale_x_continuous(breaks = 2008: 2018) +
   scale_y_continuous(breaks = seq(from = 0, to = 100, by = 10)) +
   labs(
     x = "Year",
-    y = "Proportion of Total BMIs in Area (%)"
+    y = "Proportion of Total BMIs in Area (%)",
+    title = "Primary 1 Children Body Mass Index - Clinical",
+    subtitle = "Percentage of children who are classed in different BMI categories at their Primary 1 review"
   )+ 
-  scale_fill_discrete(name = "Weight Category",
+  scale_fill_discrete(name = "BMI Category",
                       labels = c(
                         "Healthy", 
                         "Obese or Severly Obese", 
