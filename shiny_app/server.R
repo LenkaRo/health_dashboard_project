@@ -1,6 +1,11 @@
 library(shiny)
 library(here)
 
+source(here("r_scripts/life_expectancy.R"))
+source(here("r_scripts/priority_2_ p1_bmi_script.R"))
+source(here("r_scripts/bmi.R"))
+source(here("r_scripts/exercise.R"))
+
 # Define server logic required to eg draw a histogram
 shinyServer(function(input, output) {
     
@@ -11,8 +16,7 @@ shinyServer(function(input, output) {
     #         filter( == input$something_from_UI)
     # })
     
-    ### select widget - select priority for which to display a graph
-    output$priority <- renderPrint({ input$select_priority })
+    
     
 #     ### life expectancy graph 
 #     output$life_expectancy_graph <- renderPlot({
@@ -46,44 +50,49 @@ shinyServer(function(input, output) {
 #     
 # }
 # )
+ ### select widget - select priority for which to display a graph
+output$priority <- renderPrint({ input$select_priority })
 
 
-output$plot <- renderUI({
+
+
+output$graph <- renderPlot({
     
     if(input$select_priority=="Life Expectancy"){
-        output$life_expectancy_graph <- renderPlot({
+         
             
-            source(here("r_scripts/life_expectancy.R"))
-            life_expectancy
             
-        })
+            return(life_expectancy)
+            
+    
     }
     
-    else if(input$select_priority=="BMI in Children"){
-        output$priority_2_p1_bmi_graph <- renderPlot({
+    if(input$select_priority=="BMI in Children"){
+         
             
-            source(here("r_scripts/priority_2_ p1_bmi_script.R"))
-            p1_bmi_for_graph
             
-        })
+            return(p1_bmi_for_graph)
+            
+        
     }
     
-    else if(input$select_priority=="BMI in Adults"){
-        output$bmi_graph <- renderPlot({
+    if(input$select_priority=="BMI in Adults"){
+         
             
-            source(here("r_scripts/bmi.R"))
-            bmi_graph
             
-        })
+            return(bmi_graph)
+            
+        
     }
     
-    else if(input$select_priority=="Activity Levels of Adults"){
-        output$physical_activity_graph <- renderPlot({
+    if(input$select_priority=="Activity Levels of Adults"){
+         
             
-            source(here("r_scripts/exercise.R"))
-            physical_activity_graph
             
-        })
+            return(physical_activity_graph)
+            
+        
     }
     
+})
 })
