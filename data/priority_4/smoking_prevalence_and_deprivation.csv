@@ -1,0 +1,136 @@
+FeatureCode,DateCode,Measurement,Units,Value,Age,Gender,Smoking Behaviour,SIMD quintiles
+S92000003,2015,Percent,Percent Of Pupils,24,All,Male,Non-smoker,5 - least deprived
+S92000003,2015,Percent,Percent Of Pupils,26,15 years,Male,Regular smoker,1 - most deprived
+S92000003,2015,Percent,Percent Of Pupils,25,All,Male,Regular smoker,1 - most deprived
+S92000003,2015,Percent,Percent Of Pupils,19,13 years,Male,Non-smoker,1 - most deprived
+S92000003,2015,Percent,Percent Of Pupils,15,All,Male,Occasional smoker,3
+S92000003,2015,Percent,Percent Of Pupils,13,13 years,Male,Occasional smoker,3
+S92000003,2015,Percent,Percent Of Pupils,18,13 years,Male,Regular smoker,1 - most deprived
+S92000003,2015,Percent,Percent Of Pupils,15,15 years,Male,Non-smoker,3
+S92000003,2015,Percent,Percent Of Pupils,24,13 years,Male,Non-smoker,5 - least deprived
+S92000003,2015,Percent,Percent Of Pupils,25,13 years,Male,Regular smoker,4
+S92000003,2015,Percent,Percent Of Pupils,18,All,Male,Non-smoker,2
+S92000003,2015,Percent,Percent Of Pupils,17,15 years,Male,Regular smoker,4
+S92000003,2015,Percent,Percent Of Pupils,24,15 years,Male,Non-smoker,5 - least deprived
+S92000003,2015,Percent,Percent Of Pupils,19,All,Male,Non-smoker,1 - most deprived
+S92000003,2015,Percent,Percent Of Pupils,19,13 years,Male,Occasional smoker,2
+S92000003,2015,Percent,Percent Of Pupils,22,All,Male,Occasional smoker,4
+S92000003,2015,Percent,Percent Of Pupils,28,All,Male,Occasional smoker,5 - least deprived
+S92000003,2015,Percent,Percent Of Pupils,16,All,Male,Occasional smoker,2
+S92000003,2015,Percent,Percent Of Pupils,15,15 years,Male,Occasional smoker,2
+S92000003,2015,Percent,Percent Of Pupils,15,13 years,Male,Occasional smoker,5 - least deprived
+S92000003,2015,Percent,Percent Of Pupils,27,13 years,Male,Occasional smoker,1 - most deprived
+S92000003,2015,Percent,Percent Of Pupils,19,All,Male,Occasional smoker,1 - most deprived
+S92000003,2015,Percent,Percent Of Pupils,16,15 years,Male,Occasional smoker,3
+S92000003,2015,Percent,Percent Of Pupils,17,15 years,Male,Occasional smoker,1 - most deprived
+S92000003,2015,Percent,Percent Of Pupils,20,15 years,Male,Occasional smoker,4
+S92000003,2015,Percent,Percent Of Pupils,27,13 years,Male,Occasional smoker,4
+S92000003,2015,Percent,Percent Of Pupils,33,15 years,Male,Occasional smoker,5 - least deprived
+S92000003,2015,Percent,Percent Of Pupils,8,13 years,Male,Regular smoker,3
+S92000003,2015,Percent,Percent Of Pupils,19,15 years,Male,Non-smoker,2
+S92000003,2015,Percent,Percent Of Pupils,21,15 years,Male,Regular smoker,2
+S92000003,2015,Percent,Percent Of Pupils,18,13 years,Male,Non-smoker,2
+S92000003,2015,Percent,Percent Of Pupils,14,All,Male,Regular smoker,3
+S92000003,2015,Percent,Percent Of Pupils,15,15 years,Male,Regular smoker,3
+S92000003,2015,Percent,Percent Of Pupils,16,All,Male,Non-smoker,3
+S92000003,2015,Percent,Percent Of Pupils,23,13 years,Male,Non-smoker,4
+S92000003,2015,Percent,Percent Of Pupils,23,All,Male,Non-smoker,4
+S92000003,2015,Percent,Percent Of Pupils,25,13 years,Male,Regular smoker,2
+S92000003,2015,Percent,Percent Of Pupils,22,All,Male,Regular smoker,5 - least deprived
+S92000003,2015,Percent,Percent Of Pupils,20,15 years,Male,Non-smoker,1 - most deprived
+S92000003,2015,Percent,Percent Of Pupils,18,All,Male,Regular smoker,4
+S92000003,2015,Percent,Percent Of Pupils,17,13 years,Male,Non-smoker,3
+S92000003,2015,Percent,Percent Of Pupils,22,15 years,Male,Non-smoker,4
+S92000003,2015,Percent,Percent Of Pupils,21,15 years,Male,Regular smoker,5 - least deprived
+S92000003,2015,Percent,Percent Of Pupils,24,13 years,Male,Regular smoker,5 - least deprived
+S92000003,2015,Percent,Percent Of Pupils,21,All,Male,Regular smoker,2
+S92000003,2015,Percent,Percent Of Pupils,22,15 years,Female,Non-smoker,4
+S92000003,2015,Percent,Percent Of Pupils,23,All,Female,Occasional smoker,5 - least deprived
+S92000003,2015,Percent,Percent Of Pupils,18,13 years,Female,Non-smoker,1 - most deprived
+S92000003,2015,Percent,Percent Of Pupils,15,All,Female,Occasional smoker,2
+S92000003,2015,Percent,Percent Of Pupils,20,13 years,Female,Occasional smoker,2
+S92000003,2015,Percent,Percent Of Pupils,16,All,Female,Non-smoker,3
+S92000003,2015,Percent,Percent Of Pupils,25,15 years,Female,Occasional smoker,5 - least deprived
+S92000003,2015,Percent,Percent Of Pupils,19,All,Female,Non-smoker,1 - most deprived
+S92000003,2015,Percent,Percent Of Pupils,14,15 years,Female,Occasional smoker,2
+S92000003,2015,Percent,Percent Of Pupils,23,All,Female,Non-smoker,4
+S92000003,2015,Percent,Percent Of Pupils,23,13 years,Female,Non-smoker,5 - least deprived
+S92000003,2015,Percent,Percent Of Pupils,19,All,Female,Non-smoker,2
+S92000003,2015,Percent,Percent Of Pupils,20,13 years,Female,Non-smoker,2
+S92000003,2015,Percent,Percent Of Pupils,15,15 years,Female,Non-smoker,3
+S92000003,2015,Percent,Percent Of Pupils,16,13 years,Female,Non-smoker,3
+S92000003,2015,Percent,Percent Of Pupils,18,15 years,Female,Non-smoker,2
+S92000003,2015,Percent,Percent Of Pupils,21,15 years,Female,Occasional smoker,1 - most deprived
+S92000003,2015,Percent,Percent Of Pupils,20,13 years,Female,Occasional smoker,3
+S92000003,2015,Percent,Percent Of Pupils,23,13 years,Female,Non-smoker,4
+S92000003,2015,Percent,Percent Of Pupils,17,15 years,Female,Occasional smoker,3
+S92000003,2015,Percent,Percent Of Pupils,20,15 years,Female,Non-smoker,1 - most deprived
+S92000003,2015,Percent,Percent Of Pupils,24,All,Female,Non-smoker,5 - least deprived
+S92000003,2015,Percent,Percent Of Pupils,25,15 years,Female,Non-smoker,5 - least deprived
+S92000003,2015,Percent,Percent Of Pupils,34,13 years,Female,Regular smoker,1 - most deprived
+S92000003,2015,Percent,Percent Of Pupils,18,All,Female,Occasional smoker,3
+S92000003,2015,Percent,Percent Of Pupils,23,All,Female,Regular smoker,2
+S92000003,2015,Percent,Percent Of Pupils,23,15 years,Female,Regular smoker,2
+S92000003,2015,Percent,Percent Of Pupils,23,All,Female,Occasional smoker,4
+S92000003,2015,Percent,Percent Of Pupils,22,13 years,Female,Regular smoker,2
+S92000003,2015,Percent,Percent Of Pupils,16,13 years,Female,Occasional smoker,5 - least deprived
+S92000003,2015,Percent,Percent Of Pupils,13,15 years,Female,Regular smoker,5 - least deprived
+S92000003,2015,Percent,Percent Of Pupils,30,All,Female,Regular smoker,1 - most deprived
+S92000003,2015,Percent,Percent Of Pupils,23,13 years,Female,Regular smoker,4
+S92000003,2015,Percent,Percent Of Pupils,20,15 years,Female,Regular smoker,4
+S92000003,2015,Percent,Percent Of Pupils,10,13 years,Female,Regular smoker,5 - least deprived
+S92000003,2015,Percent,Percent Of Pupils,29,15 years,Female,Regular smoker,1 - most deprived
+S92000003,2015,Percent,Percent Of Pupils,13,All,Female,Regular smoker,5 - least deprived
+S92000003,2015,Percent,Percent Of Pupils,10,13 years,Female,Regular smoker,3
+S92000003,2015,Percent,Percent Of Pupils,21,13 years,Female,Occasional smoker,1 - most deprived
+S92000003,2015,Percent,Percent Of Pupils,22,15 years,Female,Occasional smoker,4
+S92000003,2015,Percent,Percent Of Pupils,20,All,Female,Regular smoker,4
+S92000003,2015,Percent,Percent Of Pupils,25,13 years,Female,Occasional smoker,4
+S92000003,2015,Percent,Percent Of Pupils,21,All,Female,Occasional smoker,1 - most deprived
+S92000003,2015,Percent,Percent Of Pupils,15,15 years,Female,Regular smoker,3
+S92000003,2015,Percent,Percent Of Pupils,14,All,Female,Regular smoker,3
+S92000003,2015,Percent,Percent Of Pupils,17,All,All,Regular smoker,5 - least deprived
+S92000003,2015,Percent,Percent Of Pupils,16,13 years,All,Non-smoker,3
+S92000003,2015,Percent,Percent Of Pupils,17,15 years,All,Regular smoker,5 - least deprived
+S92000003,2015,Percent,Percent Of Pupils,15,15 years,All,Regular smoker,3
+S92000003,2015,Percent,Percent Of Pupils,16,All,All,Non-smoker,3
+S92000003,2015,Percent,Percent Of Pupils,19,All,All,Non-smoker,1 - most deprived
+S92000003,2015,Percent,Percent Of Pupils,19,All,All,Regular smoker,4
+S92000003,2015,Percent,Percent Of Pupils,23,13 years,All,Non-smoker,4
+S92000003,2015,Percent,Percent Of Pupils,14,All,All,Regular smoker,3
+S92000003,2015,Percent,Percent Of Pupils,19,All,All,Non-smoker,2
+S92000003,2015,Percent,Percent Of Pupils,9,13 years,All,Regular smoker,3
+S92000003,2015,Percent,Percent Of Pupils,22,15 years,All,Regular smoker,2
+S92000003,2015,Percent,Percent Of Pupils,23,All,All,Non-smoker,4
+S92000003,2015,Percent,Percent Of Pupils,22,All,All,Regular smoker,2
+S92000003,2015,Percent,Percent Of Pupils,18,15 years,All,Non-smoker,2
+S92000003,2015,Percent,Percent Of Pupils,22,15 years,All,Non-smoker,4
+S92000003,2015,Percent,Percent Of Pupils,15,15 years,All,Non-smoker,3
+S92000003,2015,Percent,Percent Of Pupils,17,13 years,All,Regular smoker,5 - least deprived
+S92000003,2015,Percent,Percent Of Pupils,28,15 years,All,Occasional smoker,5 - least deprived
+S92000003,2015,Percent,Percent Of Pupils,17,13 years,All,Occasional smoker,3
+S92000003,2015,Percent,Percent Of Pupils,23,13 years,All,Occasional smoker,1 - most deprived
+S92000003,2015,Percent,Percent Of Pupils,21,15 years,All,Occasional smoker,4
+S92000003,2015,Percent,Percent Of Pupils,16,15 years,All,Occasional smoker,3
+S92000003,2015,Percent,Percent Of Pupils,17,All,All,Occasional smoker,3
+S92000003,2015,Percent,Percent Of Pupils,21,All,All,Occasional smoker,1 - most deprived
+S92000003,2015,Percent,Percent Of Pupils,15,13 years,All,Occasional smoker,5 - least deprived
+S92000003,2015,Percent,Percent Of Pupils,22,All,All,Occasional smoker,4
+S92000003,2015,Percent,Percent Of Pupils,16,All,All,Occasional smoker,2
+S92000003,2015,Percent,Percent Of Pupils,19,13 years,All,Occasional smoker,2
+S92000003,2015,Percent,Percent Of Pupils,15,15 years,All,Occasional smoker,2
+S92000003,2015,Percent,Percent Of Pupils,25,13 years,All,Occasional smoker,4
+S92000003,2015,Percent,Percent Of Pupils,20,15 years,All,Occasional smoker,1 - most deprived
+S92000003,2015,Percent,Percent Of Pupils,18,15 years,All,Regular smoker,4
+S92000003,2015,Percent,Percent Of Pupils,23,13 years,All,Non-smoker,5 - least deprived
+S92000003,2015,Percent,Percent Of Pupils,24,All,All,Non-smoker,5 - least deprived
+S92000003,2015,Percent,Percent Of Pupils,27,15 years,All,Regular smoker,1 - most deprived
+S92000003,2015,Percent,Percent Of Pupils,24,13 years,All,Regular smoker,4
+S92000003,2015,Percent,Percent Of Pupils,19,13 years,All,Non-smoker,2
+S92000003,2015,Percent,Percent Of Pupils,24,15 years,All,Non-smoker,5 - least deprived
+S92000003,2015,Percent,Percent Of Pupils,27,All,All,Regular smoker,1 - most deprived
+S92000003,2015,Percent,Percent Of Pupils,18,13 years,All,Non-smoker,1 - most deprived
+S92000003,2015,Percent,Percent Of Pupils,25,All,All,Occasional smoker,5 - least deprived
+S92000003,2015,Percent,Percent Of Pupils,20,15 years,All,Non-smoker,1 - most deprived
+S92000003,2015,Percent,Percent Of Pupils,26,13 years,All,Regular smoker,1 - most deprived
+S92000003,2015,Percent,Percent Of Pupils,24,13 years,All,Regular smoker,2
