@@ -1,0 +1,121 @@
+cause_of_death,sex,year,deaths_in_scotland
+Combined diseases of the respiratory system,M,2008,3276
+Combined diseases of the respiratory system,M,2009,3272
+Combined diseases of the respiratory system,M,2010,3080
+Combined diseases of the respiratory system,M,2011,3138
+Combined diseases of the respiratory system,M,2012,3233
+Combined diseases of the respiratory system,M,2013,3256
+Combined diseases of the respiratory system,M,2014,3143
+Combined diseases of the respiratory system,M,2015,3522
+Combined diseases of the respiratory system,M,2016,3373
+Combined diseases of the respiratory system,M,2017,3137
+Combined diseases of the respiratory system,M,2018,3221
+Combined diseases of the respiratory system,M,2019,3057
+Combined diseases of the respiratory system,F,2008,4167
+Combined diseases of the respiratory system,F,2009,3853
+Combined diseases of the respiratory system,F,2010,3816
+Combined diseases of the respiratory system,F,2011,3653
+Combined diseases of the respiratory system,F,2012,3935
+Combined diseases of the respiratory system,F,2013,3769
+Combined diseases of the respiratory system,F,2014,3563
+Combined diseases of the respiratory system,F,2015,4147
+Combined diseases of the respiratory system,F,2016,3923
+Combined diseases of the respiratory system,F,2017,3717
+Combined diseases of the respiratory system,F,2018,3907
+Combined diseases of the respiratory system,F,2019,3495
+Influenza,M,2008,5
+Influenza,M,2009,30
+Influenza,M,2010,4
+Influenza,M,2011,7
+Influenza,M,2012,4
+Influenza,M,2013,20
+Influenza,M,2014,15
+Influenza,M,2015,42
+Influenza,M,2016,42
+Influenza,M,2017,55
+Influenza,M,2018,145
+Influenza,M,2019,75
+Influenza,F,2008,5
+Influenza,F,2009,32
+Influenza,F,2010,8
+Influenza,F,2011,5
+Influenza,F,2012,15
+Influenza,F,2013,39
+Influenza,F,2014,8
+Influenza,F,2015,52
+Influenza,F,2016,37
+Influenza,F,2017,81
+Influenza,F,2018,216
+Influenza,F,2019,82
+Pneumonia,M,2008,937
+Pneumonia,M,2009,969
+Pneumonia,M,2010,981
+Pneumonia,M,2011,810
+Pneumonia,M,2012,888
+Pneumonia,M,2013,855
+Pneumonia,M,2014,787
+Pneumonia,M,2015,863
+Pneumonia,M,2016,789
+Pneumonia,M,2017,752
+Pneumonia,M,2018,748
+Pneumonia,M,2019,714
+Pneumonia,F,2008,1516
+Pneumonia,F,2009,1379
+Pneumonia,F,2010,1343
+Pneumonia,F,2011,1138
+Pneumonia,F,2012,1202
+Pneumonia,F,2013,1141
+Pneumonia,F,2014,932
+Pneumonia,F,2015,1070
+Pneumonia,F,2016,1011
+Pneumonia,F,2017,983
+Pneumonia,F,2018,922
+Pneumonia,F,2019,840
+Chronic lower respiratory diseases,M,2008,1400
+Chronic lower respiratory diseases,M,2009,1408
+Chronic lower respiratory diseases,M,2010,1230
+Chronic lower respiratory diseases,M,2011,1394
+Chronic lower respiratory diseases,M,2012,1458
+Chronic lower respiratory diseases,M,2013,1487
+Chronic lower respiratory diseases,M,2014,1427
+Chronic lower respiratory diseases,M,2015,1575
+Chronic lower respiratory diseases,M,2016,1508
+Chronic lower respiratory diseases,M,2017,1518
+Chronic lower respiratory diseases,M,2018,1495
+Chronic lower respiratory diseases,M,2019,1452
+Chronic lower respiratory diseases,F,2008,1637
+Chronic lower respiratory diseases,F,2009,1578
+Chronic lower respiratory diseases,F,2010,1577
+Chronic lower respiratory diseases,F,2011,1668
+Chronic lower respiratory diseases,F,2012,1793
+Chronic lower respiratory diseases,F,2013,1697
+Chronic lower respiratory diseases,F,2014,1689
+Chronic lower respiratory diseases,F,2015,1937
+Chronic lower respiratory diseases,F,2016,1930
+Chronic lower respiratory diseases,F,2017,1931
+Chronic lower respiratory diseases,F,2018,1974
+Chronic lower respiratory diseases,F,2019,1831
+Asthma,M,2008,33
+Asthma,M,2009,32
+Asthma,M,2010,29
+Asthma,M,2011,39
+Asthma,M,2012,20
+Asthma,M,2013,34
+Asthma,M,2014,20
+Asthma,M,2015,35
+Asthma,M,2016,41
+Asthma,M,2017,33
+Asthma,M,2018,34
+Asthma,M,2019,32
+Asthma,F,2008,70
+Asthma,F,2009,61
+Asthma,F,2010,62
+Asthma,F,2011,55
+Asthma,F,2012,69
+Asthma,F,2013,71
+Asthma,F,2014,52
+Asthma,F,2015,87
+Asthma,F,2016,92
+Asthma,F,2017,93
+Asthma,F,2018,80
+Asthma,F,2019,66
