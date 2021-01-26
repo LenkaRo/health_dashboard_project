@@ -22,31 +22,38 @@ shinyUI(fluidPage(
             
             sidebarLayout(
                 sidebarPanel(
-                    
+                         
                     selectInput("select_priority",
                                 label = "Select Priority",
                                 choices = c("Life Expectancy", "BMI in Children", "BMI in Adults", "Activity Levels of Adults")
                     )
                 ),
-
+                     
                 mainPanel(
                     #uiOutput('plot')
                     #eg. Show a plot of the Life Expectancy in Scotland
                     plotOutput("graph")
-
+                         
                 )
             )
         ),
         
         tabPanel("Asthma",
                  
-            # sidebarLayout(
-            #     sidebarPanel(
-            #     )    
-            #          
-            #     mainPanel(
-            #     )         
-            # )            
+            sidebarLayout(
+                sidebarPanel(
+                         
+                    selectInput("select",
+                                label = "Select",
+                                choices = c("a", "b", "c")
+                    )
+                ),
+                     
+                mainPanel(
+                    
+                    tmapOutput("map", width = "50%", height = 400)
+                )
+            )            
         )
     )
 ))

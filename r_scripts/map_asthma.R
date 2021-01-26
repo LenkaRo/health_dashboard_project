@@ -2,6 +2,9 @@ library(tidyverse)
 library(sf)
 library(tmap)
 library(rmapshaper)
+library(leaflet)
+library(shapefiles)
+library(rgdal)
 
 # Choropleth map - areas are colored in proportion to a statistical variable that represents an aggregate summary of a geographic characteristic within each area
 # eg indicator the sum of all admissions for each of the healthboards (HB).
@@ -9,9 +12,10 @@ library(rmapshaper)
 # Download NHS Health Boards shape file https://www.spatialdata.gov.scot/geonetwork/srv/api/records/f12c3826-4b4b-40e6-bf4f-77b9ed01dc14
 # st_read() read simple features from file (from the SF simple file package), function automatically stores information about the data. We are particularly interested in the geospatial metadata
 
-# read in the HB GeoSpatial metadata (each HB has a list of coordinates)
+# read in the HB GeoSpatial metadata (each HB has a list of coordinates) (st_read replaced by read.shapefile to read in multiple files (.shp, shx, .dbf, .prj), also tried readOGR)
 # read in the CLEANED shapefile
-hb <- st_read("data/asthma_data/SG_NHS_HealthBoards_2019_lower_resolution/SG_NHS_HealthBoards_2019_simplified.shp")
+hb <- st_read("data/asthma_data/SG_NHS_HealthBoards_2019_lower_resolution", "SG_NHS_HealthBoards_2019_simplified")
+#hb <- read.shapefile("data/asthma_data/SG_NHS_HealthBoards_2019_lower_resolution/SG_NHS_HealthBoards_2019_simplified")
 
 # display first 6 rows
 #head(hb)
@@ -38,25 +42,23 @@ map_and_data <- merge(hb, shs, by.x = "HBCode", by.y = "FeatureCode")
 #   ggplot(aes(fill=Value)) +
 #   geom_sf()
 
-## create choropleth map with tmap - has interactive features (using tmap to turn it into interactive JavaScript map (zoom, click and display the data))
-tm_shape(map_and_data) +
-  tm_polygons("Value", id = "HBCode", palette = "blue") # add polygons colored by the Value (percentage)
 
-# turn it into interactive (clickable) map 
-## set tmap viewing mode to "view" = interactive
-tmap_mode("view")
+# create choropleth map with tmap - has interactive features (using tmap to turn it into interactive JavaScript map (zoom, click and display the data))
+hb_asthma_map <- tm_shape(map_and_data) +
+   tm_polygons("Value", id = "HBName", fill = "Value", title = "Percentage") + # add polygons colored by the Value (percentage), display name of HB when hovering mouse over the map
+   tmap_mode("view") # turn it into interactive (clickable) map, set tmap viewing mode to "view" = interactive
 
-## re-draw the map
-hb_asthma_map <- tmap_last() 
-hb_asthma_map
+#hb_asthma_map
 
-# save into stand alone file
-tmap_save(hb_asthma_map, "data/asthma_data/hb_asthma_map.html")
+# re-draw the map
+#hb_asthma_map <- tmap_last()
+#hb_asthma_map
+
+# # save into stand alone file
+# tmap_save(hb_asthma_map, "data/asthma_data/hb_asthma_map.html")
 
 
 #### play with the map design
-tm_shape(map_and_data) +
-  tm_polygons("Value", id = "HBCode", fill = "Value", title="Percentage")  # add polygons colored by the Value (percentage)
 
 
 #--------------------using GeoJSON-----------------------#
@@ -75,7 +77,7 @@ tm_shape(map_and_data) +
 #------------------------extras--------------------------#
 
 # for a list of supported formats - SHP missing??
-st_drivers()
+#st_drivers()
 
 # create choropleth map with ggplot geom_sf(), or better using tmap to turn it into interactive JavaScript map (zoom, click and display the data)
 # https://www.youtube.com/watch?v=GMi1ThlGFMo

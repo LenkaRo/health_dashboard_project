@@ -32,5 +32,11 @@ shinyServer(function(input, output) {
     
             return(physical_activity_graph)
         }
+    
+    })
+        
+    output$map <- renderTmap({
+        
+        return(hb_asthma_map)
     })
 })
