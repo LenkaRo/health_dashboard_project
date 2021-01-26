@@ -1,0 +1,21 @@
+{
+"type": "FeatureCollection",
+"name": "Health_Boards__February__2018__Names_and_Codes_in_Scotland",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "HB18CD": "S08000015", "HB18NM": "Ayrshire and Arran", "FID": 1 }, "geometry": null },
+{ "type": "Feature", "properties": { "HB18CD": "S08000016", "HB18NM": "Borders", "FID": 2 }, "geometry": null },
+{ "type": "Feature", "properties": { "HB18CD": "S08000017", "HB18NM": "Dumfries and Galloway", "FID": 3 }, "geometry": null },
+{ "type": "Feature", "properties": { "HB18CD": "S08000019", "HB18NM": "Forth Valley", "FID": 4 }, "geometry": null },
+{ "type": "Feature", "properties": { "HB18CD": "S08000020", "HB18NM": "Grampian", "FID": 5 }, "geometry": null },
+{ "type": "Feature", "properties": { "HB18CD": "S08000021", "HB18NM": "Greater Glasgow and Clyde", "FID": 6 }, "geometry": null },
+{ "type": "Feature", "properties": { "HB18CD": "S08000022", "HB18NM": "Highland", "FID": 7 }, "geometry": null },
+{ "type": "Feature", "properties": { "HB18CD": "S08000023", "HB18NM": "Lanarkshire", "FID": 8 }, "geometry": null },
+{ "type": "Feature", "properties": { "HB18CD": "S08000024", "HB18NM": "Lothian", "FID": 9 }, "geometry": null },
+{ "type": "Feature", "properties": { "HB18CD": "S08000025", "HB18NM": "Orkney", "FID": 10 }, "geometry": null },
+{ "type": "Feature", "properties": { "HB18CD": "S08000026", "HB18NM": "Shetland", "FID": 11 }, "geometry": null },
+{ "type": "Feature", "properties": { "HB18CD": "S08000028", "HB18NM": "Western Isles", "FID": 12 }, "geometry": null },
+{ "type": "Feature", "properties": { "HB18CD": "S08000029", "HB18NM": "Fife", "FID": 13 }, "geometry": null },
+{ "type": "Feature", "properties": { "HB18CD": "S08000030", "HB18NM": "Tayside", "FID": 14 }, "geometry": null }
+]
+}

@@ -1,25 +1,81 @@
 library(tidyverse)
 library(sf)
+library(tmap)
+library(rmapshaper)
 
+# Choropleth map - areas are colored in proportion to a statistical variable that represents an aggregate summary of a geographic characteristic within each area
+# eg indicator the sum of all admissions for each of the healthboards (HB).
 
-#Health Boards (February 2018) Names and Codes in Scotland from GeoPortal.statistics.gov.uk
-#https://geoportal.statistics.gov.uk/datasets/727ded23dc8f4defaed3b54a31d4a15f_0
-#Get full data set -> go to API Explorer -> APIs -> GeoJSON (copy)
-hb <- st_read("https://opendata.arcgis.com/datasets/0a6db24b39ab4dde82f3af50363a6903_0.geojson")
+# Download NHS Health Boards shape file https://www.spatialdata.gov.scot/geonetwork/srv/api/records/f12c3826-4b4b-40e6-bf4f-77b9ed01dc14
+# st_read() read simple features from file (from the SF simple file package), function automatically stores information about the data. We are particularly interested in the geospatial metadata
 
-hb_codes <- unique(hb$HB19CD)
+# read in the HB GeoSpatial metadata (each HB has a list of coordinates)
+# read in the CLEANED shapefile
+hb <- st_read("data/asthma_data/SG_NHS_HealthBoards_2019_lower_resolution/SG_NHS_HealthBoards_2019_simplified.shp")
 
+# display first 6 rows
+#head(hb)
+
+# view the geometry type (multipolygon)
+#st_geometry_type(hb)
+
+# get a vector of each of the 14 HB
+hb_codes <- unique(hb$HBCode)
+
+# read in Scottish Health Survey (SHS) dataset - subset for indicator Asthma and our HB data zones
 shs <- read_csv("data/asthma_data/Scottish_Health_Survey_Local_area_level_data.csv") %>% 
   filter(FeatureCode %in% hb_codes) %>% 
   filter(`Scottish Health Survey Indicator` == "Doctor-diagnosed asthma: Yes") %>% 
-  filter(Measurement == "Percent")
+  filter(Measurement == "Percent") %>% 
+  filter(Sex == "Female")
 
-#unique(shs$`Scottish Health Survey Indicator`)
+# join the two tables (creates new geospatial object with Asthma data), need to specify keys as they have different names
+map_and_data <- merge(hb, shs, by.x = "HBCode", by.y = "FeatureCode")
 
-# Join the two datasets
-hb_shs <- merge(hb, shs, by.x = 'HB19CD', by.y = 'FeatureCode')
+# # map Asthma indicator by HB
+# ## create choropleth map with ggplot geom_sf() (map the simple features object)
+# map_and_data %>% 
+#   ggplot(aes(fill=Value)) +
+#   geom_sf()
 
-# plot using geom_sf
-hb_shs %>% 
-  ggplot() +
-  geom_sf(aes(fill = Value), data = hb_shs["Value"], colour = "white")
+## create choropleth map with tmap - has interactive features (using tmap to turn it into interactive JavaScript map (zoom, click and display the data))
+tm_shape(map_and_data) +
+  tm_polygons("Value", id = "HBCode", palette = "blue") # add polygons colored by the Value (percentage)
+
+# turn it into interactive (clickable) map 
+## set tmap viewing mode to "view" = interactive
+tmap_mode("view")
+
+## re-draw the map
+hb_asthma_map <- tmap_last() 
+hb_asthma_map
+
+# save into stand alone file
+tmap_save(hb_asthma_map, "data/asthma_data/hb_asthma_map.html")
+
+
+#### play with the map design
+tm_shape(map_and_data) +
+  tm_polygons("Value", id = "HBCode", fill = "Value", title="Percentage")  # add polygons colored by the Value (percentage)
+
+
+#--------------------using GeoJSON-----------------------#
+
+# GeoJSON (format for encoding a variety of geographic data structures)
+
+# GeoSpatial file with boundary information for each HB
+## Health Boards (February 2018) Names and Codes in Scotland from GeoPortal.statistics.gov.uk
+## https://geoportal.statistics.gov.uk/datasets/727ded23dc8f4defaed3b54a31d4a15f_0
+## Get full data set -> go to API Explorer -> APIs -> GeoJSON (copy)
+
+# read in the HB GeoSpatial metadata (each HB has a list of coordinates)
+# hb <- st_read("data/asthma_data/Local_Health_Boards__December_2016__Boundaries.geojson")
+
+
+#------------------------extras--------------------------#
+
+# for a list of supported formats - SHP missing??
+st_drivers()
+
+# create choropleth map with ggplot geom_sf(), or better using tmap to turn it into interactive JavaScript map (zoom, click and display the data)
+# https://www.youtube.com/watch?v=GMi1ThlGFMo
