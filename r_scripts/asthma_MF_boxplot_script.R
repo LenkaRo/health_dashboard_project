@@ -13,7 +13,7 @@ stays_and_rates_2012_2019 <- read_csv(here::here("data/asthma_data/box_plot_asth
     theme_classic() +
     labs(
     x = "",
-    y = "Rate of Incidents (per 100,000)",
+    y = "Mean Rate of Incidents (per 100,000)",
     title = "Dispersion of Asthma Rates - by sex",
     subtitle = "All Regions in Scotland - 2012-2019")
     
