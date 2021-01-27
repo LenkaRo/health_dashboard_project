@@ -1,0 +1,241 @@
+hbresname,discharge_fin_yr_end,sex,age_grp,stays,rate,hb_code
+NHS Ayrshire & Arran,2012,Female,All ages,316,162.16,S08000015
+NHS Borders,2012,Female,All ages,69,117.58,S08000016
+NHS Dumfries & Galloway,2012,Female,All ages,72,92.27,S08000017
+NHS Fife,2012,Female,All ages,199,105.67,S08000029
+NHS Forth Valley,2012,Female,All ages,160,104.34,S08000019
+NHS Grampian,2012,Female,All ages,315,109.45,S08000020
+NHS Greater Glasgow & Clyde,2012,Female,All ages,911,154.48,S08000021
+NHS Highland,2012,Female,All ages,202,123.13,S08000022
+NHS Lanarkshire,2012,Female,All ages,443,131.29,S08000023
+NHS Lothian,2012,Female,All ages,536,124.82,S08000024
+NHS Orkney Islands,2012,Female,All ages,7,64.75,S08000025
+NHS Shetland Islands,2012,Female,All ages,1,8.73,S08000026
+NHS Tayside,2012,Female,All ages,217,102.55,S08000030
+NHS Western Isles,2012,Female,All ages,20,142.47,S08000028
+Other,2012,Female,All ages,24,-,Other
+NHS Ayrshire & Arran,2012,Male,All ages,203,113.47,S08000015
+NHS Borders,2012,Male,All ages,55,99.65,S08000016
+NHS Dumfries & Galloway,2012,Male,All ages,69,94.03,S08000017
+NHS Fife,2012,Male,All ages,128,72.33,S08000029
+NHS Forth Valley,2012,Male,All ages,108,74.62,S08000019
+NHS Grampian,2012,Male,All ages,188,66.72,S08000020
+NHS Greater Glasgow & Clyde,2012,Male,All ages,589,107.94,S08000021
+NHS Highland,2012,Male,All ages,142,90.1,S08000022
+NHS Lanarkshire,2012,Male,All ages,359,114.26,S08000023
+NHS Lothian,2012,Male,All ages,390,95.78,S08000024
+NHS Orkney Islands,2012,Male,All ages,4,37.7,S08000025
+NHS Shetland Islands,2012,Male,All ages,5,42.42,S08000026
+NHS Tayside,2012,Male,All ages,165,83.06,S08000030
+NHS Western Isles,2012,Male,All ages,10,73.25,S08000028
+Other,2012,Male,All ages,30,-,Other
+NHS Ayrshire & Arran,2013,Female,All ages,344,176.82,S08000015
+NHS Borders,2013,Female,All ages,101,172.54,S08000016
+NHS Dumfries & Galloway,2013,Female,All ages,83,106.92,S08000017
+NHS Fife,2013,Female,All ages,267,141.45,S08000029
+NHS Forth Valley,2013,Female,All ages,193,125.54,S08000019
+NHS Grampian,2013,Female,All ages,371,128.03,S08000020
+NHS Greater Glasgow & Clyde,2013,Female,All ages,961,162.79,S08000021
+NHS Highland,2013,Female,All ages,215,131.43,S08000022
+NHS Lanarkshire,2013,Female,All ages,520,154,S08000023
+NHS Lothian,2013,Female,All ages,614,141.67,S08000024
+NHS Orkney Islands,2013,Female,All ages,9,83.05,S08000025
+NHS Shetland Islands,2013,Female,All ages,6,52.45,S08000026
+NHS Tayside,2013,Female,All ages,238,112.19,S08000030
+NHS Western Isles,2013,Female,All ages,17,121.83,S08000028
+Other,2013,Female,All ages,34,-,Other
+NHS Ayrshire & Arran,2013,Male,All ages,233,130.41,S08000015
+NHS Borders,2013,Male,All ages,48,86.98,S08000016
+NHS Dumfries & Galloway,2013,Male,All ages,58,79.22,S08000017
+NHS Fife,2013,Male,All ages,122,68.75,S08000029
+NHS Forth Valley,2013,Male,All ages,142,97.69,S08000019
+NHS Grampian,2013,Male,All ages,185,65.23,S08000020
+NHS Greater Glasgow & Clyde,2013,Male,All ages,584,106.77,S08000021
+NHS Highland,2013,Male,All ages,142,90.9,S08000022
+NHS Lanarkshire,2013,Male,All ages,333,105.86,S08000023
+NHS Lothian,2013,Male,All ages,418,101.86,S08000024
+NHS Orkney Islands,2013,Male,All ages,3,28.06,S08000025
+NHS Shetland Islands,2013,Male,All ages,6,50.98,S08000026
+NHS Tayside,2013,Male,All ages,193,96.69,S08000030
+NHS Western Isles,2013,Male,All ages,7,51.45,S08000028
+Other,2013,Male,All ages,39,-,Other
+NHS Ayrshire & Arran,2014,Female,All ages,297,153.09,S08000015
+NHS Borders,2014,Female,All ages,82,140.01,S08000016
+NHS Dumfries & Galloway,2014,Female,All ages,83,107.37,S08000017
+NHS Fife,2014,Female,All ages,272,143.97,S08000029
+NHS Forth Valley,2014,Female,All ages,170,110.48,S08000019
+NHS Grampian,2014,Female,All ages,228,78.08,S08000020
+NHS Greater Glasgow & Clyde,2014,Female,All ages,961,162.86,S08000021
+NHS Highland,2014,Female,All ages,194,118.66,S08000022
+NHS Lanarkshire,2014,Female,All ages,475,140.67,S08000023
+NHS Lothian,2014,Female,All ages,606,138.75,S08000024
+NHS Orkney Islands,2014,Female,All ages,11,101.5,S08000025
+NHS Shetland Islands,2014,Female,All ages,6,52.5,S08000026
+NHS Tayside,2014,Female,All ages,230,108.41,S08000030
+NHS Western Isles,2014,Female,All ages,11,79.25,S08000028
+Other,2014,Female,All ages,34,-,Other
+NHS Ayrshire & Arran,2014,Male,All ages,159,89.21,S08000015
+NHS Borders,2014,Male,All ages,37,66.89,S08000016
+NHS Dumfries & Galloway,2014,Male,All ages,53,72.62,S08000017
+NHS Fife,2014,Male,All ages,126,70.8,S08000029
+NHS Forth Valley,2014,Male,All ages,107,73.39,S08000019
+NHS Grampian,2014,Male,All ages,157,54.67,S08000020
+NHS Greater Glasgow & Clyde,2014,Male,All ages,597,108.97,S08000021
+NHS Highland,2014,Male,All ages,144,91.44,S08000022
+NHS Lanarkshire,2014,Male,All ages,292,92.72,S08000023
+NHS Lothian,2014,Male,All ages,389,94.2,S08000024
+NHS Orkney Islands,2014,Male,All ages,6,55.95,S08000025
+NHS Shetland Islands,2014,Male,All ages,4,33.98,S08000026
+NHS Tayside,2014,Male,All ages,136,68,S08000030
+NHS Western Isles,2014,Male,All ages,10,73.97,S08000028
+Other,2014,Male,All ages,31,-,Other
+NHS Ayrshire & Arran,2015,Female,All ages,345,178.38,S08000015
+NHS Borders,2015,Female,All ages,80,136.24,S08000016
+NHS Dumfries & Galloway,2015,Female,All ages,70,90.75,S08000017
+NHS Fife,2015,Female,All ages,258,136.26,S08000029
+NHS Forth Valley,2015,Female,All ages,175,113.43,S08000019
+NHS Grampian,2015,Female,All ages,234,79.43,S08000020
+NHS Greater Glasgow & Clyde,2015,Female,All ages,965,162.95,S08000021
+NHS Highland,2015,Female,All ages,186,113.93,S08000022
+NHS Lanarkshire,2015,Female,All ages,486,143.76,S08000023
+NHS Lothian,2015,Female,All ages,664,150.56,S08000024
+NHS Orkney,2015,Female,All ages,8,73.73,S08000025
+NHS Shetland,2015,Female,All ages,5,43.76,S08000026
+NHS Tayside,2015,Female,All ages,170,79.84,S08000030
+NHS Western Isles,2015,Female,All ages,16,115.89,S08000028
+Other,2015,Female,All ages,48,-,Other
+NHS Ayrshire & Arran,2015,Male,All ages,228,128.28,S08000015
+NHS Borders,2015,Male,All ages,42,75.92,S08000016
+NHS Dumfries & Galloway,2015,Male,All ages,71,97.49,S08000017
+NHS Fife,2015,Male,All ages,135,75.88,S08000029
+NHS Forth Valley,2015,Male,All ages,112,76.65,S08000019
+NHS Grampian,2015,Male,All ages,155,53.52,S08000020
+NHS Greater Glasgow & Clyde,2015,Male,All ages,690,125.37,S08000021
+NHS Highland,2015,Male,All ages,123,78.11,S08000022
+NHS Lanarkshire,2015,Male,All ages,363,115.15,S08000023
+NHS Lothian,2015,Male,All ages,475,113.89,S08000024
+NHS Orkney,2015,Male,All ages,3,27.96,S08000025
+NHS Shetland,2015,Male,All ages,1,8.48,S08000026
+NHS Tayside,2015,Male,All ages,168,83.63,S08000030
+NHS Western Isles,2015,Male,All ages,5,37.19,S08000028
+Other,2015,Male,All ages,36,-,Other
+NHS Ayrshire & Arran,2016,Female,All ages,309,160.09,S08000015
+NHS Borders,2016,Female,All ages,79,134.45,S08000016
+NHS Dumfries & Galloway,2016,Female,All ages,62,80.54,S08000017
+NHS Fife,2016,Female,All ages,356,187.34,S08000029
+NHS Forth Valley,2016,Female,All ages,187,120.38,S08000019
+NHS Grampian,2016,Female,All ages,284,95.93,S08000020
+NHS Greater Glasgow & Clyde,2016,Female,All ages,1015,170.58,S08000021
+NHS Highland,2016,Female,All ages,191,116.93,S08000022
+NHS Lanarkshire,2016,Female,All ages,540,159.53,S08000023
+NHS Lothian,2016,Female,All ages,632,141.63,S08000024
+NHS Orkney,2016,Female,All ages,11,101.06,S08000025
+NHS Shetland,2016,Female,All ages,10,87.59,S08000026
+NHS Tayside,2016,Female,All ages,198,92.85,S08000030
+NHS Western Isles,2016,Female,All ages,7,51.11,S08000028
+Other,2016,Female,All ages,41,-,Other
+NHS Ayrshire & Arran,2016,Male,All ages,189,106.43,S08000015
+NHS Borders,2016,Male,All ages,49,88.65,S08000016
+NHS Dumfries & Galloway,2016,Male,All ages,66,90.8,S08000017
+NHS Fife,2016,Male,All ages,147,82.56,S08000029
+NHS Forth Valley,2016,Male,All ages,100,67.88,S08000019
+NHS Grampian,2016,Male,All ages,217,74.37,S08000020
+NHS Greater Glasgow & Clyde,2016,Male,All ages,619,111.56,S08000021
+NHS Highland,2016,Male,All ages,124,78.65,S08000022
+NHS Lanarkshire,2016,Male,All ages,389,123.1,S08000023
+NHS Lothian,2016,Male,All ages,375,88.95,S08000024
+NHS Orkney,2016,Male,All ages,18,166.9,S08000025
+NHS Shetland,2016,Male,All ages,6,50.92,S08000026
+NHS Tayside,2016,Male,All ages,188,93.17,S08000030
+NHS Western Isles,2016,Male,All ages,5,37.39,S08000028
+Other,2016,Male,All ages,36,-,Other
+NHS Ayrshire & Arran,2017,Female,All ages,324,167.91,S08000015
+NHS Borders,2017,Female,All ages,69,116.92,S08000016
+NHS Dumfries & Galloway,2017,Female,All ages,106,137.69,S08000017
+NHS Fife,2017,Female,All ages,405,212.29,S08000029
+NHS Forth Valley,2017,Female,All ages,198,126.76,S08000019
+NHS Grampian,2017,Female,All ages,210,70.96,S08000020
+NHS Greater Glasgow & Clyde,2017,Female,All ages,1028,171.21,S08000021
+NHS Highland,2017,Female,All ages,194,118.48,S08000022
+NHS Lanarkshire,2017,Female,All ages,559,164.77,S08000023
+NHS Lothian,2017,Female,All ages,630,139.21,S08000024
+NHS Orkney,2017,Female,All ages,4,36.46,S08000025
+NHS Shetland,2017,Female,All ages,8,70.07,S08000026
+NHS Tayside,2017,Female,All ages,279,130.8,S08000030
+NHS Western Isles,2017,Female,All ages,19,139.39,S08000028
+Other,2017,Female,All ages,35,-,Other
+NHS Ayrshire & Arran,2017,Male,All ages,191,107.54,S08000015
+NHS Borders,2017,Male,All ages,48,86.46,S08000016
+NHS Dumfries & Galloway,2017,Male,All ages,82,113.05,S08000017
+NHS Fife,2017,Male,All ages,192,106.93,S08000029
+NHS Forth Valley,2017,Male,All ages,123,82.95,S08000019
+NHS Grampian,2017,Male,All ages,142,48.61,S08000020
+NHS Greater Glasgow & Clyde,2017,Male,All ages,543,96.8,S08000021
+NHS Highland,2017,Male,All ages,129,81.56,S08000022
+NHS Lanarkshire,2017,Male,All ages,397,125.14,S08000023
+NHS Lothian,2017,Male,All ages,401,93.81,S08000024
+NHS Orkney,2017,Male,All ages,16,147.06,S08000025
+NHS Shetland,2017,Male,All ages,5,42.43,S08000026
+NHS Tayside,2017,Male,All ages,183,90.52,S08000030
+NHS Western Isles,2017,Male,All ages,9,67.83,S08000028
+Other,2017,Male,All ages,30,-,Other
+NHS Ayrshire & Arran,2018,Female,All ages,432,224.07,S08000015
+NHS Borders,2018,Female,All ages,57,96.23,S08000016
+NHS Dumfries & Galloway,2018,Female,All ages,103,134.16,S08000017
+NHS Fife,2018,Female,All ages,470,245.95,S08000029
+NHS Forth Valley,2018,Female,All ages,185,118.03,S08000019
+NHS Grampian,2018,Female,All ages,252,85.5,S08000020
+NHS Greater Glasgow & Clyde,2018,Female,All ages,918,152.22,S08000021
+NHS Highland,2018,Female,All ages,229,139.9,S08000022
+NHS Lanarkshire,2018,Female,All ages,637,187.43,S08000023
+NHS Lothian,2018,Female,All ages,645,141.16,S08000024
+NHS Orkney,2018,Female,All ages,6,54.27,S08000025
+NHS Shetland,2018,Female,All ages,7,61.68,S08000026
+NHS Tayside,2018,Female,All ages,238,111.46,S08000030
+NHS Western Isles,2018,Female,All ages,30,219.94,S08000028
+Other,2018,Female,All ages,37,-,Other
+NHS Ayrshire & Arran,2018,Male,All ages,227,127.81,S08000015
+NHS Borders,2018,Male,All ages,28,50.19,S08000016
+NHS Dumfries & Galloway,2018,Male,All ages,76,104.94,S08000017
+NHS Fife,2018,Male,All ages,254,140.87,S08000029
+NHS Forth Valley,2018,Male,All ages,95,63.83,S08000019
+NHS Grampian,2018,Male,All ages,151,51.77,S08000020
+NHS Greater Glasgow & Clyde,2018,Male,All ages,387,68.37,S08000021
+NHS Highland,2018,Male,All ages,115,72.64,S08000022
+NHS Lanarkshire,2018,Male,All ages,355,111.54,S08000023
+NHS Lothian,2018,Male,All ages,371,85.78,S08000024
+NHS Orkney,2018,Male,All ages,19,173.6,S08000025
+NHS Shetland,2018,Male,All ages,4,34.1,S08000026
+NHS Tayside,2018,Male,All ages,147,72.57,S08000030
+NHS Western Isles,2018,Male,All ages,12,90.16,S08000028
+Other,2018,Male,All ages,48,-,Other
+NHS Ayrshire & Arran,2019,Female,All ages,378,196.41,S08000015
+NHS Borders,2019,Female,All ages,46,77.6,S08000016
+NHS Dumfries & Galloway,2019,Female,All ages,77,100.69,S08000017
+NHS Fife,2019,Female,All ages,560,292.75,S08000029
+NHS Forth Valley,2019,Female,All ages,148,94.33,S08000019
+NHS Grampian,2019,Female,All ages,246,83.72,S08000020
+NHS Greater Glasgow & Clyde,2019,Female,All ages,959,158.45,S08000021
+NHS Highland,2019,Female,All ages,237,144.96,S08000022
+NHS Lanarkshire,2019,Female,All ages,597,175.5,S08000023
+NHS Lothian,2019,Female,All ages,610,132.37,S08000024
+NHS Orkney,2019,Female,All ages,5,44.84,S08000025
+NHS Shetland,2019,Female,All ages,9,79.81,S08000026
+NHS Tayside,2019,Female,All ages,224,104.97,S08000030
+NHS Western Isles,2019,Female,All ages,23,169.33,S08000028
+Other,2019,Female,All ages,38,-,Other
+NHS Ayrshire & Arran,2019,Male,All ages,215,121.32,S08000015
+NHS Borders,2019,Male,All ages,25,44.65,S08000016
+NHS Dumfries & Galloway,2019,Male,All ages,89,123.06,S08000017
+NHS Fife,2019,Male,All ages,263,145.61,S08000029
+NHS Forth Valley,2019,Male,All ages,88,58.99,S08000019
+NHS Grampian,2019,Male,All ages,121,41.62,S08000020
+NHS Greater Glasgow & Clyde,2019,Male,All ages,485,85.12,S08000021
+NHS Highland,2019,Male,All ages,117,73.91,S08000022
+NHS Lanarkshire,2019,Male,All ages,392,122.88,S08000023
+NHS Lothian,2019,Male,All ages,306,70.03,S08000024
+NHS Orkney,2019,Male,All ages,24,217.41,S08000025
+NHS Shetland,2019,Male,All ages,7,59.76,S08000026
+NHS Tayside,2019,Male,All ages,136,67.1,S08000030
+NHS Western Isles,2019,Male,All ages,13,98.14,S08000028
+Other,2019,Male,All ages,23,-,Other
