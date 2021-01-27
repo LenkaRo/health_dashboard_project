@@ -14,7 +14,8 @@ source(here("r_scripts/priority_2_ p1_bmi_script.R"))
 source(here("r_scripts/bmi.R"))
 source(here("r_scripts/exercise.R"))
 source(here("r_scripts/map_asthma.R"))
-
+source(here("r_scripts/priority_3_graph.R"))
+source(here("r_scripts/priority_4_graph.R"))
 
 # Define UI for application that draws a presentation with three tabs (add text, graphs, action buttons etc)
 ui <- (fluidPage(
@@ -43,7 +44,7 @@ ui <- (fluidPage(
                  
                  selectInput("select_priority",
                              label = "Select Priority",
-                             choices = c("Life Expectancy", "BMI in Children", "BMI in Adults", "Activity Levels of Adults")
+                             choices = c("Life Expectancy", "BMI in Children", "BMI in Adults", "Activity Levels of Adults", "Mental Health", "Smoking Levels")
                  )
                ),
                
@@ -110,6 +111,16 @@ server <- (function(input, output) {
     if(input$select_priority=="Activity Levels of Adults"){
       
       return(physical_activity_graph)
+    }
+    
+    if(input$select_priority=="Mental Health"){
+      
+      return(priority_3_graph)
+    }
+    
+    if(input$select_priority=="Smoking Levels"){
+      
+      return(priority_4_graph)
     }
     
   })

@@ -25,7 +25,7 @@ shinyUI(fluidPage(
                          
                     selectInput("select_priority",
                                 label = "Select Priority",
-                                choices = c("Life Expectancy", "BMI in Children", "BMI in Adults", "Activity Levels of Adults")
+                                choices = c("Life Expectancy", "BMI in Children", "BMI in Adults", "Activity Levels of Adults", "Mental Health", "Smoking Levels")
                     )
                 ),
                      

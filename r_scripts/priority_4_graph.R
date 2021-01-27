@@ -1,8 +1,9 @@
 library(tidyverse)
+library(here)
 
-smoking_clean <- read_csv("data/priority_4/priority_4_clean")
+smoking_clean <- read_csv(here("data/priority_4/priority_4_clean"))
 
-smoking_clean %>%
+priority_4_graph <- smoking_clean %>%
   filter(smokes_yes_no == "Yes") %>% 
   arrange(date_code) %>% 
   group_by(date_code, age) %>% 
