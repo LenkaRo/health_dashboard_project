@@ -4,10 +4,10 @@ library(here)
 library(tidyverse)
 library(sf)
 library(tmap)
-library(rmapshaper)
-library(leaflet)
+#library(rmapshaper)
+#library(leaflet)
 library(shapefiles)
-library(rgdal)
+#library(rgdal)
 
 source(here("r_scripts/life_expectancy.R"))
 source(here("r_scripts/priority_2_ p1_bmi_script.R"))
@@ -62,15 +62,42 @@ ui <- (fluidPage(
              sidebarLayout(
                sidebarPanel(
                  
-                 selectInput("select",
-                             label = "Select",
-                             choices = c("a", "b", "c")
-                 )
+                 selectInput("select_indicator",
+                             label = "Select Indicator",
+                             choices = c("proportion", "stays", "rate")
+                 ),
+                 
+                 hr(),
+                 hr(),
+                 
+                 absolutePanel(top = 90, #left = 80,
+                               style="z-index:500;", # legend over my map (map z = 400)
+                               #tags$h3("map"),
+                               sliderInput("year_slider",
+                                           "Choose year range",
+                                           min = min(map_and_data$discharge_fin_yr_end),
+                                           max = max(map_and_data$discharge_fin_yr_end),
+                                           value = range(map_and_data$discharge_fin_yr_end),
+                                           step = 1,
+                                           sep = "", #getting rid of the default "," separator (eg 1,234)
+                                           width = "400px"
+                               )
+                 ),
+                 
+                 hr(),
+                 hr(),
+                 
+                 tmapOutput("map", width = "100%", height = 600)
+                 
                ),
                
                mainPanel(
                  
-                 tmapOutput("map", width = "50%", height = 400)
+                 selectInput("select_graph",
+                             label = "Select Graph",
+                             choices = c("a", "b", "c")
+                 )
+                 
                )
              )            
     )
@@ -88,7 +115,7 @@ server <- (function(input, output) {
   #         filter( == input$something_from_UI)
   # })
   
-  ### widget - select priority for which to display a graph
+  ### widget - select priority for which to display a graph (Overview Tab)
   output$priority <- renderPrint({ input$select_priority })
   
   output$graph <- renderPlot({
@@ -125,12 +152,30 @@ server <- (function(input, output) {
     
   })
   
+  # plot thematic map based on selected input (Asthma Tab)
   output$map <- renderTmap({
     
-    # create choropleth map with tmap - has interactive features (using tmap to turn it into interactive JavaScript map (zoom, click and display the data))
-    tm_shape(map_and_data) +
-      tm_polygons("Value", id = "HBName", fill = "Value", title = "Percentage") + # add polygons colored by the Value (percentage), display name of HB when hovering mouse over the map
-      tmap_mode("view")
+    map_and_data <- map_and_data %>% 
+      filter(discharge_fin_yr_end == input$year_slider)
+    
+    if (input$select_indicator == "proportion") {
+      tm_shape(map_and_data) +
+        tm_polygons("Value", id = "HBName", fill = "Value", title = "Proportion (%)") + # add polygons colored by the Value (percentage), display name of HB when hovering mouse over the map
+        tmap_mode("view") # turn it into interactive (clickable) map, set tmap viewing mode to "view" = interactive
+    }
+    
+    else if (input$select_indicator == "stays") {
+      tm_shape(map_and_data) +
+        tm_polygons("avg_stay", id = "HBName", fill = "avg_stay", title = "Average length of stay (days)") +
+        tmap_mode("view")
+    }
+
+    else if (input$select_indicator == "rate") {
+      tm_shape(map_and_data) +
+        tm_polygons("avg_rate", id = "HBName", fill = "avg_rate", title = "Average rate (units)") +
+        tmap_mode("view")
+    }
+    
   })
 })
 

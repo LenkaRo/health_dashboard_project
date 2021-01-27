@@ -6,26 +6,33 @@ library(leaflet)
 library(shapefiles)
 library(rgdal)
 
-# Choropleth map - areas are colored in proportion to a statistical variable that represents an aggregate summary of a geographic characteristic within each area
-# eg indicator the sum of all admissions for each of the healthboards (HB).
+# Delivery of frontline healthcare services in Scotland are the responsibility of 14 regional National Health Service (NHS) Boards that report to the Scottish Government.
+# We are looking at a choropleth map that is separated by the healthboards.
+# Each HB is colored in proportion to a statistical variable that represents an aggregate summary of a geographic characteristic within each area.
+
+# Proportion - indicator the sum of all admissions for each of the healthboards (HB)
+# Stays
+# Rate
+
+# The map aggregates the statistical variable by year. Either each individual year in a range of 2012 to 2019, or any subrange.
+
+
+#---------------------------------------------#
 
 # Download NHS Health Boards shape file https://www.spatialdata.gov.scot/geonetwork/srv/api/records/f12c3826-4b4b-40e6-bf4f-77b9ed01dc14
 # st_read() read simple features from file (from the SF simple file package), function automatically stores information about the data. We are particularly interested in the geospatial metadata
 
-# read in the HB GeoSpatial metadata (each HB has a list of coordinates) (st_read replaced by read.shapefile to read in multiple files (.shp, shx, .dbf, .prj), also tried readOGR)
+# read in the HB GeoSpatial metadata (each HB has a list of coordinates) (reads in multiple files (.shp, shx, .dbf, .prj), app.R has to be above it the directory hierarchy!)
 # read in the CLEANED shapefile
 hb <- st_read("data/asthma_data/SG_NHS_HealthBoards_2019_lower_resolution", "SG_NHS_HealthBoards_2019_simplified")
-#hb <- read.shapefile("data/asthma_data/SG_NHS_HealthBoards_2019_lower_resolution/SG_NHS_HealthBoards_2019_simplified")
 
-
-here::here()
 # display first 6 rows
 #head(hb)
 
 # view the geometry type (multipolygon)
 #st_geometry_type(hb)
 
-# get a vector of each of the 14 HB
+# get a vector of each of the 14 HB codes
 hb_codes <- unique(hb$HBCode)
 
 # read in Scottish Health Survey (SHS) dataset - subset for indicator Asthma and our HB data zones
@@ -42,7 +49,7 @@ shs_asthma_diagnosed <- read_csv("data/asthma_data/Scottish_Health_Survey_Local_
 `%notin%` <- Negate(`%in%`)
 
 # read in data
-asthma_stays_rate <- read_csv("data/asthma_data/asthma_nhs_board_stays_and_rate_2014_2019.csv")
+asthma_stays_rate <- read_csv("data/asthma_data/complete_asthma_stays_rate_2012_2019_with_codes.csv")
 
 asthma_stays_rate_summary <- asthma_stays_rate %>% 
   mutate(HBName = str_sub(hbresname, 5)) %>% 
@@ -67,10 +74,10 @@ map_and_data <- merge(hb, shs_asthma_diagnosed, by.x = "HBCode", by.y = "Feature
 #   geom_sf()
 
 
-# create choropleth map with tmap - has interactive features (using tmap to turn it into interactive JavaScript map (zoom, click and display the data))
+# #create choropleth map with tmap - has interactive features (using tmap to turn it into interactive JavaScript map (zoom, click and display the data))
 # tm_shape(map_and_data) +
-#   tm_polygons("Value", id = "HBName", fill = "Value", title = "Percentage %") + # add polygons colored by the Value (percentage), display name of HB when hovering mouse over the map
-#   tm_polygons("avg_stay", id = "HBName", fill = "avg_stay", title = "Average length of stay") +
+#   #tm_polygons("Value", id = "HBName", fill = "Value", title = "Percentage %") + # add polygons colored by the Value (percentage), display name of HB when hovering mouse over the map
+#   #tm_polygons("avg_stay", id = "HBName", fill = "avg_stay", title = "Average length of stay") +
 #   tm_polygons("avg_rate", id = "HBName", fill = "avg_rate", title = "Average rate") +
 #   tmap_mode("view") # turn it into interactive (clickable) map, set tmap viewing mode to "view" = interactive
 
@@ -107,3 +114,4 @@ map_and_data <- merge(hb, shs_asthma_diagnosed, by.x = "HBCode", by.y = "Feature
 
 # create choropleth map with ggplot geom_sf(), or better using tmap to turn it into interactive JavaScript map (zoom, click and display the data)
 # https://www.youtube.com/watch?v=GMi1ThlGFMo
+
