@@ -1,6 +1,6 @@
 library(tidyverse)
 
-read_csv("data/mental_health_data/data/mental_health.csv")
+mental_health_clean <- read_csv("data/mental_health_data/data/mental_health.csv")
 
 mental_health_clean %>% 
   arrange(date_code) %>% 
