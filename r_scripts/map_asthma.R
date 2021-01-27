@@ -42,7 +42,7 @@ shs_asthma_diagnosed <- read_csv("data/asthma_data/Scottish_Health_Survey_Local_
 `%notin%` <- Negate(`%in%`)
 
 # read in data
-asthma_stays_rate <- read_csv("data/asthma_data/asthma_nhs_board_stays_and_rate_2014_2019.csv")
+asthma_stays_rate <- read_csv("data/asthma_data/complete_asthma_stays_rate_2012_2019_with_codes.csv")
 
 asthma_stays_rate_summary <- asthma_stays_rate %>% 
   mutate(HBName = str_sub(hbresname, 5)) %>% 
@@ -67,12 +67,12 @@ map_and_data <- merge(hb, shs_asthma_diagnosed, by.x = "HBCode", by.y = "Feature
 #   geom_sf()
 
 
-# create choropleth map with tmap - has interactive features (using tmap to turn it into interactive JavaScript map (zoom, click and display the data))
-# tm_shape(map_and_data) +
-#   tm_polygons("Value", id = "HBName", fill = "Value", title = "Percentage %") + # add polygons colored by the Value (percentage), display name of HB when hovering mouse over the map
-#   tm_polygons("avg_stay", id = "HBName", fill = "avg_stay", title = "Average length of stay") +
-#   tm_polygons("avg_rate", id = "HBName", fill = "avg_rate", title = "Average rate") +
-#   tmap_mode("view") # turn it into interactive (clickable) map, set tmap viewing mode to "view" = interactive
+#create choropleth map with tmap - has interactive features (using tmap to turn it into interactive JavaScript map (zoom, click and display the data))
+tm_shape(map_and_data) +
+  #tm_polygons("Value", id = "HBName", fill = "Value", title = "Percentage %") + # add polygons colored by the Value (percentage), display name of HB when hovering mouse over the map
+  #tm_polygons("avg_stay", id = "HBName", fill = "avg_stay", title = "Average length of stay") +
+  tm_polygons("avg_rate", id = "HBName", fill = "avg_rate", title = "Average rate") +
+  tmap_mode("view") # turn it into interactive (clickable) map, set tmap viewing mode to "view" = interactive
 
 #hb_asthma_map
 
