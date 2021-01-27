@@ -37,6 +37,9 @@ shinyServer(function(input, output) {
         
     output$map <- renderTmap({
         
-        return(hb_asthma_map)
+        # create choropleth map with tmap - has interactive features (using tmap to turn it into interactive JavaScript map (zoom, click and display the data))
+        tm_shape(map_and_data) +
+            tm_polygons("Value", id = "HBName", fill = "Value", title = "Percentage") + # add polygons colored by the Value (percentage), display name of HB when hovering mouse over the map
+            tmap_mode("view")
     })
 })

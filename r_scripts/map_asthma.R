@@ -17,6 +17,8 @@ library(rgdal)
 hb <- st_read("data/asthma_data/SG_NHS_HealthBoards_2019_lower_resolution", "SG_NHS_HealthBoards_2019_simplified")
 #hb <- read.shapefile("data/asthma_data/SG_NHS_HealthBoards_2019_lower_resolution/SG_NHS_HealthBoards_2019_simplified")
 
+
+here::here()
 # display first 6 rows
 #head(hb)
 
@@ -27,14 +29,36 @@ hb <- st_read("data/asthma_data/SG_NHS_HealthBoards_2019_lower_resolution", "SG_
 hb_codes <- unique(hb$HBCode)
 
 # read in Scottish Health Survey (SHS) dataset - subset for indicator Asthma and our HB data zones
-shs <- read_csv("data/asthma_data/Scottish_Health_Survey_Local_area_level_data.csv") %>% 
+shs_asthma_diagnosed <- read_csv("data/asthma_data/Scottish_Health_Survey_Local_area_level_data.csv") %>% 
   filter(FeatureCode %in% hb_codes) %>% 
   filter(`Scottish Health Survey Indicator` == "Doctor-diagnosed asthma: Yes") %>% 
   filter(Measurement == "Percent") %>% 
   filter(Sex == "Female")
 
-# join the two tables (creates new geospatial object with Asthma data), need to specify keys as they have different names
-map_and_data <- merge(hb, shs, by.x = "HBCode", by.y = "FeatureCode")
+#shs_asthma_diagnosed
+
+
+# create functin that negates %in%
+`%notin%` <- Negate(`%in%`)
+
+# read in data
+asthma_stays_rate <- read_csv("data/asthma_data/asthma_nhs_board_stays_and_rate_2014_2019.csv")
+
+asthma_stays_rate_summary <- asthma_stays_rate %>% 
+  mutate(HBName = str_sub(hbresname, 5)) %>% 
+  filter(HBName %notin% c("cotland", "r")) %>% 
+  filter(rate != "-") %>% 
+  mutate(rate = as.numeric(rate)) %>% 
+  group_by(discharge_fin_yr_end, HBName) %>% 
+  summarise(avg_stay = mean(stays),
+            avg_rate = mean(rate))
+
+#asthma_stays_rate_summary
+
+
+# join all three tables (creates new geospatial object with Asthma data), need to specify keys as they have different names
+map_and_data <- merge(hb, shs_asthma_diagnosed, by.x = "HBCode", by.y = "FeatureCode") %>% 
+  merge(asthma_stays_rate_summary, by = "HBName")
 
 # # map Asthma indicator by HB
 # ## create choropleth map with ggplot geom_sf() (map the simple features object)
@@ -44,9 +68,11 @@ map_and_data <- merge(hb, shs, by.x = "HBCode", by.y = "FeatureCode")
 
 
 # create choropleth map with tmap - has interactive features (using tmap to turn it into interactive JavaScript map (zoom, click and display the data))
-hb_asthma_map <- tm_shape(map_and_data) +
-   tm_polygons("Value", id = "HBName", fill = "Value", title = "Percentage") + # add polygons colored by the Value (percentage), display name of HB when hovering mouse over the map
-   tmap_mode("view") # turn it into interactive (clickable) map, set tmap viewing mode to "view" = interactive
+# tm_shape(map_and_data) +
+#   tm_polygons("Value", id = "HBName", fill = "Value", title = "Percentage %") + # add polygons colored by the Value (percentage), display name of HB when hovering mouse over the map
+#   tm_polygons("avg_stay", id = "HBName", fill = "avg_stay", title = "Average length of stay") +
+#   tm_polygons("avg_rate", id = "HBName", fill = "avg_rate", title = "Average rate") +
+#   tmap_mode("view") # turn it into interactive (clickable) map, set tmap viewing mode to "view" = interactive
 
 #hb_asthma_map
 
