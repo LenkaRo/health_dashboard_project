@@ -1,6 +1,0 @@
-hospital_stats <- read_csv("data/priority_4/Alcohol_Related_Hospital_Statistics.csv")
-young_people <- read_csv("data/priority_4/alcohol_use_ever_among_young_people.csv")
-drink_emo_beha_prob <- read_csv("data/priority_4/drinking_behaviour_and_emotional_and_behavioural_problems.csv")
-drug_discharge <- read_csv("data/priority_4/drug_related_hospital_discharge.csv")
-smoking_data <- read_csv("data/priority_4/smoking_prevalence_and_deprivation.csv")
-smoking_data <- read_csv("data/priority_4/Scottish_Survey_Core_Questions.csv")

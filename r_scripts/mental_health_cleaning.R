@@ -13,6 +13,9 @@ mental_health_clean <- mental_health %>%
 mental_health_clean <- mental_health_clean %>% 
   filter(date_code == 2014 | date_code == 2015| date_code == 2016| date_code == 2017)
 
+mental_health_clean <- mental_health_clean %>% 
+  filter(age == "16-34 years" | age == "16-64 years" | age == "35-64 years" | age == "65 years and over")
+
 mental_health <- mental_health_clean
 
 write_csv(mental_health, "mental_health.csv")

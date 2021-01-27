@@ -32,6 +32,18 @@ shinyServer(function(input, output) {
     
             return(physical_activity_graph)
         }
+        
+        if(input$select_priority=="Mental Health"){
+            
+            return(priority_3_graph)
+        }
+        
+        if(input$select_priority=="Smoking Levels"){
+            
+            return(priority_4_graph)
+        }
+        
+        
     
     })
         
