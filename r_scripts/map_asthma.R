@@ -51,21 +51,21 @@ shs_asthma_diagnosed <- read_csv("data/asthma_data/Scottish_Health_Survey_Local_
 # read in data
 asthma_stays_rate <- read_csv("data/asthma_data/complete_asthma_stays_rate_2012_2019_with_codes.csv")
 
-asthma_stays_rate_summary <- asthma_stays_rate %>% 
+asthma_stays_rate_summary <- asthma_stays_rate %>%
   mutate(HBName = str_sub(hbresname, 5)) %>% 
   filter(HBName %notin% c("cotland", "r")) %>% 
+  filter(sex != "Both Sexes") %>% 
   filter(rate != "-") %>% 
   mutate(rate = as.numeric(rate)) %>% 
   group_by(discharge_fin_yr_end, HBName) %>% 
   summarise(avg_stay = mean(stays),
             avg_rate = mean(rate))
 
-#asthma_stays_rate_summary
-
 
 # join all three tables (creates new geospatial object with Asthma data), need to specify keys as they have different names
 map_and_data <- merge(hb, shs_asthma_diagnosed, by.x = "HBCode", by.y = "FeatureCode") %>% 
-  merge(asthma_stays_rate_summary, by = "HBName")
+  merge(asthma_stays_rate_summary, by = "HBName") %>% 
+  select(-c(DateCode, Measurement, Units))
 
 # # map Asthma indicator by HB
 # ## create choropleth map with ggplot geom_sf() (map the simple features object)

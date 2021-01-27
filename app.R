@@ -4,10 +4,9 @@ library(here)
 library(tidyverse)
 library(sf)
 library(tmap)
-#library(rmapshaper)
-#library(leaflet)
 library(shapefiles)
-#library(rgdal)
+library(infer)
+library(markdown)
 
 source(here("r_scripts/life_expectancy.R"))
 source(here("r_scripts/priority_2_ p1_bmi_script.R"))
@@ -16,6 +15,8 @@ source(here("r_scripts/exercise.R"))
 source(here("r_scripts/map_asthma.R"))
 source(here("r_scripts/priority_3_graph.R"))
 source(here("r_scripts/priority_4_graph.R"))
+source(here("r_scripts/hypothesis_test.R"))
+
 
 # Define UI for application that draws a presentation with three tabs (add text, graphs, action buttons etc)
 ui <- (fluidPage(
@@ -49,8 +50,8 @@ ui <- (fluidPage(
                ),
                
                mainPanel(
-                 #uiOutput('plot')
-                 #eg. Show a plot of the Life Expectancy in Scotland
+                 
+                 # overview related graph
                  plotOutput("graph")
                  
                )
@@ -87,15 +88,27 @@ ui <- (fluidPage(
                  hr(),
                  hr(),
                  
+                 # interactive map
                  tmapOutput("map", width = "100%", height = 600)
                  
                ),
                
                mainPanel(
                  
-                 selectInput("select_graph",
-                             label = "Select Graph",
-                             choices = c("a", "b", "c")
+                 selectInput("select_topic",
+                             label = "Select Topic",
+                             choices = c("a", "b", "c", "Hypothesis test - null distribution")
+                 ),
+                 
+                 mainPanel(
+                   
+                   # asthma related graph
+                   plotOutput("graph_2"),
+                   
+                   textOutput("text_with_graph_2"),
+                   
+                   uiOutput("md_file")
+                   
                  )
                  
                )
@@ -175,8 +188,57 @@ server <- (function(input, output) {
         tm_polygons("avg_rate", id = "HBName", fill = "avg_rate", title = "Average rate (units)") +
         tmap_mode("view")
     }
-    
   })
+  
+  
+  ### widget - select topic for which to display a graph (Asthma Tab)
+  output$asthma_topic <- renderPrint({ input$select_priority })
+  
+  output$graph_2 <- renderPlot({
+    
+    if(input$select_topic=="a"){
+      
+      return(doug_1_graph)
+    }
+    
+    if(input$select_topic=="b"){
+      
+      return(doug_2_graph)
+    }
+    
+    if(input$select_topic=="c"){
+      
+      return(doug_3_graph)
+    }
+    
+    if(input$select_topic=="Hypothesis test - null distribution"){
+      
+      return(null_distribution_viz)
+    }
+  })
+  
+  #output$md_file <- renderPrint({ "descriptions/null_hypothesis.md" })
+  
+  output$md_file <- renderUI({
+    file <- switch(input$select_topic,
+                   #"a" = "descriptions/a.md",
+                   #"b" = "descriptions/b.md",
+                   #"c" = "descriptions/c.md",
+                   "Hypothesis test - null distribution" = "descriptions/null_hypothesis.md"
+    )
+    includeMarkdown(file)
+  })
+  
+  
+  # output$text_with_graph_2 <- renderText({
+  #   
+  #   if(input$select_topic=="Hypothesis test - null distribution"){
+  #   
+  #     text <- paste(readLines("descriptions/null_hypothesis.txt"), collapse = "\n")
+  #     return(text)
+  #   }
+  #   
+  # })
 })
 
 shinyApp(ui = ui, server = server)
