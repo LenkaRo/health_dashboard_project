@@ -6,6 +6,7 @@ library(sf)
 library(tmap)
 library(shapefiles)
 library(infer)
+library(markdown)
 
 source(here("r_scripts/life_expectancy.R"))
 source(here("r_scripts/priority_2_ p1_bmi_script.R"))
@@ -49,8 +50,8 @@ ui <- (fluidPage(
                ),
                
                mainPanel(
-                 #uiOutput('plot')
-                 #eg. Show a plot of the Life Expectancy in Scotland
+                 
+                 # overview related graph
                  plotOutput("graph")
                  
                )
@@ -87,6 +88,7 @@ ui <- (fluidPage(
                  hr(),
                  hr(),
                  
+                 # interactive map
                  tmapOutput("map", width = "100%", height = 600)
                  
                ),
@@ -99,9 +101,13 @@ ui <- (fluidPage(
                  ),
                  
                  mainPanel(
-                   #uiOutput('plot')
-                   #eg. Show a plot of the Life Expectancy in Scotland
-                   plotOutput("graph_2")
+                   
+                   # asthma related graph
+                   plotOutput("graph_2"),
+                   
+                   textOutput("text_with_graph_2"),
+                   
+                   uiOutput("md_file")
                    
                  )
                  
@@ -208,12 +214,31 @@ server <- (function(input, output) {
     if(input$select_topic=="Hypothesis test - null distribution"){
       
       return(null_distribution_viz)
-      
-      hb()
-      
-      return(p_value)
     }
   })
+  
+  #output$md_file <- renderPrint({ "descriptions/null_hypothesis.md" })
+  
+  output$md_file <- renderUI({
+    file <- switch(input$select_topic,
+                   #"a" = "descriptions/a.md",
+                   #"b" = "descriptions/b.md",
+                   #"c" = "descriptions/c.md",
+                   "Hypothesis test - null distribution" = "descriptions/null_hypothesis.md"
+    )
+    includeMarkdown(file)
+  })
+  
+  
+  # output$text_with_graph_2 <- renderText({
+  #   
+  #   if(input$select_topic=="Hypothesis test - null distribution"){
+  #   
+  #     text <- paste(readLines("descriptions/null_hypothesis.txt"), collapse = "\n")
+  #     return(text)
+  #   }
+  #   
+  # })
 })
 
 shinyApp(ui = ui, server = server)
