@@ -53,6 +53,7 @@ ui <- (fluidPage(
                              choices = c("Life Expectancy", "BMI in Children", "BMI in Adults", "Activity Levels of Adults", "Mental Health", "Smoking Levels")
                  ),
                  
+                 br(),
                  # show word cloud
                  plotOutput("word_cloud")
                  
@@ -61,7 +62,9 @@ ui <- (fluidPage(
                mainPanel(
                  
                  # overview related graph
-                 plotOutput("graph")
+                 plotOutput("graph"),
+                 
+                 uiOutput("md_file_overview_tab")
                  
                )
              )
@@ -116,7 +119,7 @@ ui <- (fluidPage(
                    
                    textOutput("text_with_graph_2"),
                    
-                   uiOutput("md_file")
+                   uiOutput("md_file_asthma_tab")
                    
                  )
                  
@@ -239,29 +242,30 @@ server <- (function(input, output) {
     }
   })
   
-  #output$md_file <- renderPrint({ "descriptions/null_hypothesis.md" })
+  # description with the graphs in Overview tab
+  output$md_file_overview_tab <- renderUI({
+    file_overview <- switch(input$select_priority,
+                   "Life Expectancy" = "descriptions/life_expectancy.md",
+                   #"BMI in Children" = "descriptions/f.md",
+                   #"BMI in Adults" = "descriptions/bmi_id_adults.md",
+                   #"Activity Levels of Adults" = "descriptions/activity_levels_of_adults.md",
+                   #"Mental Health" = "descriptions/i.md",
+                   #"Smoking Levels" = "descriptions/j.md"
+    )
+    includeMarkdown(file_overview)
+  })
   
-  output$md_file <- renderUI({
-    file <- switch(input$select_topic,
+  # description with the graphs in Asthma tab
+  output$md_file_asthma_tab <- renderUI({
+    file_asthma <- switch(input$select_topic,
                    #"Asthma in proportion" = "descriptions/a.md",
                    #"Death by gender" = "descriptions/b.md",
                    #"Rate by gender" = "descriptions/c.md",
                    #"Asthma by gender" = "descriptions/d.md",
                    "Hypothesis test - null distribution" = "descriptions/null_hypothesis.md"
     )
-    includeMarkdown(file)
+    includeMarkdown(file_asthma)
   })
-  
-  
-  # output$text_with_graph_2 <- renderText({
-  #   
-  #   if(input$select_topic=="Hypothesis test - null distribution"){
-  #   
-  #     text <- paste(readLines("descriptions/null_hypothesis.txt"), collapse = "\n")
-  #     return(text)
-  #   }
-  #   
-  # })
 })
 
 shinyApp(ui = ui, server = server)
