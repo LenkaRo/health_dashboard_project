@@ -252,7 +252,7 @@ server <- (function(input, output) {
   output$md_file_overview_tab <- renderUI({
     file_overview <- switch(input$select_priority,
                    "Life Expectancy" = "descriptions/life_expectancy.md",
-                   #"BMI in Children" = "descriptions/f.md",
+                   "BMI in Children" = "descriptions/children_bmi_p1_description.md",
                    "BMI in Adults" = "descriptions/bmi_id_adults.md",
                    "Activity Levels of Adults" = "descriptions/activity_levels_of_adults.md",
                    #"Mental Health" = "descriptions/i.md",
@@ -264,9 +264,9 @@ server <- (function(input, output) {
   # description with the graphs in Asthma tab
   output$md_file_asthma_tab <- renderUI({
     file_asthma <- switch(input$select_topic,
-                   #"Asthma in proportion" = "descriptions/a.md",
-                   #"Death by gender" = "descriptions/b.md",
-                   #"Rate by gender" = "descriptions/c.md",
+                   "Asthma in proportion" = "descriptions/combined_respiratory_deaths_description.md",
+                   "Death by gender" = "descriptions/death_by_gender_description.md",
+                   "Rate by gender" = "descriptions/rate_by_gender_description.md",
                    #"Asthma by gender" = "descriptions/d.md",
                    "Hypothesis test - null distribution" = "descriptions/null_hypothesis.md"
     )
