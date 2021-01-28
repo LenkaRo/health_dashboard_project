@@ -1,7 +1,5 @@
 date_code,value,smokes_yes_no,age
-2014,25.2,Yes,16-64 years
 2015,16.3,Yes,35-64 years
-2015,24.7,Yes,16-64 years
 2015,29.1,Yes,16-34 years
 2017,9.6,Yes,65 years and over
 2013,8.8,Yes,65 years and over
@@ -37,7 +35,6 @@ date_code,value,smokes_yes_no,age
 2017,19.4,Yes,35-64 years
 2017,20.6,Yes,16-34 years
 2016,20.4,Yes,35-64 years
-2017,23.1,Yes,16-64 years
 2012,30.4,Yes,16-34 years
 2016,26.1,Yes,35-64 years
 2012,16.6,Yes,35-64 years
@@ -61,30 +58,15 @@ date_code,value,smokes_yes_no,age
 2013,28.3,Yes,35-64 years
 2013,18.4,Yes,65 years and over
 2012,13.5,Yes,65 years and over
-2016,18.3,Yes,16-64 years
 2015,28.3,Yes,16-34 years
 2017,16.8,Yes,16-34 years
 2012,10.6,Yes,65 years and over
-2013,24.6,Yes,16-64 years
-2014,25.8,Yes,16-64 years
 2012,33.1,Yes,35-64 years
-2015,26.2,Yes,16-64 years
-2014,30.2,Yes,16-64 years
-2013,21.3,Yes,16-64 years
-2014,33.5,Yes,16-64 years
-2013,27.3,Yes,16-64 years
-2014,24.7,Yes,16-64 years
 2017,29.2,Yes,16-34 years
 2014,19.8,Yes,16-34 years
-2014,25.8,Yes,16-64 years
 2014,22.7,Yes,16-34 years
-2013,24.7,Yes,16-64 years
-2013,25.4,Yes,16-64 years
-2014,19.2,Yes,16-64 years
-2014,20.2,Yes,16-64 years
 2014,28.4,Yes,16-34 years
 2015,16,Yes,35-64 years
-2017,20.5,Yes,16-64 years
 2015,31,Yes,16-34 years
 2013,16.5,Yes,16-34 years
 2012,30.4,Yes,16-34 years
@@ -96,16 +78,9 @@ date_code,value,smokes_yes_no,age
 2013,24.9,Yes,35-64 years
 2015,22,Yes,16-34 years
 2012,30.6,Yes,35-64 years
-2012,24.7,Yes,16-64 years
-2012,24.6,Yes,16-64 years
-2017,23.6,Yes,16-64 years
 2016,24.3,Yes,16-34 years
 2015,26.3,Yes,35-64 years
-2014,24.4,Yes,16-64 years
-2014,33.1,Yes,16-64 years
 2013,21,Yes,35-64 years
-2012,23.1,Yes,16-64 years
-2012,24.6,Yes,16-64 years
 2015,30.7,Yes,16-34 years
 2016,9.6,Yes,65 years and over
 2014,22.3,Yes,35-64 years
@@ -114,7 +89,6 @@ date_code,value,smokes_yes_no,age
 2014,7.7,Yes,65 years and over
 2012,17.7,Yes,65 years and over
 2012,35.6,Yes,16-34 years
-2012,26.5,Yes,16-64 years
 2013,18.1,Yes,35-64 years
 2016,21.6,Yes,35-64 years
 2016,24.5,Yes,16-34 years
@@ -123,11 +97,9 @@ date_code,value,smokes_yes_no,age
 2016,28.8,Yes,16-34 years
 2014,23.2,Yes,35-64 years
 2014,22.6,Yes,16-34 years
-2013,25.7,Yes,16-64 years
 2012,24.1,Yes,16-34 years
 2012,25.1,Yes,16-34 years
 2014,20.8,Yes,35-64 years
-2014,25.8,Yes,16-64 years
 2016,20.4,Yes,16-34 years
 2014,25.6,Yes,16-34 years
 2016,23.5,Yes,16-34 years
@@ -140,7 +112,6 @@ date_code,value,smokes_yes_no,age
 2012,35.7,Yes,35-64 years
 2016,23.4,Yes,16-34 years
 2014,32,Yes,16-34 years
-2012,27.9,Yes,16-64 years
 2014,23.7,Yes,35-64 years
 2012,26.5,Yes,16-34 years
 2016,21.4,Yes,35-64 years
@@ -149,125 +120,69 @@ date_code,value,smokes_yes_no,age
 2013,25.4,Yes,35-64 years
 2016,18.4,Yes,16-34 years
 2012,21.8,Yes,16-34 years
-2013,25.4,Yes,16-64 years
-2013,32.2,Yes,16-64 years
 2016,18.2,Yes,16-34 years
-2014,23,Yes,16-64 years
 2012,32.6,Yes,16-34 years
 2015,23.4,Yes,16-34 years
 2012,26.8,Yes,16-34 years
 2014,27.5,Yes,16-34 years
-2013,29.1,Yes,16-64 years
-2014,25.6,Yes,16-64 years
 2017,79.7,No,16-34 years
 2016,24.2,Yes,35-64 years
-2017,81.9,No,16-64 years
 2013,77.5,No,65 years and over
-2015,81,No,16-64 years
 2014,22.9,Yes,35-64 years
 2016,21.4,Yes,16-34 years
 2016,34.1,Yes,16-34 years
 2016,19.3,Yes,16-34 years
-2017,78,No,16-64 years
 2016,31.3,Yes,16-34 years
 2014,22.5,Yes,16-34 years
 2012,12.7,Yes,65 years and over
-2015,17.5,Yes,16-64 years
-2013,17.7,Yes,16-64 years
 2016,25.5,Yes,35-64 years
-2012,29,Yes,16-64 years
 2014,85.1,No,65 years and over
 2014,93.6,No,65 years and over
-2017,81.6,No,16-64 years
 2015,90.5,No,65 years and over
 2016,26.7,Yes,35-64 years
 2013,20.1,Yes,16-34 years
 2012,37.3,Yes,35-64 years
-2014,33.5,Yes,16-64 years
 2013,25.8,Yes,16-34 years
 2017,7.4,Yes,65 years and over
 2016,18.9,Yes,35-64 years
-2015,22.3,Yes,16-64 years
-2015,23.6,Yes,16-64 years
 2015,23.6,Yes,35-64 years
 2015,22.8,Yes,35-64 years
-2013,24,Yes,16-64 years
-2012,23.5,Yes,16-64 years
-2012,23.2,Yes,16-64 years
-2015,25.1,Yes,16-64 years
 2015,13.4,Yes,65 years and over
-2014,24.6,Yes,16-64 years
-2014,23.4,Yes,16-64 years
 2014,31.4,Yes,35-64 years
-2014,22.4,Yes,16-64 years
 2012,32,Yes,35-64 years
-2012,24.6,Yes,16-64 years
-2014,26.9,Yes,16-64 years
-2013,24.6,Yes,16-64 years
-2013,17.7,Yes,16-64 years
-2016,23.7,Yes,16-64 years
 2017,19.8,Yes,65 years and over
-2014,27.1,Yes,16-64 years
 2013,23.1,Yes,16-34 years
-2012,25,Yes,16-64 years
 2015,32.9,Yes,16-34 years
-2015,17.4,Yes,16-64 years
 2014,27.2,Yes,35-64 years
-2013,24.2,Yes,16-64 years
 2014,31.3,Yes,35-64 years
 2013,24.2,Yes,16-34 years
-2012,22.9,Yes,16-64 years
-2013,22.3,Yes,16-64 years
-2013,15.9,Yes,16-64 years
-2012,22.5,Yes,16-64 years
-2012,24.5,Yes,16-64 years
-2015,27.7,Yes,16-64 years
-2014,23.5,Yes,16-64 years
 2014,20.2,Yes,16-34 years
-2014,25.1,Yes,16-64 years
-2012,32.5,Yes,16-64 years
-2013,25.2,Yes,16-64 years
-2014,23.4,Yes,16-64 years
-2013,23.3,Yes,16-64 years
-2012,32,Yes,16-64 years
-2012,27.8,Yes,16-64 years
-2013,25.3,Yes,16-64 years
 2013,20.3,Yes,35-64 years
-2012,23.1,Yes,16-64 years
 2014,18.9,Yes,35-64 years
 2016,22.1,Yes,35-64 years
 2013,25,Yes,16-34 years
 2013,25.7,Yes,35-64 years
-2012,18.9,Yes,16-64 years
 2014,26.1,Yes,16-34 years
 2012,27.7,Yes,35-64 years
 2016,22.2,Yes,16-34 years
 2012,27.6,Yes,35-64 years
-2012,13.5,Yes,16-64 years
 2012,20.6,Yes,35-64 years
-2013,26.9,Yes,16-64 years
 2013,23,Yes,35-64 years
 2012,25.9,Yes,35-64 years
 2012,36.3,Yes,35-64 years
 2012,38.6,Yes,16-34 years
 2014,26,Yes,16-34 years
-2012,18.7,Yes,16-64 years
 2013,22.4,Yes,35-64 years
 2013,24.9,Yes,35-64 years
 2014,24.2,Yes,16-34 years
 2012,21.8,Yes,16-34 years
 2013,20.8,Yes,35-64 years
-2012,26.3,Yes,16-64 years
-2013,25.9,Yes,16-64 years
 2012,7.5,Yes,65 years and over
-2013,30.4,Yes,16-64 years
-2012,26.4,Yes,16-64 years
 2014,26.5,Yes,35-64 years
 2016,8.7,Yes,65 years and over
 2016,26.2,Yes,16-34 years
 2013,25.9,Yes,16-34 years
 2013,13.4,Yes,16-34 years
-2014,10.2,Yes,16-64 years
 2013,29.6,Yes,16-34 years
 2013,30.5,Yes,16-34 years
 2017,14.9,Yes,35-64 years
@@ -281,7 +196,6 @@ date_code,value,smokes_yes_no,age
 2016,22.5,Yes,35-64 years
 2013,13.9,Yes,65 years and over
 2012,25.6,Yes,35-64 years
-2013,24.4,Yes,16-64 years
 2016,19.2,Yes,35-64 years
 2016,21.9,Yes,35-64 years
 2016,8.2,Yes,16-34 years
@@ -289,88 +203,48 @@ date_code,value,smokes_yes_no,age
 2016,28.8,Yes,16-34 years
 2014,7.1,Yes,65 years and over
 2016,19.9,Yes,16-34 years
-2014,22,Yes,16-64 years
 2016,16,Yes,35-64 years
 2016,33.1,Yes,35-64 years
 2012,24,Yes,16-34 years
 2016,13.1,Yes,35-64 years
 2016,22.6,Yes,35-64 years
-2012,29.3,Yes,16-64 years
-2014,19.2,Yes,16-64 years
-2012,32.9,Yes,16-64 years
-2012,38.1,Yes,16-64 years
 2015,28.9,Yes,35-64 years
 2015,23.1,Yes,16-34 years
 2014,15.5,Yes,16-34 years
-2012,23.1,Yes,16-64 years
 2012,21.7,Yes,35-64 years
-2014,19.5,Yes,16-64 years
-2014,22,Yes,16-64 years
 2013,17,Yes,35-64 years
-2014,18.4,Yes,16-64 years
-2014,20.2,Yes,16-64 years
-2012,27.6,Yes,16-64 years
-2014,24.6,Yes,16-64 years
 2015,30.8,Yes,35-64 years
 2012,21.4,Yes,16-34 years
-2016,23.6,Yes,16-64 years
 2015,22.7,Yes,35-64 years
 2012,31.3,Yes,16-34 years
 2015,29.5,Yes,16-34 years
 2015,13.6,Yes,35-64 years
 2014,20.6,Yes,65 years and over
-2015,28.3,Yes,16-64 years
-2017,23.9,Yes,16-64 years
 2014,18.7,Yes,35-64 years
 2014,22.3,Yes,35-64 years
 2014,23.4,Yes,35-64 years
 2014,29.1,Yes,35-64 years
 2012,21.9,Yes,35-64 years
-2015,19.9,Yes,16-64 years
-2014,25.3,Yes,16-64 years
-2014,21,Yes,16-64 years
-2014,23.2,Yes,16-64 years
 2015,20.9,Yes,35-64 years
-2014,24.1,Yes,16-64 years
 2017,27.5,Yes,35-64 years
-2012,23.1,Yes,16-64 years
-2014,28.8,Yes,16-64 years
-2017,23.4,Yes,16-64 years
 2013,25.1,Yes,16-34 years
-2014,18.9,Yes,16-64 years
-2012,37.8,Yes,16-64 years
-2014,27.2,Yes,16-64 years
-2012,25.3,Yes,16-64 years
-2013,20.6,Yes,16-64 years
-2014,20.2,Yes,16-64 years
 2015,25.3,Yes,16-34 years
-2012,27.5,Yes,16-64 years
-2012,18.7,Yes,16-64 years
-2012,27.8,Yes,16-64 years
 2013,30.2,Yes,16-34 years
-2017,13.2,Yes,16-64 years
 2015,15.4,Yes,16-34 years
 2012,26.5,Yes,16-34 years
-2013,15,Yes,16-64 years
-2013,30.1,Yes,16-64 years
 2013,25.6,Yes,16-34 years
 2015,16.6,Yes,65 years and over
-2013,24.9,Yes,16-64 years
 2012,32.5,Yes,16-34 years
-2012,31.6,Yes,16-64 years
-2013,23.6,Yes,16-64 years
 2013,19,Yes,35-64 years
 2014,26.7,Yes,16-34 years
 2013,23.7,Yes,35-64 years
 2014,20.1,Yes,35-64 years
-2013,22.9,Yes,16-64 years
 2016,24.4,Yes,35-64 years
 2014,23,Yes,35-64 years
 2014,29.2,Yes,16-34 years
 2012,43.4,Yes,16-34 years
 2012,26.5,Yes,35-64 years
 2014,24.5,Yes,16-34 years
-2016,19.5,Yes,16-64 years
 2013,16.7,Yes,35-64 years
 2014,13.8,Yes,16-34 years
 2015,25.3,Yes,16-34 years
@@ -383,21 +257,16 @@ date_code,value,smokes_yes_no,age
 2012,16.8,Yes,35-64 years
 2014,26.6,Yes,35-64 years
 2013,28.2,Yes,35-64 years
-2013,25.2,Yes,16-64 years
 2013,19.2,Yes,16-34 years
 2012,26.1,Yes,16-34 years
 2015,21.4,Yes,16-34 years
 2012,21.6,Yes,35-64 years
-2013,27.1,Yes,16-64 years
 2013,34,Yes,35-64 years
-2012,17.6,Yes,16-64 years
 2016,19.6,Yes,65 years and over
 2016,28.7,Yes,35-64 years
 2013,30.9,Yes,35-64 years
-2013,21.4,Yes,16-64 years
 2016,19.4,Yes,16-34 years
 2015,84.8,No,65 years and over
-2012,29.3,Yes,16-64 years
 2013,23.7,Yes,35-64 years
 2014,23.1,Yes,35-64 years
 2013,25.3,Yes,16-34 years
@@ -411,32 +280,21 @@ date_code,value,smokes_yes_no,age
 2014,23.7,Yes,16-34 years
 2013,21.9,Yes,35-64 years
 2013,25.8,Yes,35-64 years
-2015,22.3,Yes,16-64 years
 2013,21,Yes,35-64 years
 2013,14.9,Yes,35-64 years
-2013,21.4,Yes,16-64 years
 2014,32.6,Yes,16-34 years
-2013,21.6,Yes,16-64 years
 2013,22.9,Yes,35-64 years
-2015,27.5,Yes,16-64 years
 2015,20.8,Yes,35-64 years
 2015,26.1,Yes,16-34 years
 2013,24.9,Yes,35-64 years
 2012,26.8,Yes,35-64 years
 2012,32.3,Yes,35-64 years
-2015,24.3,Yes,16-64 years
 2012,16.6,Yes,35-64 years
-2015,25.2,Yes,16-64 years
 2014,30.1,Yes,35-64 years
-2015,10.4,Yes,16-64 years
 2015,24.6,Yes,35-64 years
-2015,26.2,Yes,16-64 years
-2015,17.7,Yes,16-64 years
 2013,20.3,Yes,16-34 years
 2014,33.1,Yes,35-64 years
 2015,26.3,Yes,16-34 years
-2016,25.6,Yes,16-64 years
-2016,22.1,Yes,16-64 years
 2014,30.3,Yes,16-34 years
 2012,14.8,Yes,65 years and over
 2013,23.1,Yes,16-34 years
@@ -444,7 +302,6 @@ date_code,value,smokes_yes_no,age
 2014,15.2,Yes,35-64 years
 2012,33.4,Yes,35-64 years
 2013,12.4,Yes,16-34 years
-2016,33.6,Yes,16-64 years
 2014,16.7,Yes,35-64 years
 2014,33,Yes,16-34 years
 2012,20.8,Yes,16-34 years
@@ -452,47 +309,32 @@ date_code,value,smokes_yes_no,age
 2015,24.1,Yes,35-64 years
 2015,16,Yes,35-64 years
 2015,26.3,Yes,35-64 years
-2015,20.3,Yes,16-64 years
 2012,17,Yes,35-64 years
 2015,31,Yes,16-34 years
 2015,6.9,Yes,16-34 years
 2015,27.6,Yes,16-34 years
-2016,20.2,Yes,16-64 years
 2015,20.3,Yes,16-34 years
 2015,18.3,Yes,16-34 years
 2013,47.5,Yes,16-34 years
 2015,20.3,Yes,35-64 years
-2015,23.6,Yes,16-64 years
 2015,27.1,Yes,35-64 years
-2013,17.7,Yes,16-64 years
-2016,22,Yes,16-64 years
-2015,19,Yes,16-64 years
-2014,30.2,Yes,16-64 years
 2016,12.5,Yes,65 years and over
 2016,17.5,Yes,16-34 years
-2013,25.9,Yes,16-64 years
 2014,16.5,Yes,65 years and over
 2012,24.6,Yes,35-64 years
 2012,23.4,Yes,16-34 years
-2015,17.7,Yes,16-64 years
-2012,30.1,Yes,16-64 years
 2015,29.3,Yes,35-64 years
 2015,69.2,No,35-64 years
 2013,77.6,No,35-64 years
 2014,76.8,No,16-34 years
-2013,83.6,No,16-64 years
 2015,72.5,No,35-64 years
 2015,76.2,No,16-34 years
 2017,91,No,65 years and over
-2015,84.4,No,16-64 years
-2013,75.4,No,16-64 years
 2014,72.2,No,16-34 years
 2015,75.9,No,35-64 years
 2017,82.1,No,65 years and over
-2014,74.7,No,16-64 years
 2017,81.4,No,35-64 years
 2017,82.6,No,35-64 years
-2013,73.2,No,16-64 years
 2015,86,No,35-64 years
 2013,75.9,No,16-34 years
 2014,87.8,No,35-64 years
@@ -500,7 +342,6 @@ date_code,value,smokes_yes_no,age
 2012,79.2,No,16-34 years
 2012,87.4,No,65 years and over
 2012,85.2,No,65 years and over
-2015,77.6,No,16-64 years
 2016,96,No,65 years and over
 2012,75.9,No,16-34 years
 2014,87.8,No,65 years and over
@@ -510,8 +351,6 @@ date_code,value,smokes_yes_no,age
 2015,87.4,No,65 years and over
 2013,80.3,No,16-34 years
 2014,86.4,No,65 years and over
-2017,76.7,No,16-64 years
-2017,85.4,No,16-64 years
 2017,88.6,No,65 years and over
 2015,72.9,No,35-64 years
 2017,78.9,No,35-64 years
@@ -519,25 +358,18 @@ date_code,value,smokes_yes_no,age
 2012,72.8,No,35-64 years
 2015,84.6,No,16-34 years
 2013,71.7,No,35-64 years
-2017,24.1,Yes,16-64 years
 2012,23.5,Yes,16-34 years
 2012,33.1,Yes,16-34 years
-2015,23.6,Yes,16-64 years
-2015,27.7,Yes,16-64 years
 2012,21.6,Yes,16-34 years
 2016,25.3,Yes,35-64 years
 2014,14.3,Yes,65 years and over
-2013,22.3,Yes,16-64 years
 2016,24.1,Yes,16-34 years
 2012,17.6,Yes,35-64 years
 2012,23.2,Yes,35-64 years
-2015,20.1,Yes,16-64 years
 2012,8.8,Yes,65 years and over
 2012,30.7,Yes,16-34 years
-2016,23,Yes,16-64 years
 2013,14.7,Yes,65 years and over
 2013,16.6,Yes,65 years and over
-2017,21.1,Yes,16-64 years
 2012,26.6,Yes,16-34 years
 2016,8.3,Yes,65 years and over
 2014,10.9,Yes,65 years and over
@@ -547,29 +379,17 @@ date_code,value,smokes_yes_no,age
 2013,79.6,No,16-34 years
 2013,77.1,No,35-64 years
 2012,76.2,No,16-34 years
-2015,20.5,Yes,16-64 years
 2012,14.5,Yes,65 years and over
-2013,24,Yes,16-64 years
 2013,29.5,Yes,35-64 years
 2014,26,Yes,16-34 years
 2017,15.9,Yes,65 years and over
-2016,24,Yes,16-64 years
 2012,26.6,Yes,16-34 years
 2016,9.4,Yes,65 years and over
-2012,27.2,Yes,16-64 years
-2016,21.6,Yes,16-64 years
-2016,18.8,Yes,16-64 years
 2016,18.5,Yes,16-34 years
-2016,18.2,Yes,16-64 years
 2014,19.6,Yes,35-64 years
-2017,21.2,Yes,16-64 years
-2017,14.6,Yes,16-64 years
 2012,27.2,Yes,16-34 years
-2016,20.6,Yes,16-64 years
 2017,16.5,Yes,16-34 years
 2014,23.7,Yes,35-64 years
-2016,23,Yes,16-64 years
-2016,22.1,Yes,16-64 years
 2017,31.2,Yes,16-34 years
 2013,26.8,Yes,16-34 years
 2017,20.4,Yes,16-34 years
@@ -583,14 +403,8 @@ date_code,value,smokes_yes_no,age
 2018,28.3,Yes,16-34 years
 2014,8.2,Yes,65 years and over
 2012,12.4,Yes,65 years and over
-2017,19.8,Yes,16-64 years
-2013,26.9,Yes,16-64 years
 2016,11.2,Yes,65 years and over
 2018,29,Yes,16-34 years
-2012,28.9,Yes,16-64 years
-2013,27.5,Yes,16-64 years
-2014,23.3,Yes,16-64 years
-2015,24.1,Yes,16-64 years
 2015,6.8,Yes,65 years and over
 2017,27.8,Yes,16-34 years
 2017,7.7,Yes,16-34 years
@@ -598,47 +412,29 @@ date_code,value,smokes_yes_no,age
 2015,10.9,Yes,65 years and over
 2016,23.2,Yes,16-34 years
 2018,77.1,No,35-64 years
-2018,81.1,No,16-64 years
-2017,26.2,Yes,16-64 years
-2015,25.9,Yes,16-64 years
-2016,18.6,Yes,16-64 years
 2017,12.2,Yes,65 years and over
 2016,8.8,Yes,65 years and over
 2017,18.4,Yes,35-64 years
-2017,17.9,Yes,16-64 years
-2018,80.1,No,16-64 years
-2018,80,No,16-64 years
 2018,77.2,No,16-34 years
 2016,25.5,Yes,35-64 years
-2018,23.6,Yes,16-64 years
-2017,78.1,No,16-64 years
-2013,75.2,No,16-64 years
-2017,84.3,No,16-64 years
 2013,77,No,35-64 years
 2017,61,No,16-34 years
-2014,75.3,No,16-64 years
 2014,77.2,No,16-34 years
 2014,72.9,No,16-34 years
 2014,61.9,No,35-64 years
 2018,77.5,No,35-64 years
 2018,84.4,No,35-64 years
-2018,83.2,No,16-64 years
 2018,74.5,No,16-34 years
 2018,78.4,No,35-64 years
-2018,81.5,No,16-64 years
 2018,88.2,No,65 years and over
 2018,87.1,No,65 years and over
-2016,20.8,Yes,16-64 years
 2017,25,Yes,16-34 years
 2017,9.1,Yes,35-64 years
 2017,19.7,Yes,16-34 years
-2018,19.3,Yes,16-64 years
-2018,17.3,Yes,16-64 years
 2014,15.1,Yes,65 years and over
 2016,29.1,Yes,16-34 years
 2016,4.7,Yes,65 years and over
 2013,11,Yes,65 years and over
-2017,80.1,No,16-64 years
 2018,93.8,No,16-34 years
 2018,95.4,No,65 years and over
 2018,79.7,No,16-34 years
@@ -647,24 +443,17 @@ date_code,value,smokes_yes_no,age
 2016,19.8,Yes,16-34 years
 2017,7.3,Yes,65 years and over
 2015,20.3,Yes,65 years and over
-2016,22,Yes,16-64 years
 2017,15.3,Yes,16-34 years
 2012,6.5,Yes,65 years and over
 2017,22.9,Yes,16-34 years
-2018,20.4,Yes,16-64 years
 2017,21.3,Yes,35-64 years
-2018,22.6,Yes,16-64 years
-2018,20.7,Yes,16-64 years
-2018,20,Yes,16-64 years
 2014,28.8,Yes,16-34 years
-2018,10.8,Yes,16-64 years
 2017,16.2,Yes,35-64 years
 2017,26.9,Yes,35-64 years
 2018,79,No,35-64 years
 2018,86.7,No,35-64 years
 2018,95.8,No,65 years and over
 2018,77.5,No,35-64 years
-2016,76,No,16-64 years
 2014,73.4,No,35-64 years
 2018,82.1,No,35-64 years
 2018,84.7,No,16-34 years
@@ -684,10 +473,8 @@ date_code,value,smokes_yes_no,age
 2017,18.5,Yes,16-34 years
 2015,13.1,Yes,65 years and over
 2014,12.8,Yes,65 years and over
-2017,20.1,Yes,16-64 years
 2014,7.9,Yes,65 years and over
 2017,29.2,Yes,16-34 years
-2016,18.7,Yes,16-64 years
 2017,24,Yes,35-64 years
 2017,21.1,Yes,35-64 years
 2017,20,Yes,35-64 years
@@ -697,15 +484,11 @@ date_code,value,smokes_yes_no,age
 2017,15,Yes,35-64 years
 2016,16.6,Yes,65 years and over
 2018,21.6,Yes,35-64 years
-2016,20.5,Yes,16-64 years
 2017,15.7,Yes,35-64 years
 2016,22.7,Yes,35-64 years
 2017,20.6,Yes,35-64 years
 2017,23.7,Yes,16-34 years
-2016,22.6,Yes,16-64 years
-2017,20.5,Yes,16-64 years
 2016,10.5,Yes,16-34 years
-2017,19.8,Yes,16-64 years
 2016,36.7,Yes,16-34 years
 2016,22.1,Yes,35-64 years
 2017,11,Yes,65 years and over
@@ -727,7 +510,6 @@ date_code,value,smokes_yes_no,age
 2017,25.2,Yes,16-34 years
 2016,5.6,Yes,65 years and over
 2017,18.3,Yes,35-64 years
-2016,17.4,Yes,16-64 years
 2017,7.4,Yes,65 years and over
 2017,6.6,Yes,65 years and over
 2017,9,Yes,65 years and over
@@ -738,7 +520,6 @@ date_code,value,smokes_yes_no,age
 2017,9.4,Yes,65 years and over
 2015,10.5,Yes,65 years and over
 2014,13.5,Yes,65 years and over
-2018,12.5,Yes,16-64 years
 2018,12.6,Yes,65 years and over
 2018,6.9,Yes,65 years and over
 2016,5.6,Yes,65 years and over
@@ -749,17 +530,14 @@ date_code,value,smokes_yes_no,age
 2018,12.2,Yes,16-34 years
 2018,11.8,Yes,65 years and over
 2018,12.1,Yes,35-64 years
-2016,25.6,Yes,16-64 years
 2012,32.1,Yes,35-64 years
 2017,11.3,Yes,65 years and over
 2017,17.9,Yes,65 years and over
 2015,17.5,Yes,35-64 years
-2016,23.4,Yes,16-64 years
 2016,18.9,Yes,35-64 years
 2017,13.9,Yes,16-34 years
 2018,11.2,Yes,65 years and over
 2018,10.3,Yes,65 years and over
-2016,20.6,Yes,16-64 years
 2017,9.2,Yes,65 years and over
 2017,23.9,Yes,16-34 years
 2017,20.2,Yes,16-34 years
@@ -768,32 +546,25 @@ date_code,value,smokes_yes_no,age
 2018,12,Yes,35-64 years
 2017,18.7,Yes,16-34 years
 2016,26.1,Yes,35-64 years
-2016,25.9,Yes,16-64 years
 2017,14.7,Yes,16-34 years
 2016,23.6,Yes,35-64 years
-2016,23.4,Yes,16-64 years
 2017,24.5,Yes,35-64 years
 2015,8.8,Yes,65 years and over
 2014,27.1,Yes,16-34 years
 2015,27.6,Yes,16-34 years
-2016,20.1,Yes,16-64 years
 2018,12.9,Yes,65 years and over
 2017,29.3,Yes,35-64 years
 2017,10.7,Yes,65 years and over
-2016,23.9,Yes,16-64 years
 2013,23,Yes,35-64 years
 2017,9,Yes,65 years and over
 2016,34.6,Yes,16-34 years
 2014,19.1,Yes,16-34 years
 2017,11.4,Yes,65 years and over
 2018,7.8,Yes,65 years and over
-2017,15.5,Yes,16-64 years
-2014,19.4,Yes,16-64 years
 2018,19.4,Yes,16-34 years
 2016,10.9,Yes,65 years and over
 2017,19.9,Yes,35-64 years
 2013,10.6,Yes,65 years and over
-2017,14.8,Yes,16-64 years
 2017,9.7,Yes,65 years and over
 2017,20.2,Yes,16-34 years
 2017,12.1,Yes,16-34 years
@@ -802,13 +573,9 @@ date_code,value,smokes_yes_no,age
 2014,7.7,Yes,65 years and over
 2016,30.8,Yes,16-34 years
 2016,10.4,Yes,65 years and over
-2016,26.4,Yes,16-64 years
-2018,18.5,Yes,16-64 years
-2013,26.9,Yes,16-64 years
 2017,18.6,Yes,35-64 years
 2017,29.3,Yes,35-64 years
 2018,9,Yes,65 years and over
-2012,27.2,Yes,16-64 years
 2018,17,Yes,35-64 years
 2016,24.5,Yes,16-34 years
 2013,26.8,Yes,16-34 years
@@ -817,7 +584,6 @@ date_code,value,smokes_yes_no,age
 2018,25.5,Yes,16-34 years
 2013,10.4,Yes,65 years and over
 2018,8.4,Yes,65 years and over
-2016,16.9,Yes,16-64 years
 2016,18.9,Yes,35-64 years
 2014,22.2,Yes,35-64 years
 2016,17.1,Yes,16-34 years
@@ -825,7 +591,6 @@ date_code,value,smokes_yes_no,age
 2015,11.5,Yes,65 years and over
 2018,16.5,Yes,16-34 years
 2017,22,Yes,35-64 years
-2016,23,Yes,16-64 years
 2014,21.2,Yes,35-64 years
 2016,25,Yes,35-64 years
 2018,15.3,Yes,16-34 years
@@ -838,7 +603,6 @@ date_code,value,smokes_yes_no,age
 2018,13.3,Yes,35-64 years
 2014,22.8,Yes,16-34 years
 2017,10.2,Yes,65 years and over
-2016,22.4,Yes,16-64 years
 2016,18.2,Yes,16-34 years
 2015,15.6,Yes,65 years and over
 2017,10.2,Yes,65 years and over
@@ -870,7 +634,6 @@ date_code,value,smokes_yes_no,age
 2014,24.8,Yes,35-64 years
 2012,16.9,Yes,65 years and over
 2012,12.2,Yes,65 years and over
-2016,19.5,Yes,16-64 years
 2012,12.1,Yes,65 years and over
 2018,17.1,Yes,35-64 years
 2018,15.8,Yes,16-34 years
@@ -885,7 +648,6 @@ date_code,value,smokes_yes_no,age
 2015,19.6,Yes,35-64 years
 2012,14.4,Yes,65 years and over
 2017,21.1,Yes,35-64 years
-2012,27.3,Yes,16-64 years
 2017,23.9,Yes,16-34 years
 2017,18.5,Yes,35-64 years
 2012,27,Yes,35-64 years
@@ -894,9 +656,7 @@ date_code,value,smokes_yes_no,age
 2012,27.7,Yes,16-34 years
 2016,13.1,Yes,35-64 years
 2016,30.5,Yes,16-34 years
-2015,22.7,Yes,16-64 years
 2012,5.6,Yes,65 years and over
-2014,24.7,Yes,16-64 years
 2012,12.6,Yes,65 years and over
 2014,13.6,Yes,65 years and over
 2014,10.6,Yes,65 years and over
@@ -906,7 +666,6 @@ date_code,value,smokes_yes_no,age
 2017,12.4,Yes,65 years and over
 2012,27.2,Yes,35-64 years
 2013,14.8,Yes,65 years and over
-2017,21.9,Yes,16-64 years
 2017,9.1,Yes,65 years and over
 2017,9.1,Yes,65 years and over
 2017,16.3,Yes,16-34 years
@@ -922,24 +681,20 @@ date_code,value,smokes_yes_no,age
 2012,12.7,Yes,65 years and over
 2016,7.2,Yes,65 years and over
 2015,13.1,Yes,65 years and over
-2017,18.1,Yes,16-64 years
 2016,7.5,Yes,65 years and over
 2013,11.1,Yes,65 years and over
 2012,11.3,Yes,65 years and over
 2015,20.3,Yes,65 years and over
-2017,14,Yes,16-64 years
 2013,10.6,Yes,65 years and over
 2015,11.1,Yes,65 years and over
 2013,6.5,Yes,65 years and over
 2015,15.2,Yes,65 years and over
-2017,25.1,Yes,16-64 years
 2016,6.7,Yes,65 years and over
 2014,15.6,Yes,65 years and over
 2014,9.1,Yes,65 years and over
 2014,15.9,Yes,65 years and over
 2015,27.5,Yes,35-64 years
 2015,12.5,Yes,65 years and over
-2015,23,Yes,16-64 years
 2015,9.3,Yes,65 years and over
 2016,10.4,Yes,65 years and over
 2012,8.8,Yes,65 years and over
@@ -979,25 +734,17 @@ date_code,value,smokes_yes_no,age
 2012,12.3,Yes,65 years and over
 2012,24.2,Yes,35-64 years
 2014,13.3,Yes,65 years and over
-2014,23.8,Yes,16-64 years
 2014,14.9,Yes,65 years and over
 2015,21.4,Yes,65 years and over
 2012,21.8,Yes,35-64 years
 2015,14.1,Yes,65 years and over
-2013,23.6,Yes,16-64 years
-2013,26.5,Yes,16-64 years
 2012,35.3,Yes,16-34 years
 2015,10.9,Yes,65 years and over
 2015,15.3,Yes,65 years and over
-2015,22.6,Yes,16-64 years
 2013,27.8,Yes,35-64 years
 2017,24.8,Yes,35-64 years
-2017,15.8,Yes,16-64 years
 2014,11.8,Yes,65 years and over
-2017,21,Yes,16-64 years
 2015,16.4,Yes,35-64 years
-2015,15,Yes,16-64 years
-2015,25.7,Yes,16-64 years
 2015,12.9,Yes,16-34 years
 2014,7.4,Yes,65 years and over
 2013,28.1,Yes,16-34 years
@@ -1005,29 +752,18 @@ date_code,value,smokes_yes_no,age
 2016,19.2,Yes,35-64 years
 2015,21,Yes,16-34 years
 2015,12.1,Yes,35-64 years
-2017,18.4,Yes,16-64 years
-2017,19.7,Yes,16-64 years
 2015,16.8,Yes,65 years and over
 2015,23,Yes,16-34 years
 2015,25.9,Yes,35-64 years
-2017,20.1,Yes,16-64 years
-2017,23.1,Yes,16-64 years
-2017,25,Yes,16-64 years
 2012,15,Yes,65 years and over
 2016,12.8,Yes,65 years and over
-2017,20.4,Yes,16-64 years
 2013,23.4,Yes,16-34 years
 2016,8.8,Yes,65 years and over
 2012,14.8,Yes,65 years and over
-2017,18.2,Yes,16-64 years
-2017,18.9,Yes,16-64 years
-2015,20.3,Yes,16-64 years
 2018,88.4,No,65 years and over
-2018,16.6,Yes,16-64 years
 2018,76.1,No,16-34 years
 2016,16.2,Yes,65 years and over
 2018,90.5,No,65 years and over
-2013,23.6,Yes,16-64 years
 2018,85.6,No,35-64 years
 2013,10.5,Yes,65 years and over
 2013,11.1,Yes,65 years and over
@@ -1035,8 +771,6 @@ date_code,value,smokes_yes_no,age
 2018,13.3,Yes,65 years and over
 2015,25.8,Yes,16-34 years
 2015,24.1,Yes,35-64 years
-2015,25.9,Yes,16-64 years
-2014,22.9,Yes,16-64 years
 2018,87,No,65 years and over
 2018,84.2,No,16-34 years
 2018,80.6,No,16-34 years
@@ -1044,7 +778,6 @@ date_code,value,smokes_yes_no,age
 2018,88.7,No,65 years and over
 2018,92.2,No,65 years and over
 2016,22.7,Yes,35-64 years
-2016,28.3,Yes,16-64 years
 2017,18.9,Yes,35-64 years
 2014,10.6,Yes,65 years and over
 2018,76,No,16-34 years
@@ -1054,9 +787,6 @@ date_code,value,smokes_yes_no,age
 2018,83.2,No,35-64 years
 2013,22.5,Yes,65 years and over
 2012,25.6,Yes,35-64 years
-2017,23.3,Yes,16-64 years
-2017,17.2,Yes,16-64 years
-2017,22.7,Yes,16-64 years
 2017,14.2,Yes,65 years and over
 2015,29.2,Yes,16-34 years
 2017,23.9,Yes,16-34 years
@@ -1070,20 +800,16 @@ date_code,value,smokes_yes_no,age
 2014,38.1,Yes,35-64 years
 2015,24,Yes,35-64 years
 2013,28.6,Yes,16-34 years
-2012,22.5,Yes,16-64 years
 2014,67.6,No,16-34 years
 2013,76.9,No,16-34 years
 2012,83.4,No,35-64 years
 2015,88.5,No,65 years and over
 2014,73.9,No,16-34 years
 2014,84.5,No,16-34 years
-2017,73.8,No,16-64 years
 2012,87.7,No,65 years and over
-2017,81.9,No,16-64 years
 2014,86.3,No,65 years and over
 2012,76.8,No,16-34 years
 2017,81.6,No,35-64 years
-2017,86.8,No,16-64 years
 2014,70.9,No,35-64 years
 2014,76.8,No,16-34 years
 2014,81.7,No,16-34 years
@@ -1094,14 +820,12 @@ date_code,value,smokes_yes_no,age
 2015,84.1,No,65 years and over
 2013,77,No,35-64 years
 2014,72.5,No,16-34 years
-2015,82,No,16-64 years
 2016,94.4,No,65 years and over
 2016,77.8,No,35-64 years
 2014,89.5,No,65 years and over
 2015,89.6,No,65 years and over
 2012,88.2,No,65 years and over
 2016,79.8,No,16-34 years
-2014,79.5,No,16-64 years
 2014,84.9,No,65 years and over
 2012,77.9,No,35-64 years
 2014,68.7,No,35-64 years
@@ -1109,13 +833,10 @@ date_code,value,smokes_yes_no,age
 2014,77.4,No,35-64 years
 2014,76.7,No,35-64 years
 2012,87.9,No,65 years and over
-2013,23.3,Yes,16-64 years
 2015,24.6,Yes,16-34 years
 2015,25.1,Yes,35-64 years
 2015,23.3,Yes,35-64 years
-2016,27.3,Yes,16-64 years
 2015,18.6,Yes,35-64 years
-2015,27.2,Yes,16-64 years
 2015,31.2,Yes,16-34 years
 2015,20.9,Yes,16-34 years
 2016,22.4,Yes,16-34 years
@@ -1124,21 +845,11 @@ date_code,value,smokes_yes_no,age
 2013,19.7,Yes,16-34 years
 2014,5.9,Yes,16-34 years
 2017,74,No,16-34 years
-2016,20.6,Yes,16-64 years
-2015,20.2,Yes,16-64 years
 2015,20.1,Yes,35-64 years
-2015,22.1,Yes,16-64 years
-2015,21.8,Yes,16-64 years
-2015,25.3,Yes,16-64 years
 2015,19.8,Yes,35-64 years
-2016,18.7,Yes,16-64 years
-2016,20.3,Yes,16-64 years
-2016,19.3,Yes,16-64 years
 2017,7.2,Yes,65 years and over
 2016,14.7,Yes,65 years and over
-2016,18.2,Yes,16-64 years
 2014,85.8,No,65 years and over
-2015,74.6,No,16-64 years
 2017,78,No,35-64 years
 2014,81.3,No,35-64 years
 2013,91.1,No,65 years and over
@@ -1146,9 +857,6 @@ date_code,value,smokes_yes_no,age
 2013,88.2,No,65 years and over
 2016,86.8,No,65 years and over
 2014,76.1,No,35-64 years
-2015,79.6,No,16-64 years
-2014,69.1,No,16-64 years
-2014,76.1,No,16-64 years
 2017,87.6,No,65 years and over
 2012,77.3,No,35-64 years
 2013,89.5,No,65 years and over
@@ -1163,20 +871,17 @@ date_code,value,smokes_yes_no,age
 2013,90.2,No,65 years and over
 2012,83.1,No,65 years and over
 2016,83.8,No,65 years and over
-2017,79.9,No,16-64 years
 2013,92.3,No,65 years and over
 2015,88.9,No,65 years and over
 2016,81.8,No,16-34 years
 2016,79.4,No,16-34 years
 2016,14.6,Yes,65 years and over
 2013,23.9,Yes,16-34 years
-2013,27.1,Yes,16-64 years
 2013,28.6,Yes,35-64 years
 2015,19.7,Yes,16-34 years
 2015,19.9,Yes,16-34 years
 2013,21,Yes,16-34 years
 2012,21.4,Yes,16-34 years
-2014,19.7,Yes,16-64 years
 2013,21.6,Yes,35-64 years
 2014,26.4,Yes,16-34 years
 2012,9.4,Yes,65 years and over
@@ -1184,7 +889,6 @@ date_code,value,smokes_yes_no,age
 2012,10.8,Yes,65 years and over
 2013,8.3,Yes,65 years and over
 2013,12.8,Yes,65 years and over
-2014,24.2,Yes,16-64 years
 2012,22.8,Yes,35-64 years
 2014,10.7,Yes,65 years and over
 2015,9.4,Yes,65 years and over
@@ -1196,34 +900,24 @@ date_code,value,smokes_yes_no,age
 2015,17.6,Yes,35-64 years
 2015,18,Yes,16-34 years
 2015,18.9,Yes,16-34 years
-2015,25,Yes,16-64 years
 2015,23.4,Yes,16-34 years
-2015,20.8,Yes,16-64 years
 2015,19.6,Yes,35-64 years
-2015,26.3,Yes,16-64 years
 2015,28,Yes,16-34 years
 2015,24.1,Yes,35-64 years
 2013,42.8,Yes,16-34 years
-2017,17.5,Yes,16-64 years
-2015,25.4,Yes,16-64 years
 2017,17.3,Yes,65 years and over
 2012,6.8,Yes,16-34 years
 2013,21.7,Yes,35-64 years
-2015,19,Yes,16-64 years
 2014,20.9,Yes,16-34 years
 2015,28,Yes,16-34 years
 2015,16,Yes,35-64 years
-2017,11.6,Yes,16-64 years
 2013,23.7,Yes,65 years and over
-2015,20.5,Yes,16-64 years
 2012,24.6,Yes,35-64 years
 2015,25.7,Yes,35-64 years
-2015,26.8,Yes,16-64 years
 2013,25.2,Yes,16-34 years
 2012,31.4,Yes,16-34 years
 2012,29.5,Yes,16-34 years
 2015,26.6,Yes,16-34 years
-2015,18.4,Yes,16-64 years
 2015,15.4,Yes,16-34 years
 2015,22,Yes,35-64 years
 2015,26.1,Yes,35-64 years
@@ -1235,7 +929,6 @@ date_code,value,smokes_yes_no,age
 2012,10.2,Yes,65 years and over
 2016,22.2,Yes,35-64 years
 2014,13.7,Yes,65 years and over
-2018,19.9,Yes,16-64 years
 2013,11.4,Yes,65 years and over
 2012,11.8,Yes,65 years and over
 2016,20.5,Yes,16-34 years
@@ -1244,25 +937,16 @@ date_code,value,smokes_yes_no,age
 2013,74.3,No,16-34 years
 2013,69.5,No,16-34 years
 2017,75.7,No,16-34 years
-2014,79.9,No,16-64 years
-2015,77.9,No,16-64 years
-2014,76.9,No,16-64 years
-2013,76,No,16-64 years
 2017,21.7,Yes,16-34 years
 2012,16.8,Yes,65 years and over
 2017,30.1,Yes,16-34 years
-2012,23.6,Yes,16-64 years
 2016,15.9,Yes,16-34 years
 2016,34.1,Yes,16-34 years
 2013,8.9,Yes,65 years and over
-2014,22.9,Yes,16-64 years
 2017,19.2,Yes,16-34 years
 2012,76.7,No,35-64 years
-2018,22.5,Yes,16-64 years
-2017,21.8,Yes,16-64 years
 2012,14.2,Yes,65 years and over
 2016,19.2,Yes,35-64 years
-2018,16.8,Yes,16-64 years
 2015,11.9,Yes,65 years and over
 2013,4.6,Yes,65 years and over
 2012,27.2,Yes,16-34 years
@@ -1272,7 +956,6 @@ date_code,value,smokes_yes_no,age
 2014,8.2,Yes,65 years and over
 2015,29.2,Yes,16-34 years
 2017,23.2,Yes,16-34 years
-2018,18.9,Yes,16-64 years
 2017,11.3,Yes,65 years and over
 2013,79.9,No,35-64 years
 2012,73.2,No,35-64 years
@@ -1281,68 +964,35 @@ date_code,value,smokes_yes_no,age
 2018,21.9,Yes,16-34 years
 2015,7.2,Yes,65 years and over
 2013,72.2,No,16-34 years
-2013,74.3,No,16-64 years
 2013,25.6,Yes,35-64 years
 2014,28.8,Yes,16-34 years
-2016,24,Yes,16-64 years
 2013,27.2,Yes,16-34 years
 2012,32.6,Yes,16-34 years
-2015,73.7,No,16-64 years
 2012,21.7,Yes,35-64 years
 2014,18.3,Yes,35-64 years
 2015,22.4,Yes,35-64 years
 2015,25,Yes,16-34 years
-2015,77.2,No,16-64 years
-2015,77.7,No,16-64 years
-2015,72,No,16-64 years
 2014,77.5,No,16-34 years
 2017,89.4,No,65 years and over
-2015,73.7,No,16-64 years
 2015,9.3,Yes,65 years and over
 2013,6.8,Yes,65 years and over
 2015,11.5,Yes,65 years and over
 2017,24.4,Yes,35-64 years
 2014,9.6,Yes,65 years and over
 2012,72.5,No,16-34 years
-2014,77,No,16-64 years
 2014,80.9,No,16-34 years
-2017,76.4,No,16-64 years
-2013,74.5,No,16-64 years
 2015,79.8,No,16-34 years
 2015,76.6,No,35-64 years
 2015,73.7,No,16-34 years
-2013,76.4,No,16-64 years
 2012,67.9,No,35-64 years
 2017,86.9,No,65 years and over
 2015,74.7,No,16-34 years
-2014,72.9,No,16-64 years
-2013,76.1,No,16-64 years
 2015,82.1,No,35-64 years
-2013,74.9,No,16-64 years
-2013,74.7,No,16-64 years
-2015,74.8,No,16-64 years
-2015,74.3,No,16-64 years
-2014,74.2,No,16-64 years
-2013,78.7,No,16-64 years
-2014,71.2,No,16-64 years
-2014,74,No,16-64 years
-2017,74.3,No,16-64 years
-2014,74.4,No,16-64 years
 2016,74.2,No,35-64 years
 2016,81.6,No,16-34 years
-2015,79.7,No,16-64 years
 2016,79.8,No,35-64 years
-2013,75.6,No,16-64 years
 2017,88.3,No,65 years and over
 2014,80.5,No,35-64 years
-2015,79.7,No,16-64 years
-2017,82.8,No,16-64 years
-2013,75.3,No,16-64 years
-2017,73.5,No,16-64 years
-2017,76.9,No,16-64 years
-2012,76.4,No,16-64 years
-2013,69.5,No,16-64 years
-2015,82.3,No,16-64 years
 2017,79,No,16-34 years
 2015,82.6,No,35-64 years
 2016,76.6,No,16-34 years
@@ -1353,9 +1003,6 @@ date_code,value,smokes_yes_no,age
 2016,82.9,No,16-34 years
 2013,71.2,No,16-34 years
 2016,9,Yes,65 years and over
-2017,19.9,Yes,16-64 years
-2013,24.6,Yes,16-64 years
-2017,23.3,Yes,16-64 years
 2018,23.7,Yes,16-34 years
 2018,15.3,Yes,16-34 years
 2018,23.6,Yes,16-34 years
@@ -1372,7 +1019,6 @@ date_code,value,smokes_yes_no,age
 2012,13.4,Yes,65 years and over
 2013,6.5,Yes,65 years and over
 2014,10.4,Yes,65 years and over
-2018,22.9,Yes,16-64 years
 2018,23.7,Yes,35-64 years
 2018,23.3,Yes,35-64 years
 2018,22.7,Yes,16-34 years
@@ -1387,12 +1033,10 @@ date_code,value,smokes_yes_no,age
 2014,7.4,Yes,65 years and over
 2018,17.6,Yes,16-34 years
 2015,12,Yes,65 years and over
-2018,20.4,Yes,16-64 years
 2018,20.3,Yes,16-34 years
 2018,8.6,Yes,65 years and over
 2018,11.3,Yes,65 years and over
 2018,9.1,Yes,65 years and over
-2018,10.8,Yes,16-64 years
 2018,13.3,Yes,35-64 years
 2018,4.6,Yes,65 years and over
 2018,9.9,Yes,65 years and over
@@ -1404,7 +1048,6 @@ date_code,value,smokes_yes_no,age
 2018,11.7,Yes,65 years and over
 2018,11.6,Yes,65 years and over
 2018,6.4,Yes,65 years and over
-2017,18.5,Yes,16-64 years
 2015,16.6,Yes,65 years and over
 2013,30.6,Yes,16-34 years
 2017,11.5,Yes,65 years and over
@@ -1415,7 +1058,6 @@ date_code,value,smokes_yes_no,age
 2018,7.8,Yes,65 years and over
 2018,13.3,Yes,16-34 years
 2018,7.8,Yes,65 years and over
-2018,8.8,Yes,16-64 years
 2018,9.5,Yes,65 years and over
 2018,7.9,Yes,65 years and over
 2018,10.5,Yes,65 years and over
@@ -1431,55 +1073,36 @@ date_code,value,smokes_yes_no,age
 2012,18.2,Yes,65 years and over
 2013,27.2,Yes,16-34 years
 2018,22.1,Yes,35-64 years
-2018,22.2,Yes,16-64 years
 2018,19.5,Yes,16-34 years
-2018,22.3,Yes,16-64 years
 2018,19.8,Yes,35-64 years
-2018,22.1,Yes,16-64 years
-2017,25,Yes,16-64 years
 2013,20.1,Yes,35-64 years
-2017,19,Yes,16-64 years
 2012,10.7,Yes,65 years and over
 2012,18,Yes,65 years and over
 2017,9.8,Yes,35-64 years
 2017,15.3,Yes,35-64 years
 2018,19.9,Yes,35-64 years
-2018,22.2,Yes,16-64 years
-2018,19.6,Yes,16-64 years
-2018,19.7,Yes,16-64 years
 2012,11.3,Yes,65 years and over
 2014,25.2,Yes,16-34 years
 2015,12.2,Yes,65 years and over
 2013,8.9,Yes,65 years and over
 2018,13,Yes,65 years and over
 2013,17.4,Yes,65 years and over
-2017,20.7,Yes,16-64 years
 2018,24,Yes,16-34 years
 2018,22.5,Yes,35-64 years
 2018,11.3,Yes,65 years and over
 2018,23.4,Yes,35-64 years
 2018,22.9,Yes,35-64 years
-2016,28.3,Yes,16-64 years
 2018,16.5,Yes,35-64 years
-2018,16.5,Yes,16-64 years
 2018,16.6,Yes,65 years and over
-2012,27.5,Yes,16-64 years
 2014,23.8,Yes,35-64 years
 2013,17,Yes,16-34 years
 2018,14.9,Yes,16-34 years
-2018,16.6,Yes,16-64 years
-2018,16.5,Yes,16-64 years
 2018,18.6,Yes,65 years and over
-2018,18.6,Yes,16-64 years
 2018,15.1,Yes,16-34 years
 2018,18.9,Yes,16-34 years
-2012,24.4,Yes,16-64 years
 2014,27.5,Yes,16-34 years
-2017,26.2,Yes,16-64 years
 2014,26.6,Yes,35-64 years
-2016,11.1,Yes,16-64 years
 2017,26.5,Yes,35-64 years
-2017,21.5,Yes,16-64 years
 2013,26.9,Yes,16-34 years
 2013,10.1,Yes,65 years and over
 2013,42.8,Yes,16-34 years
@@ -1487,45 +1110,37 @@ date_code,value,smokes_yes_no,age
 2017,18.5,Yes,35-64 years
 2012,25.6,Yes,35-64 years
 2012,21.8,Yes,35-64 years
-2018,16.7,Yes,16-64 years
 2018,16.8,Yes,35-64 years
 2018,16.2,Yes,65 years and over
 2018,15.7,Yes,35-64 years
 2018,23.5,Yes,35-64 years
 2018,16,Yes,35-64 years
-2018,16.7,Yes,16-64 years
 2018,16.1,Yes,35-64 years
 2014,30.1,Yes,35-64 years
 2013,27.6,Yes,35-64 years
 2016,9.1,Yes,65 years and over
 2014,30.3,Yes,16-34 years
-2018,16.7,Yes,16-64 years
 2018,22.5,Yes,35-64 years
 2018,22.5,Yes,35-64 years
-2018,22.4,Yes,16-64 years
 2018,14.4,Yes,35-64 years
 2018,15.5,Yes,16-34 years
 2013,12.7,Yes,65 years and over
 2016,11.2,Yes,65 years and over
 2018,14.4,Yes,65 years and over
 2012,11.8,Yes,65 years and over
-2018,16.2,Yes,16-64 years
 2018,16.7,Yes,16-34 years
 2015,14.2,Yes,65 years and over
 2018,14.7,Yes,35-64 years
 2014,19.5,Yes,35-64 years
 2018,21,Yes,35-64 years
-2018,21,Yes,16-64 years
 2013,28.4,Yes,16-34 years
 2018,2.9,Yes,65 years and over
 2018,26.5,Yes,16-34 years
 2018,21.3,Yes,16-34 years
 2018,26.3,Yes,35-64 years
 2018,24.2,Yes,16-34 years
-2018,26.3,Yes,16-64 years
 2015,18,Yes,16-34 years
 2017,16.5,Yes,16-34 years
-2017,20.8,Yes,16-64 years
 2017,15,Yes,65 years and over
 2015,23.2,Yes,35-64 years
 2014,21.2,Yes,35-64 years
@@ -1535,51 +1150,33 @@ date_code,value,smokes_yes_no,age
 2018,24.6,Yes,16-34 years
 2018,24.6,Yes,35-64 years
 2018,22.8,Yes,16-34 years
-2018,22.8,Yes,16-64 years
-2018,21.2,Yes,16-64 years
 2018,20.7,Yes,16-34 years
-2018,17.3,Yes,16-64 years
-2018,19.1,Yes,16-64 years
 2018,18.4,Yes,16-34 years
 2018,18.2,Yes,35-64 years
-2018,19.2,Yes,16-64 years
 2018,19.2,Yes,65 years and over
 2018,18.2,Yes,35-64 years
 2018,19.1,Yes,16-34 years
-2018,19.1,Yes,16-64 years
-2018,20,Yes,16-64 years
 2018,20.2,Yes,16-34 years
 2018,20,Yes,16-34 years
 2018,20.3,Yes,35-64 years
-2018,25.4,Yes,16-64 years
-2018,19.1,Yes,16-64 years
 2018,19,Yes,35-64 years
 2018,17.6,Yes,35-64 years
-2018,20.7,Yes,16-64 years
 2018,17.5,Yes,35-64 years
-2018,19.3,Yes,16-64 years
 2018,17.2,Yes,35-64 years
 2014,18.7,Yes,35-64 years
 2015,22.1,Yes,16-34 years
 2014,22.8,Yes,16-34 years
 2013,27,Yes,35-64 years
-2012,27.2,Yes,16-64 years
-2016,24,Yes,16-64 years
 2018,93.1,No,65 years and over
-2018,89.2,No,16-64 years
 2018,88.1,No,65 years and over
-2018,83.4,No,16-64 years
 2018,83.9,No,35-64 years
 2018,93.6,No,65 years and over
 2018,88.2,No,65 years and over
-2018,87.5,No,16-64 years
 2018,89.7,No,65 years and over
 2018,88.4,No,65 years and over
 2018,89.5,No,65 years and over
-2018,81.4,No,16-64 years
 2018,88.8,No,65 years and over
 2018,84.5,No,16-34 years
-2018,82.7,No,16-64 years
 2018,87.6,No,65 years and over
 2018,87.4,No,65 years and over
 2018,85.3,No,35-64 years
@@ -1599,7 +1196,6 @@ date_code,value,smokes_yes_no,age
 2013,80.8,No,16-34 years
 2018,92.1,No,65 years and over
 2018,90.5,No,65 years and over
-2018,91.2,No,16-64 years
 2018,95.8,No,65 years and over
 2018,90.9,No,65 years and over
 2018,81.8,No,35-64 years
@@ -1613,12 +1209,9 @@ date_code,value,smokes_yes_no,age
 2018,91.5,No,65 years and over
 2018,92.2,No,65 years and over
 2018,97.1,No,65 years and over
-2018,89.2,No,16-64 years
 2018,83.8,No,65 years and over
 2018,81.6,No,16-34 years
 2018,83.3,No,16-34 years
-2018,83.3,No,16-64 years
-2018,83.8,No,16-64 years
 2018,81.8,No,35-64 years
 2018,82.4,No,65 years and over
 2018,82,No,35-64 years
@@ -1636,10 +1229,8 @@ date_code,value,smokes_yes_no,age
 2018,82.3,No,35-64 years
 2018,97.7,No,16-34 years
 2018,85.2,No,65 years and over
-2018,83.3,No,16-64 years
 2018,85.1,No,16-34 years
 2018,83.2,No,35-64 years
-2018,83.3,No,16-64 years
 2018,87.8,No,16-34 years
 2018,87.9,No,35-64 years
 2012,73,No,35-64 years
@@ -1658,10 +1249,8 @@ date_code,value,smokes_yes_no,age
 2012,88.7,No,65 years and over
 2017,76.8,No,16-34 years
 2016,73.9,No,35-64 years
-2014,75.6,No,16-64 years
 2015,91,No,65 years and over
 2017,76,No,35-64 years
-2017,79.9,No,16-64 years
 2017,91,No,65 years and over
 2017,82,No,35-64 years
 2012,76.5,No,35-64 years
@@ -1684,18 +1273,10 @@ date_code,value,smokes_yes_no,age
 2014,71.1,No,16-34 years
 2014,73.3,No,16-34 years
 2017,78.7,No,35-64 years
-2013,78.6,No,16-64 years
-2012,75.4,No,16-64 years
 2013,79.6,No,16-34 years
-2016,81.5,No,16-64 years
 2015,70.4,No,16-34 years
 2014,77.4,No,35-64 years
 2012,86.8,No,65 years and over
-2016,76.6,No,16-64 years
-2016,70.5,No,16-64 years
-2016,76.1,No,16-64 years
-2012,76.6,No,16-64 years
-2016,76.6,No,16-64 years
 2014,94.1,No,16-34 years
 2013,72.7,No,35-64 years
 2016,80.6,No,35-64 years
@@ -1709,7 +1290,6 @@ date_code,value,smokes_yes_no,age
 2016,90.5,No,65 years and over
 2012,73.5,No,16-34 years
 2014,79.1,No,16-34 years
-2016,78.4,No,16-64 years
 2016,76.4,No,35-64 years
 2016,77.3,No,35-64 years
 2016,75.3,No,16-34 years
@@ -1721,9 +1301,7 @@ date_code,value,smokes_yes_no,age
 2015,91.9,No,65 years and over
 2017,68.1,No,16-34 years
 2017,88.7,No,65 years and over
-2012,73.7,No,16-64 years
 2014,89.6,No,65 years and over
-2016,81.5,No,16-64 years
 2015,72,No,16-34 years
 2014,83.3,No,35-64 years
 2014,78.8,No,35-64 years
@@ -1735,10 +1313,8 @@ date_code,value,smokes_yes_no,age
 2015,77.8,No,16-34 years
 2015,79.1,No,16-34 years
 2014,78.5,No,35-64 years
-2016,73.5,No,16-64 years
 2013,72.2,No,35-64 years
 2015,76.5,No,35-64 years
-2012,75.6,No,16-64 years
 2012,72.4,No,35-64 years
 2014,84.4,No,16-34 years
 2013,69.1,No,35-64 years
@@ -1750,7 +1326,6 @@ date_code,value,smokes_yes_no,age
 2017,90.2,No,35-64 years
 2014,68.5,No,35-64 years
 2017,83.2,No,16-34 years
-2012,69.5,No,16-64 years
 2012,72.3,No,16-34 years
 2017,74.8,No,16-34 years
 2017,81.5,No,35-64 years
@@ -1760,53 +1335,25 @@ date_code,value,smokes_yes_no,age
 2012,74.4,No,35-64 years
 2014,80.5,No,35-64 years
 2014,75.7,No,16-34 years
-2016,79.6,No,16-64 years
 2014,68,No,16-34 years
-2012,75.5,No,16-64 years
 2012,67.5,No,16-34 years
 2014,84.8,No,35-64 years
 2013,83.1,No,16-34 years
-2015,71.5,No,16-64 years
-2015,79.8,No,16-64 years
-2012,72.1,No,16-64 years
 2014,75.7,No,35-64 years
 2014,67.5,No,16-34 years
-2012,72.2,No,16-64 years
-2016,77.3,No,16-64 years
-2012,73.3,No,16-64 years
 2014,73.2,No,35-64 years
-2016,76.1,No,16-64 years
-2016,78.9,No,16-64 years
 2016,86.9,No,35-64 years
 2014,79.7,No,16-34 years
 2016,69.2,No,16-34 years
-2016,81.3,No,16-64 years
-2013,72.9,No,16-64 years
-2015,73.3,No,16-64 years
-2012,68,No,16-64 years
-2012,75,No,16-64 years
 2014,81.3,No,35-64 years
-2014,66.5,No,16-64 years
-2014,77.7,No,16-64 years
-2015,74.7,No,16-64 years
-2017,81,No,16-64 years
-2014,76.8,No,16-64 years
-2014,75.5,No,16-64 years
-2013,82.3,No,16-64 years
 2014,63.6,No,16-34 years
-2013,78.6,No,16-64 years
-2014,79.5,No,16-64 years
-2013,74.9,No,16-64 years
-2014,77.4,No,16-64 years
 2014,67.4,No,16-34 years
 2018,71.7,No,16-34 years
 2012,67.1,No,16-34 years
-2016,76,No,16-64 years
 2012,69.7,No,35-64 years
 2013,74.1,No,16-34 years
 2015,80,No,35-64 years
 2014,80.4,No,35-64 years
-2015,76.7,No,16-64 years
 2015,78,No,16-34 years
 2015,76,No,16-34 years
 2015,84,No,35-64 years
@@ -1817,8 +1364,6 @@ date_code,value,smokes_yes_no,age
 2012,72.4,No,35-64 years
 2013,83,No,16-34 years
 2015,81.7,No,16-34 years
-2013,77.7,No,16-64 years
-2012,81.3,No,16-64 years
 2013,75.8,No,35-64 years
 2012,71.6,No,35-64 years
 2012,92.5,No,65 years and over
@@ -1829,26 +1374,10 @@ date_code,value,smokes_yes_no,age
 2012,73.5,No,16-34 years
 2013,73.2,No,16-34 years
 2013,57.2,No,16-34 years
-2012,61.9,No,16-64 years
-2015,81.4,No,16-64 years
-2015,79.2,No,16-64 years
-2016,80.9,No,16-64 years
-2013,75.4,No,16-64 years
-2012,81.3,No,16-64 years
-2013,76,No,16-64 years
-2012,72.7,No,16-64 years
-2017,77.3,No,16-64 years
-2012,76.9,No,16-64 years
 2017,78.5,No,35-64 years
-2012,70.8,No,16-64 years
 2012,76,No,16-34 years
-2016,77,No,16-64 years
 2013,88.1,No,65 years and over
-2016,79.7,No,16-64 years
-2016,83.1,No,16-64 years
-2017,85.3,No,16-64 years
 2014,70.2,No,16-34 years
-2016,80.1,No,16-64 years
 2017,92,No,65 years and over
 2015,74.7,No,35-64 years
 2013,73.7,No,16-34 years
@@ -1862,69 +1391,42 @@ date_code,value,smokes_yes_no,age
 2013,76.3,No,65 years and over
 2013,78.1,No,35-64 years
 2013,78.3,No,35-64 years
-2012,72.5,No,16-64 years
 2013,89.6,No,65 years and over
 2015,73.7,No,35-64 years
 2015,74.9,No,35-64 years
 2014,73.4,No,35-64 years
 2013,82,No,35-64 years
-2016,74,No,16-64 years
-2012,75.1,No,16-64 years
 2017,83.5,No,16-34 years
 2013,85.1,No,35-64 years
-2012,72.1,No,16-64 years
 2014,76.6,No,35-64 years
 2017,83.5,No,16-34 years
-2013,78.3,No,16-64 years
-2015,74.6,No,16-64 years
-2013,82.3,No,16-64 years
 2012,90.6,No,65 years and over
 2015,83.3,No,35-64 years
-2017,75.8,No,16-64 years
 2017,84,No,16-34 years
 2015,85.8,No,65 years and over
-2012,72.8,No,16-64 years
 2017,89.8,No,65 years and over
 2016,88.9,No,65 years and over
-2016,70.5,No,16-64 years
-2016,77.8,No,16-64 years
 2013,91.2,No,65 years and over
-2016,79.1,No,16-64 years
 2014,86.4,No,65 years and over
-2015,82,No,16-64 years
 2017,78.4,No,35-64 years
 2013,85.4,No,65 years and over
 2017,87.9,No,16-34 years
 2015,79.6,No,35-64 years
-2012,75,No,16-64 years
 2015,84,No,35-64 years
-2015,79.5,No,16-64 years
 2013,71.4,No,16-34 years
 2013,76.6,No,35-64 years
 2013,88.1,No,65 years and over
 2016,89.2,No,65 years and over
 2012,93.5,No,65 years and over
-2014,81.3,No,16-64 years
 2017,82.8,No,16-34 years
 2012,69.6,No,16-34 years
 2017,93.5,No,65 years and over
-2016,80.4,No,16-64 years
-2016,81.3,No,16-64 years
 2015,90.5,No,65 years and over
 2016,86.9,No,35-64 years
-2013,70.8,No,16-64 years
-2014,76.3,No,16-64 years
-2013,74.1,No,16-64 years
 2013,75.7,No,35-64 years
-2013,74.8,No,16-64 years
 2015,68.3,No,16-34 years
-2012,76.4,No,16-64 years
 2012,76.5,No,16-34 years
-2016,77.6,No,16-64 years
-2013,76.1,No,16-64 years
 2017,85.8,No,65 years and over
-2012,76.4,No,16-64 years
-2017,80.2,No,16-64 years
 2013,74.7,No,16-34 years
 2013,75,No,16-34 years
 2012,64.3,No,35-64 years
@@ -1937,30 +1439,15 @@ date_code,value,smokes_yes_no,age
 2014,76.3,No,35-64 years
 2014,74.8,No,16-34 years
 2013,82,No,35-64 years
-2016,79.4,No,16-64 years
-2012,73.6,No,16-64 years
-2012,67.6,No,16-64 years
 2012,64.7,No,16-34 years
 2014,78,No,35-64 years
-2016,79.7,No,16-64 years
-2012,81.1,No,16-64 years
-2012,61.8,No,16-64 years
-2016,76.6,No,16-64 years
 2015,81.6,No,16-34 years
 2013,57.2,No,16-34 years
 2015,78,No,35-64 years
-2016,81.4,No,16-64 years
-2016,66,No,16-64 years
 2015,67.2,No,16-34 years
-2013,77.1,No,16-64 years
 2015,72.9,No,35-64 years
 2014,73.6,No,16-34 years
 2016,71.3,No,16-34 years
-2016,76.6,No,16-64 years
-2012,75,No,16-64 years
-2012,76.6,No,16-64 years
-2013,82.1,No,16-64 years
-2015,79.3,No,16-64 years
 2015,74,No,35-64 years
 2013,72.9,No,35-64 years
 2015,73.9,No,16-34 years
@@ -1971,31 +1458,24 @@ date_code,value,smokes_yes_no,age
 2013,83.5,No,16-34 years
 2012,68.7,No,16-34 years
 2012,62,No,35-64 years
-2017,81.4,No,16-64 years
 2017,90.5,No,35-64 years
 2017,79.9,No,35-64 years
-2018,83.5,No,16-64 years
 2018,83.4,No,65 years and over
 2017,79.8,No,16-34 years
 2012,69.2,No,35-64 years
 2017,90.4,No,65 years and over
-2017,79.1,No,16-64 years
 2017,80.7,No,35-64 years
 2018,83.5,No,35-64 years
-2016,78.8,No,16-64 years
 2015,79.5,No,65 years and over
 2016,79.6,No,35-64 years
 2017,79.9,No,16-34 years
 2017,90.8,No,65 years and over
-2018,83.5,No,16-64 years
 2015,91.1,No,65 years and over
-2013,72.5,No,16-64 years
 2017,75.3,No,35-64 years
 2015,88.5,No,65 years and over
 2012,89.9,No,65 years and over
 2014,75.5,No,16-34 years
 2014,77,No,35-64 years
-2016,79.9,No,16-64 years
 2015,76.7,No,16-34 years
 2012,81.8,No,65 years and over
 2015,70.9,No,35-64 years
@@ -2012,10 +1492,7 @@ date_code,value,smokes_yes_no,age
 2013,79.6,No,16-34 years
 2013,75.1,No,35-64 years
 2015,78.9,No,35-64 years
-2012,77.5,No,16-64 years
-2013,75.6,No,16-64 years
 2016,84,No,35-64 years
-2012,70.7,No,16-64 years
 2016,80.6,No,35-64 years
 2014,82.5,No,16-34 years
 2013,83.8,No,35-64 years
@@ -2023,20 +1500,13 @@ date_code,value,smokes_yes_no,age
 2014,66.9,No,35-64 years
 2012,78.3,No,35-64 years
 2014,78.7,No,16-34 years
-2017,79.1,No,16-64 years
-2017,80.2,No,16-64 years
 2015,81,No,16-34 years
 2015,68,No,16-34 years
 2012,72.1,No,35-64 years
 2012,78.1,No,35-64 years
-2016,78.4,No,16-64 years
 2012,73.5,No,16-34 years
-2017,79.4,No,16-64 years
 2014,67.5,No,16-34 years
 2012,77,No,16-34 years
-2013,84.1,No,16-64 years
-2017,76.6,No,16-64 years
-2017,73.8,No,16-64 years
 2012,85.7,No,65 years and over
 2013,83.4,No,65 years and over
 2013,87.3,No,65 years and over
@@ -2062,7 +1532,6 @@ date_code,value,smokes_yes_no,age
 2012,83.4,No,35-64 years
 2012,83,No,35-64 years
 2012,82.4,No,65 years and over
-2016,72.7,No,16-64 years
 2013,83.1,No,35-64 years
 2012,73.5,No,35-64 years
 2017,68.8,No,16-34 years
@@ -2073,9 +1542,6 @@ date_code,value,smokes_yes_no,age
 2013,75.1,No,35-64 years
 2015,86.8,No,65 years and over
 2017,82.3,No,35-64 years
-2014,76.7,No,16-64 years
-2015,73.6,No,16-64 years
-2012,76.7,No,16-64 years
 2012,93.2,No,16-34 years
 2012,82.4,No,35-64 years
 2012,87.9,No,65 years and over
@@ -2086,53 +1552,35 @@ date_code,value,smokes_yes_no,age
 2014,72.5,No,16-34 years
 2012,70.5,No,16-34 years
 2012,66.1,No,16-34 years
-2016,74,No,16-64 years
 2012,68,No,35-64 years
 2014,67,No,16-34 years
 2017,69.9,No,16-34 years
 2014,84.5,No,16-34 years
 2013,91.8,No,65 years and over
 2014,92.3,No,65 years and over
-2016,77.8,No,16-64 years
-2016,88.9,No,16-64 years
-2013,74,No,16-64 years
 2014,69.9,No,35-64 years
 2012,74.9,No,16-34 years
 2013,61.7,No,16-34 years
-2012,70.7,No,16-64 years
-2013,68.7,No,16-64 years
 2015,75.9,No,35-64 years
-2012,67.2,No,16-64 years
 2016,81,No,35-64 years
 2013,71.7,No,35-64 years
-2012,82,No,16-64 years
-2016,74.2,No,16-64 years
-2013,77.7,No,16-64 years
 2015,75.8,No,35-64 years
 2012,76.5,No,16-34 years
 2015,83,No,65 years and over
 2016,85.3,No,65 years and over
-2012,72.2,No,16-64 years
-2013,75.8,No,16-64 years
-2017,85.2,No,16-64 years
-2012,86.5,No,16-64 years
 2013,88.9,No,65 years and over
 2012,83.9,No,65 years and over
 2014,87.3,No,65 years and over
 2016,91.3,No,65 years and over
 2016,90.2,No,65 years and over
 2017,90.6,No,65 years and over
-2014,74.7,No,16-64 years
-2015,72,No,16-64 years
 2014,83.4,No,65 years and over
 2015,79.7,No,65 years and over
 2015,68.3,No,16-34 years
 2014,77.4,No,16-34 years
-2017,78.1,No,16-64 years
 2012,74.4,No,35-64 years
 2014,68,No,35-64 years
 2016,87.5,No,65 years and over
-2017,82.5,No,16-64 years
 2016,70.9,No,35-64 years
 2013,81.3,No,65 years and over
 2013,81.9,No,65 years and over
@@ -2144,16 +1592,12 @@ date_code,value,smokes_yes_no,age
 2016,75.1,No,35-64 years
 2016,62.9,No,16-34 years
 2016,84.1,No,16-34 years
-2017,76.7,No,16-64 years
 2017,83.7,No,16-34 years
-2014,75.3,No,16-64 years
 2013,85.3,No,65 years and over
 2017,81.9,No,16-34 years
 2015,84,No,35-64 years
-2014,79.9,No,16-64 years
 2012,87.6,No,65 years and over
 2016,90.4,No,65 years and over
-2013,74,No,16-64 years
 2016,94.4,No,65 years and over
 2015,93.2,No,65 years and over
 2016,88.8,No,65 years and over
@@ -2164,7 +1608,6 @@ date_code,value,smokes_yes_no,age
 2012,68,No,16-34 years
 2015,84.5,No,65 years and over
 2014,92,No,65 years and over
-2015,79.5,No,16-64 years
 2015,89.1,No,65 years and over
 2016,82.2,No,16-34 years
 2013,78.3,No,35-64 years
@@ -2197,14 +1640,12 @@ date_code,value,smokes_yes_no,age
 2012,61.4,No,16-34 years
 2012,78.3,No,35-64 years
 2017,81.5,No,16-34 years
-2016,82.1,No,16-64 years
 2012,73.5,No,16-34 years
 2012,83.2,No,35-64 years
 2013,74.8,No,16-34 years
 2012,79.4,No,35-64 years
 2017,73.5,No,35-64 years
 2012,75.4,No,35-64 years
-2016,81.7,No,16-64 years
 2013,75.1,No,35-64 years
 2012,64.4,No,16-34 years
 2012,73.2,No,35-64 years
@@ -2232,10 +1673,8 @@ date_code,value,smokes_yes_no,age
 2016,77.5,No,35-64 years
 2017,79.6,No,16-34 years
 2013,72.6,No,16-34 years
-2012,71.8,No,16-64 years
 2015,89.5,No,65 years and over
 2016,79.4,No,16-34 years
-2014,74,No,16-64 years
 2017,72.7,No,35-64 years
 2014,89.1,No,65 years and over
 2013,77.5,No,65 years and over
@@ -2243,22 +1682,11 @@ date_code,value,smokes_yes_no,age
 2015,87,No,65 years and over
 2013,90,No,65 years and over
 2016,91.2,No,65 years and over
-2012,72.7,No,16-64 years
 2016,75.6,No,35-64 years
 2016,77.3,No,35-64 years
 2014,79.3,No,65 years and over
-2013,73.1,No,16-64 years
 2015,80.4,No,35-64 years
 2017,77.5,No,35-64 years
-2012,72.7,No,16-64 years
-2014,74.7,No,16-64 years
-2014,76.7,No,16-64 years
-2014,80.6,No,16-64 years
-2017,79.9,No,16-64 years
-2013,79.3,No,16-64 years
-2015,77.1,No,16-64 years
-2015,72.8,No,16-64 years
-2014,66.9,No,16-64 years
 2013,78.1,No,35-64 years
 2015,69.9,No,16-34 years
 2015,75.9,No,35-64 years
@@ -2272,9 +1700,7 @@ date_code,value,smokes_yes_no,age
 2015,75.5,No,16-34 years
 2013,52.5,No,16-34 years
 2017,89,No,65 years and over
-2012,77.1,No,16-64 years
 2015,79.8,No,35-64 years
-2015,75.7,No,16-64 years
 2015,74,No,35-64 years
 2012,87.4,No,65 years and over
 2013,84.8,No,65 years and over
@@ -2288,15 +1714,9 @@ date_code,value,smokes_yes_no,age
 2017,85,No,35-64 years
 2015,83.2,No,65 years and over
 2016,90.9,No,65 years and over
-2016,76,No,16-64 years
-2012,74.7,No,16-64 years
 2017,84.9,No,65 years and over
-2012,77.5,No,16-64 years
-2012,67.6,No,16-64 years
 2017,75.6,No,35-64 years
 2017,79.9,No,35-64 years
-2012,71,No,16-64 years
-2013,72.3,No,16-64 years
 2016,90.2,No,65 years and over
 2017,68.1,No,16-34 years
 2016,89.6,No,65 years and over
@@ -2331,9 +1751,6 @@ date_code,value,smokes_yes_no,age
 2013,82,No,65 years and over
 2016,93.3,No,65 years and over
 2015,90.2,No,65 years and over
-2015,75.4,No,16-64 years
-2014,66.5,No,16-64 years
-2014,80.4,No,16-64 years
 2016,89.8,No,16-34 years
 2017,76,No,35-64 years
 2014,70.9,No,16-34 years
@@ -2342,7 +1759,6 @@ date_code,value,smokes_yes_no,age
 2013,96.7,No,65 years and over
 2015,84,No,65 years and over
 2017,81.5,No,35-64 years
-2017,79.4,No,16-64 years
 2012,73.2,No,16-34 years
 2013,87.2,No,65 years and over
 2012,84.5,No,65 years and over
@@ -2369,7 +1785,6 @@ date_code,value,smokes_yes_no,age
 2016,64.4,No,16-34 years
 2016,79.6,No,35-64 years
 2014,74.4,No,16-34 years
-2017,73.5,No,16-64 years
 2012,78.2,No,35-64 years
 2014,92.7,No,65 years and over
 2017,84.3,No,35-64 years
@@ -2377,15 +1792,11 @@ date_code,value,smokes_yes_no,age
 2012,75.8,No,35-64 years
 2014,78.8,No,35-64 years
 2013,71.4,No,35-64 years
-2015,73.5,No,16-64 years
 2016,73.4,No,35-64 years
 2013,83,No,16-34 years
 2016,71.2,No,16-34 years
-2017,88.2,No,16-64 years
 2016,80.6,No,35-64 years
 2016,77.4,No,16-34 years
-2017,76.9,No,16-64 years
-2014,72.7,No,16-64 years
 2017,92,No,65 years and over
 2016,88.5,No,35-64 years
 2016,90.9,No,65 years and over
@@ -2395,8 +1806,6 @@ date_code,value,smokes_yes_no,age
 2016,68.7,No,16-34 years
 2016,81.5,No,35-64 years
 2017,79.9,No,65 years and over
-2017,79.3,No,16-64 years
-2017,75.3,No,16-64 years
 2017,89.1,No,65 years and over
 2013,83.3,No,65 years and over
 2016,75.3,No,16-34 years
@@ -2409,15 +1818,11 @@ date_code,value,smokes_yes_no,age
 2016,89.1,No,65 years and over
 2016,82.4,No,35-64 years
 2015,89.1,No,65 years and over
-2017,79.1,No,16-64 years
-2017,81.1,No,16-64 years
 2012,89.8,No,65 years and over
 2012,89.4,No,65 years and over
 2012,86.5,No,65 years and over
 2016,91.7,No,65 years and over
-2017,83.9,No,16-64 years
 2015,87.9,No,65 years and over
-2016,75.6,No,16-64 years
 2017,89,No,35-64 years
 2017,91,No,65 years and over
 2017,91,No,65 years and over
@@ -2443,11 +1848,9 @@ date_code,value,smokes_yes_no,age
 2012,76.3,No,65 years and over
 2015,88,No,65 years and over
 2012,87.4,No,65 years and over
-2016,77.7,No,16-64 years
 2017,83.8,No,35-64 years
 2012,74.1,No,35-64 years
 2012,85.2,No,65 years and over
-2015,76.4,No,16-64 years
 2016,75.6,No,16-34 years
 2017,84.7,No,35-64 years
 2012,77,No,16-34 years
@@ -2465,9 +1868,6 @@ date_code,value,smokes_yes_no,age
 2014,89.3,No,65 years and over
 2017,77.2,No,35-64 years
 2013,79.7,No,35-64 years
-2017,81.8,No,16-64 years
-2016,76.6,No,16-64 years
-2013,72.9,No,16-64 years
 2013,73,No,16-34 years
 2013,86.6,No,16-34 years
 2017,75.7,No,16-34 years
@@ -2489,7 +1889,6 @@ date_code,value,smokes_yes_no,age
 2015,73.7,No,35-64 years
 2012,76.5,No,35-64 years
 2017,85.4,No,65 years and over
-2015,82.2,No,16-64 years
 2016,87.3,No,65 years and over
 2014,61.9,No,35-64 years
 2013,78.1,No,35-64 years
@@ -2506,21 +1905,13 @@ date_code,value,smokes_yes_no,age
 2018,81,No,35-64 years
 2018,79.7,No,16-34 years
 2018,79.7,No,35-64 years
-2018,80.3,No,16-64 years
 2018,80.2,No,35-64 years
 2018,80.1,No,35-64 years
-2018,80.8,No,16-64 years
 2018,80.8,No,65 years and over
 2018,80.9,No,16-34 years
-2018,80.7,No,16-64 years
-2018,74.6,No,16-64 years
 2018,73.2,No,35-64 years
 2018,71,No,16-34 years
 2018,86.7,No,65 years and over
-2018,82.7,No,16-64 years
-2018,80.7,No,16-64 years
-2018,83.4,No,16-64 years
-2018,76.4,No,16-64 years
 2018,74.3,No,16-34 years
 2016,75.8,No,35-64 years
 2016,77.9,No,35-64 years
@@ -2529,74 +1920,41 @@ date_code,value,smokes_yes_no,age
 2017,78.9,No,35-64 years
 2012,67.4,No,35-64 years
 2015,76.6,No,16-34 years
-2017,78.4,No,16-64 years
-2014,72.9,No,16-64 years
-2015,77.9,No,16-64 years
-2015,81,No,16-64 years
-2013,76.2,No,16-64 years
 2017,90.3,No,65 years and over
 2017,88.5,No,65 years and over
-2013,72.6,No,16-64 years
-2014,80.4,No,16-64 years
-2014,76,No,16-64 years
 2017,92.3,No,16-34 years
-2017,78.9,No,16-64 years
 2017,77.1,No,16-34 years
 2016,89.5,No,16-34 years
 2016,74.3,No,16-34 years
 2016,78.4,No,35-64 years
 2016,73.9,No,35-64 years
 2012,76.6,No,16-34 years
-2014,76.3,No,16-64 years
 2015,80.4,No,35-64 years
-2014,89.8,No,16-64 years
 2016,63.3,No,16-34 years
-2014,77,No,16-64 years
-2013,72.9,No,16-64 years
 2012,72.5,No,16-34 years
 2012,72.8,No,35-64 years
 2014,76.1,No,35-64 years
 2017,86.1,No,16-34 years
-2015,76.4,No,16-64 years
 2017,84.8,No,35-64 years
-2014,74.5,No,16-64 years
 2017,70.7,No,35-64 years
 2013,67.1,No,16-34 years
 2017,87.8,No,65 years and over
-2015,75.1,No,16-64 years
-2013,67.8,No,16-64 years
-2015,76.2,No,16-64 years
-2014,78.6,No,16-64 years
 2016,80.4,No,65 years and over
-2015,89.6,No,16-64 years
-2018,78.8,No,16-64 years
-2018,77.8,No,16-64 years
-2018,77.8,No,16-64 years
 2018,79,No,35-64 years
-2018,79,No,16-64 years
 2018,80.5,No,16-34 years
 2018,74,No,35-64 years
-2018,80.9,No,16-64 years
 2018,75.8,No,16-34 years
 2018,77.9,No,35-64 years
 2018,77.5,No,35-64 years
-2018,77.9,No,16-64 years
-2018,79.6,No,16-64 years
 2018,81.1,No,16-34 years
 2018,78.7,No,16-34 years
-2018,80.9,No,16-64 years
-2018,80.9,No,16-64 years
-2018,79.6,No,16-64 years
 2018,76.3,No,16-34 years
 2018,76.3,No,35-64 years
 2018,73.7,No,35-64 years
 2018,75.4,No,35-64 years
-2018,73.7,No,16-64 years
 2018,76.1,No,16-34 years
-2018,80.4,No,16-64 years
 2018,73.5,No,16-34 years
 2018,76.4,No,16-34 years
-2018,80,No,16-64 years
 2018,80,No,16-34 years
 2018,76.7,No,35-64 years
 2018,75.4,No,16-34 years
@@ -2607,27 +1965,11 @@ date_code,value,smokes_yes_no,age
 2018,82.4,No,16-34 years
 2018,91.6,No,65 years and over
 2018,79.3,No,16-34 years
-2018,79.3,No,16-64 years
 2018,77.1,No,16-34 years
-2018,77.6,No,16-64 years
 2018,79.8,No,16-34 years
 2018,77.2,No,16-34 years
-2018,77.1,No,16-64 years
 2018,88.9,No,65 years and over
 2018,91,No,65 years and over
 2018,77.3,No,16-34 years
 2018,76.5,No,35-64 years
-2018,77.7,No,16-64 years
 2018,76.3,No,35-64 years
-2018,77.2,No,16-64 years
-2015,72,No,16-64 years
-2015,74.1,No,16-64 years
-2014,81.1,No,16-64 years
-2014,78,No,16-64 years
-2015,72.6,No,16-64 years
-2014,79,No,16-64 years
-2014,69.1,No,16-64 years
-2014,74.2,No,16-64 years
-2018,77.4,No,16-64 years
-2018,79.3,No,16-64 years
-2018,77.5,No,16-64 years
