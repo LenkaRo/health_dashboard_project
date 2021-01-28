@@ -7,6 +7,11 @@ library(tmap)
 library(shapefiles)
 library(infer)
 library(markdown)
+library(tm)
+library(SnowballC)
+library(wordcloud)
+library(RColorBrewer)
+library(rsconnect)
 
 source(here("r_scripts/word_cloud.R"))
 source(here("r_scripts/life_expectancy.R"))
@@ -53,6 +58,7 @@ ui <- (fluidPage(
                              choices = c("Life Expectancy", "BMI in Children", "BMI in Adults", "Activity Levels of Adults", "Mental Health", "Smoking Levels")
                  ),
                  
+                 br(),
                  br(),
                  # show word cloud
                  plotOutput("word_cloud")
@@ -247,8 +253,8 @@ server <- (function(input, output) {
     file_overview <- switch(input$select_priority,
                    "Life Expectancy" = "descriptions/life_expectancy.md",
                    #"BMI in Children" = "descriptions/f.md",
-                   #"BMI in Adults" = "descriptions/bmi_id_adults.md",
-                   #"Activity Levels of Adults" = "descriptions/activity_levels_of_adults.md",
+                   "BMI in Adults" = "descriptions/bmi_id_adults.md",
+                   "Activity Levels of Adults" = "descriptions/activity_levels_of_adults.md",
                    #"Mental Health" = "descriptions/i.md",
                    #"Smoking Levels" = "descriptions/j.md"
     )
