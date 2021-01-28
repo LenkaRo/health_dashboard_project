@@ -5,7 +5,7 @@ library(janitor)
 #Read in the data. 
 asthma_line_rate_MF_BS <- read_csv(here::here("data/asthma_data/graph_line_rates_MF_BS.csv"))
 
-asthma_line_rate_MF_BS %>%                                    
+asthma_line_rate_MF_BS_graph <- asthma_line_rate_MF_BS %>%                                    
   ggplot() +
   aes(x = discharge_fin_yr_end,
       y = as.numeric(rate),

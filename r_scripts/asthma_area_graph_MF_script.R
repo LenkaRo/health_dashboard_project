@@ -5,7 +5,7 @@ library(janitor)
 #Read in the data. 
 area_graph_asthma_data <- read_csv(here::here("data/asthma_data/graph_area_asthma_MF_data.csv"))
 
-area_graph_asthma_data %>%
+area_graph_asthma_data_graph <- area_graph_asthma_data %>%
   ggplot() +
   aes(x = year, y = deaths_in_scotland, fill = cause_of_death) +
   geom_area() +

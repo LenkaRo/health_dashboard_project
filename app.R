@@ -15,6 +15,10 @@ source(here("r_scripts/exercise.R"))
 source(here("r_scripts/map_asthma.R"))
 source(here("r_scripts/priority_3_graph.R"))
 source(here("r_scripts/priority_4_graph.R"))
+source(here("r_scripts/asthma_area_graph_MF_script.R"))
+source(here("r_scripts/asthma_line_deaths_by_gender_script.R"))
+source(here("r_scripts/asthma_line_rate_by_gender_script.R"))
+source(here("r_scripts/asthma_MF_boxplot_script.R"))
 source(here("r_scripts/hypothesis_test.R"))
 
 
@@ -97,7 +101,7 @@ ui <- (fluidPage(
                  
                  selectInput("select_topic",
                              label = "Select Topic",
-                             choices = c("a", "b", "c", "Hypothesis test - null distribution")
+                             choices = c("Asthma in proportion", "Death by gender", "Rate by gender", "Asthma by gender", "Hypothesis test - null distribution")
                  ),
                  
                  mainPanel(
@@ -196,19 +200,24 @@ server <- (function(input, output) {
   
   output$graph_2 <- renderPlot({
     
-    if(input$select_topic=="a"){
+    if(input$select_topic=="Asthma in proportion"){
       
-      return(doug_1_graph)
+      return(area_graph_asthma_data_graph)
     }
     
-    if(input$select_topic=="b"){
+    if(input$select_topic=="Death by gender"){
       
-      return(doug_2_graph)
+      return(asthma_line_deaths_by_gender_graph)
     }
     
-    if(input$select_topic=="c"){
+    if(input$select_topic=="Rate by gender"){
       
-      return(doug_3_graph)
+      return(asthma_line_rate_MF_BS_graph)
+    }
+    
+    if(input$select_topic=="Asthma by gender"){
+      
+      return(stays_and_rates_2012_2019_graph)
     }
     
     if(input$select_topic=="Hypothesis test - null distribution"){
@@ -221,9 +230,10 @@ server <- (function(input, output) {
   
   output$md_file <- renderUI({
     file <- switch(input$select_topic,
-                   #"a" = "descriptions/a.md",
-                   #"b" = "descriptions/b.md",
-                   #"c" = "descriptions/c.md",
+                   #"Asthma in proportion" = "descriptions/a.md",
+                   #"Death by gender" = "descriptions/b.md",
+                   #"Rate by gender" = "descriptions/c.md",
+                   #"Asthma by gender" = "descriptions/d.md",
                    "Hypothesis test - null distribution" = "descriptions/null_hypothesis.md"
     )
     includeMarkdown(file)

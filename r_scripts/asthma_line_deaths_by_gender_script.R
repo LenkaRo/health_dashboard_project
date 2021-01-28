@@ -5,7 +5,7 @@ library(janitor)
 #Read in the data. 
 asthma_line_deaths_by_gender <- read_csv(here::here("data/asthma_data/graph_line_asthma_MF_deaths.csv"))
 
-asthma_line_deaths_by_gender %>%
+asthma_line_deaths_by_gender_graph <- asthma_line_deaths_by_gender %>%
   ggplot() +
   aes(x = year, y = deaths_in_scotland, colour = sex) +
   geom_line() +
@@ -15,5 +15,5 @@ asthma_line_deaths_by_gender %>%
     x = "Year",
     y = "Deaths",
     title = "Asthma Deaths",
-    subtitle = "Scotland - 2008-2018 - by sex",
+    subtitle = "Scotland - 2008-2018 - by sex"
     )
