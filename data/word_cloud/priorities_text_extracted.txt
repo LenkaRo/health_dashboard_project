@@ -1,0 +1,727 @@
+Public Health Priorities for Scotland
+              b
+c
+ Public Health Priorities for Scotland 01
+Contents
+ 01 Foreword 02
+02 Why we need change: 04
+Scotland’s Health 03 The Road to here:
+Developing the Priorities 06
+The Priorities 08
+Priority 1
+A Scotland where we live in vibrant,
+healthy and safe places and communities 08
+Priority 2
+A Scotland where we flourish in our early years 14
+Priority 3
+A Scotland where we have good mental wellbeing 20
+Priority 4
+A Scotland where we reduce the use of
+and harm from alcohol, tobacco and other drugs 26
+Priority 5
+A Scotland where we have a sustainable,
+inclusive economy with equality of outcomes for all 32
+Priority 6
+A Scotland where we eat well,
+have a healthy weight and are physically active 38
+Our Reform Principles 44 Next Steps 46 Appendix 48
+02
+01
+Foreword
+In a vibrant, modern Scotland it should be possible for everyone to be as healthy as they can be. It should be the case that the social, economic and physical environments we live in help create health and wellbeing, and that local communities and public services make it possible for individuals to take positive decisions about their own health and feel supported to do so.
+Unfortunately, for too many people in Scotland and in too many places, this is not the case. As a nation, our overall health is unacceptably poor in comparison to other Western European countries, and many people living in our most deprived communities still experience poorer health than those living in our wealthier areas.
+Life expectancy in Scotland is a success
+story because we are living longer than ever before. But life expectancy, and our healthy life expectancy – the years we live in good health – varies significantly across Scotland. This variation has a huge impact on individuals,
+on communities and on Scotland as a whole. This variation is unacceptable.
+We want Scotland to be a place where everybody thrives. We want to reset how Scotland thinks about wellbeing and health. Wellbeing cannot be created and sustained by the NHS alone.
+High quality and equitable healthcare and health protection services are vital in improving and maintaining health, addressing health inequalities and protecting us from communicable and environmental threats. But it’s not primarily in our hospitals or our GP surgeries that health is first created. It is in our homes and our communities,
+in the places we live and through the lives we lead. These are the places where we must work to make it easier for people to be healthy, and the efforts of society as a whole must increasingly turn towards supporting this sort of ‘wellbeing creation’.
+These public health priorities represent an important milestone. They represent agreement between the Scottish Government and
+Local Government about the importance of focusing our efforts to improve the health of
+the population. The priorities connect strongly to, and will help accelerate, our wider work
+and include local strategic planning and partnership activity; the refreshed National Performance Framework and related National Outcomes; our Digital Health and Care Strategy, and forthcoming public health policies to be published in the coming weeks and months, and our efforts towards sustainable economic growth. This document also sets out how we will work together and with other parts of the system to achieve this change (our reform principles).
+And these priorities are not just for our public health professionals. This document is intended to be a foundation for the whole system,
+for public services, third sector, community organisations and others, to work better together to improve Scotland’s health, and
+to empower people and communities. It is a starting point for new preventative approaches, and a new awareness around wellbeing, that will develop and strengthen in the coming years.
+Over the last year, the Scottish Government and the Convention of Scottish Local Authorities (COSLA) have engaged widely to develop and agree these priorities. The six
+ Public Health Priorities for Scotland
+03
+   priorities presented here reflect a consensus on the most important things Scotland as a whole must focus on over the next decade if we are to improve the health of the population. They will require action by national and local government, and we are building consensus and partnerships across the system to make progress. We will work closely with the NHS, integration authorities, community planning partnerships, the third and independent sectors, and with community voices. And we will look for opportunities to work with private organisations in the pursuit of improving population health where it is appropriate
+and possible to do so.
+Our ultimate aim is to improve the health of the population and to reduce the unacceptable variation in life expectancy that exists across Scotland. Tackling the health inequalities that prevent good health runs through all that we do, and this is reflected in our reform principles. In taking that work forward we are committed to a shared vision for a modern, inclusive Scotland where everyone is able to live with human dignity.
+We will ensure our approach to improving
+the health of the population is fully consistent with Scotland’s commitment to equality and human rights, including the duty we have to meet international obligations and to work in ways that eliminate discrimination, advance equality of opportunity and foster good relations between people who share a protected characteristic and those who do not.
+Working together, we will make our public services more sustainable. We will embrace new and innovative technologies and
+approaches to provide people with the means to drive change in their communities and to make more informed decisions about their health and healthcare.
+This is only the first step of our partnership of reform to improve the public’s health. We have started work to develop a new national public health body for Scotland, which will provide support for delivery of change at national and local level. And we will be working to develop stronger support for partnerships who are collaborating with communities locally to support communities locally to create wellbeing.
+None of this will be easy and the challenge is considerable. But our partnership presents
+a real opportunity to create long-lasting and sustained improvements in the health and wellbeing of our communities.
+We thank all those organisations who have agreed to contribute their support and we look forward to working together with them in the shared interests of the people of Scotland. Over the coming months, we hope many more partners will join us so, that together, we can enable a new coalition for the public’s health in Scotland.
+Aileen Campbell MSP,
+Minister for Public Health, The Scottish Government
+Councillor Peter Johnston,
+Health and Wellbeing Spokesperson, COSLA
+  04
+02
+Why we need change: Scotland’s Health
+ Over the last century our health has improved. There have been long term increases in average life expectancy in Scotland and we have seen considerable improvements in the overall health of the population. In Scotland, and in other countries, this progress is a result of public health efforts including action to tackle infectious disease and initiatives to provide clean water and sanitation. The provision of high quality healthcare to those who need it has also
+helped improve the health of the population.
+In 2018, the average life expectancy at birth across Scotland was 81 years for females and 77 years for males. People are now living longer than ever before, and that is a huge success.
+Despite this tremendous progress, Scotland now has one of the lowest life expectancies
+Figure 1: Life Expectancy in Scotland (red line) and other Western European countries
+   85
+   80
+   75
+   70
+   65
+   60
+in Western Europe and the lowest of all UK countries. This was not always the case – in the earlier half of the 20th century Scotland’s life expectancy was well aligned with others in Europe. (Figure 1 below).
+While life expectancy is increasing overall, there are significant differences in the life expectancy and health of people across Scotland, depending on factors such as where they live, their age and gender,
+and their ethnic group. People living in less affluent areas of Scotland have a shorter life expectancy than those living in wealthier areas. (Figure 2 opposite).
+Healthy life expectancy – the number of years we can expect to live in good health – also varies significantly across Scotland. At the population level, there are marked differences
+Western Europe Scotland
+        Source: Institute for Health Metrics and Evaluation (IHME). Life Expectancy & Probability of Death Data Visualization. Seattle, WA: IHME, University of Washington, 2016. Available from http://vizhub.healthdata.org/le/. (Accessed June 2018)
+1990 1991 1992 1993 1994 1995 1996 1997 1998 1990 2000 2001 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016
+Life Expectancy at Birth (years)
+Public Health Priorities for Scotland
+05
+ between the most and least deprived areas in terms of how long people can expect to live in good health. This can be a difference of up to 28 years for men and 25 years for women.
+These differences are strongly influenced
+by the social conditions in Scotland, the circumstances into which people are born, the places where they live, their education, the work they undertake, and the extent to which good social networks exist.
+The impact of these variations in health within Scotland, at the same time as the population is ageing, is wide-reaching. More people in Scotland are now living with one or more complex health conditions. They require more health and social care and that requirement will increase as they age. Fewer people are able to work and remain in work as a result of
+Figure 2: Life Expectancy in Scotland, 2006 – 2016; and comparing affluent and less affluent areas
+health problems or because of the requirement to care for loved-ones who are unwell.
+There are human costs in terms of life expectancy and years lived in poor health, but this also limits our ambition to build a thriving and prosperous Scotland where our people achieve their full potential. For our public services, responding effectively to this burden of poor health and inequality will become unsustainable.
+None of this is acceptable. Despite tremendous progress in life expectancy it is not acceptable that our health is poorer than other parts of Europe, and it is not acceptable that people in Scotland are not able to thrive.
+The time for change, for a transformation in our efforts, is now.
+77
+88.5
+81.1
+92.8
+ Years
+2006
+74.9
+ Years Craigmillar 60.3 (Edinburgh)
+Gretna (Dumfries & Galloway)
+ 2016
+  Years
+2006
+79.8
+  Years Craigneuk Wishaw 67.3 (North Lanarkshire)
+Earnock (South Lanarkshire)
+ Source: Scottish Public Health Observatory http://www.scotpho.org.uk/population-dynamics/healthy-life-expectancy/data/scotland/ (Accessed June 2018)
+2016
+ 06
+03
+The Road to here: Developing the Priorities
+             b
+c
+Public Health Priorities for Scotland
+07
+ Over the last year, the Scottish Government and COSLA, working with a range of partners and stakeholders, have engaged widely across Scotland to develop a set of priorities for the whole system. We have undertaken
+a number of collaborative activities and engagements, including a series of regional engagement events which involved several hundred people from across the public and third sectors. And we have worked with public health and other experts to develop criteria and to assess and weigh the evidence. We have tested our emerging conclusions with experts and other stakeholders. We have
+also reviewed Local Outcome Improvement Plans (LOIPs), to ensure our new public health priorities are consistent with local community planning priorities, and we have reviewed key information sources and strategies relevant to public health to help inform the development of the priorities.
+The agreed priorities reflect the issues we believe are most important to focus on over the next decade if we are to improve the health of the nation. The priorities are a foundation
+for the systemic change needed to achieve real and tangible improvements in the nation’s health and are intended to provide a focus for our collective efforts.
+The priorities are inter-related and interdependent, reflecting the complexity of Scotland’s health challenges and the effort needed nationally, regionally and locally to make a difference.
+The agreed priorities reflect the issues
+we believe are most important to focus on over the next decade if we are to improve the health of the nation.
+The priorities do not reflect all of the activities and efforts that contribute to the health of the population in Scotland. Local priorities and local variation to reflect local need will continue to be important. There are many important activities undertaken by councils, public
+health professionals and others in Scotland, which are included in the broader public health reform work but which are not explicitly reflected in these thematic priorities.
+For example, our work to protect the health
+of the population from serious risks and infectious diseases through vaccination, infection control and incident response (health protection), will continue to be an essential public health function and must be maintained. We will not compromise our existing, high quality protections and our ability to respond to emerging threats.
+We also need to continue, and strengthen,
+our efforts to ensure our health and care services are designed and delivered in the best possible way to meet population needs and improve health and wellbeing.
+But these priorities reflect those things where we believe a concerted effort across Scotland will help us reach a tipping point at the national level in the state of Scotland’s health, and which will lead to the greatest reduction in health inequalities.
+ 08
+Priority 1
+A Scotland where we live in vibrant, healthy and safe places and communities
+             b
+c
+Public Health Priorities for Scotland
+09
+  The places we live, work and play, the connections we have with others and the extent to which we feel able to influence the decisions that affect us – all have a significant impact
+on our health and wellbeing. The immediate physical environment,
+the social networks we belong to, the local economy, our workplace and the accessibility of services
+are all important.
+How we design our surrounding environment provides opportunities to develop local approaches to improving people’s health that draw on all the assets and resources of
+a community, including how we integrate public services and how we build community resilience.
+Why is place and community important?
+People in Scotland live in a variety of environments from cities, medium-sized
+towns and villages, to large rural areas,
+coastal communities and islands. Wherever we live, creating well-designed and sustainable communities where we are able to access the amenities and services we need is especially important. Each place has its own assets,
+as well as health challenges and these vary across Scotland. The homes we live in are an important aspect of how we experience place and community, and everyone should have access to an affordable, safe and warm home. People also need to feel they are fully involved in local decision making and our communities need to be at the heart of decisions about their local environment.
+ 10
+Priority 1
+A Scotland where we live in vibrant, healthy and safe places and communities
+How will we make a difference?
+We want to change the places and environments where people live so that all places support people to be healthy and create wellbeing. Whether it is physical improvements to help us move from place
+to place with ease; empowering communities to make decisions that directly affect them; improving local access to green spaces; or shifting the commercial environment towards the availability of healthier options. The evidence is strong that improvements to
+our environment have a positive and lasting impact on the public’s health.
+Creating safe places that nurture health has long been central to the public health agenda. From the early days of public health this has included access to safe water and sanitation, ensuring accessible health services and improving our environmental health through food safety and improvements to the quality of the air we breathe. We now need the other parts of the system that have a role to play in the shape of communities and places to be increasingly thinking about the health impacts of decisions and activities.
+Planning, construction, social housing and transport policy all lie outside the remit of
+the health service, but all materially impact our health. The extent to which long term considerations of health are taken into account and balanced against other priorities when making decisions about the places in which we live varies – but there is consensus for closer collaboration between those who design and build places, those who live in them and those with an interest in improving
+the public’s health. For example, the Scottish Government’s 2017-18 Programme for Government includes a commitment around planning systems and the food environment
+in our schools, and councils are working
+with partners, including local communities,
+to tackle fuel poverty, reduce violence, prevent accidents and co-design environments that support more active travel.
+Joined-up and better use of data will be essential to understanding the places we
+live. Partnership activity is now underway through the Health and Justice Collaboration Improvement Board and specifically between, integration authorities and emergency services to better understand demand, to identify
+and support vulnerable people and to drive the prevention agenda. We will seek to build further partnerships around data of this sort.
+The recently published Local Outcome Improvement Plans (LOIPs) and locality plans prioritise place and community with a strong focus on affordable housing; connected, stronger and safer places; and on maximising community participation in decision making.
+ Public Health Priorities for Scotland 11
+   The Community Empowerment Act aims to make it easier for communities to have more influence over the decisions that affect their area and the Planning (Scotland) Bill aims
+to strengthen these powers further and to develop a greater link between community planning and development planning – working towards communities themselves being able to devise plans for their places. The Bill also includes a commitment to work with local authorities to better support people to live
+an active lifestyle.
+In terms of tackling loneliness and isolation,
+the Scottish Government is developing a
+vision for a more Connected Scotland, where physical spaces make it easier for communities to gather together for mutual support and self-help. While reducing isolation and loneliness is not always explicitly stated as an aim in planning arrangements, we know that community operated/programmed buildings can bring local communities together. Assets- based approaches, focusing on the strengths of a place to build locally directed improvements, are a positive way to engage with people and support the prevention agenda.
+Councils across Scotland are actively working with local communities and the voluntary sector to achieve improvements in the quality of the local environment, through the use of regulatory powers, planning responsibilities, and regeneration of urban environments. Examples include strategic approaches to play provision, green spaces, sustainable transport networks and dementia friendly communities.
+ 12
+Priority 1
+A Scotland where we live in vibrant, healthy and safe places and communities
+10% most
+–     deprived areas
+10% least
++   deprived areas
+                         In 2016, just over three in ten adults in the 10 per cent most deprived areas of Scotland rated their neighbourhood as a very good place to live, compared to almost eight in ten of those living in the 10 per cent least deprived areas.1.1
+         39,000 27%
+of dwellings (2%) in of households in Scotland are  Nearly 7 in 10 people
+Scotland fell below the living in fuel poverty (649,000 tolerable standard (classed households).
+as ‘condemnatory’).1.2
+(68%) felt they belonged to their local area ‘a great deal’ or ‘quite a lot’.1.3
+7 in 10
+Public Health Priorities for Scotland
+13
+  12
+3Improving housing is the third top priority for people in Scotland after education and economy.1.4
+36%
+ Only a third (36%) of households in the most deprived urban areas of Scotland say there is a natural environment or wooded area in their neighbourhood.1.6
+34%
+Just over a third (34%) of people said they would like to be more involved
+in the decisions their council makes.1.8
+ The most deprived areas of Scotland have twice the density of shops selling cigarettes and twice the density of off-licences per person as the least deprived.1.5
+Least deprived per 10,000
+Most deprived per 10,000
+ 100
+  50
+25
+53
+      
+23%
+ 23 per cent of adults agreed that they can influence decisions affecting their local area. Those living in more deprived communities are less likely to feel they can influence local decisions.1.7
+       Two out of ten adults in Scotland said they did not feel very or fairly safe walking alone in their local area after dark.1.9
+ 14
+Priority 2
+A Scotland where we flourish in our early years
+             b
+c
+ Public Health Priorities for Scotland
+15
+ We want Scotland to be the best place for a child to grow up. Addressing
+the health and wellbeing issues of
+our children and young people and recognising, respecting and promoting their rights is essential to achieving this outcome. This priority places particular emphasis on our early years, recognising the impact that early childhood poverty, disability and adverse childhood experiences can have on health outcomes throughout
+a person’s life.
+Why are the early years important?
+Improving health and wellbeing and supporting parents, carers and families is critical to Scotland’s health and prosperity, both now and in the future. Evidence suggests that our childhood has a large influence on our health as adults, no matter what kind of life we lead in later years. Investing in getting it right in the early years is a highly cost-effective approach and can produce huge benefits across
+society. By taking a whole-systems approach to childhood in the earliest years, from pre- conception onwards, we maximise the impact on our nation’s future health. And we will ensure services continue to work with parents, carers and families as the most important people in a child's life. Investing early in our young peoples’ future is the best form of prevention.
+ 16
+Priority 2
+A Scotland where we flourish in our early years
+How will we make a difference?
+Creating healthy childhood experiences is a shared responsibility for all of Scottish society. Public services are working with partners
+in the third and private sectors to focus on the early years and Getting It Right for Every Child (GIRFEC) continues to be our approach to improving outcomes and supporting the wellbeing of children and young people.
+The Scottish Government, the NHS and local government all rightly focus much of their resource on the early years, through provision of funding for early learning and childcare, health visiting, early years services, and education and support for families. The GIRFEC approach has been developed and embedded across Scotland over a number of years. However, we now need to build on this and increase our ambition across the whole system by recognising that everyone has a role to play collectively in continuing to deliver improvement –– not just early years professionals.
+Pregnancy
+We need to ensure that families are sufficiently supported financially, emotionally and in
+terms of employment and social security rights to have a healthy pregnancy and post- natal period. This includes being smoke-free, well-nourished and supported to breastfeed where possible. Despite clear evidence of the benefits to mother and child of breastfeeding, rates remain low in Scotland and are lowest
+in young mothers and the most deprived groups. We need to join up the whole system to ensure women and families get the right support, in the right place, at the right time.
+Adverse Childhood Experiences
+Adverse Childhood Experiences (ACEs) describe stressful or traumatic events occurring during childhood, such as physical or verbal abuse or neglect; sexual abuse; parental separation; problem substance use; incarceration; mental ill health; or domestic violence. Such experiences can lead to an increased risk of ill health later in life. There
+is strong evidence that, without intervention, ACEs have long term impacts throughout the life-course on health, emotional wellbeing and other life outcomes.
+The Scottish Government is working closely with NHS Scotland and other partners to raise awareness of ACEs and their impacts across various sectors, and councils are working
+with community planning partners at the local level to prevent ACEs from occurring and
+to mitigate the impact where they do. This includes working with the many organisations
+         Public Health Priorities for Scotland
+17
+  across Scotland who are already developing trauma-informed approaches to support children and young people who experience adverse and/or traumatic events. We will work to strengthen these national and local efforts as we continue to embed a system-wide ACE- informed approach within the wider GIRFEC approach.
+Attainment Gap
+Closing the poverty-related attainment gap
+in schools between those children from low- income and high-income households is a
+key priority at both national and local level. This is supported by £1bn of investment in the expansion of early learning and childcare which the Scottish Government and local government are jointly delivering from 2020 onwards. This will deliver quality early learning and childcare in an effort to reduce the poverty-related attainment gap and to provide additional support to families. In addition, £750m has been committed to the Attainment Scotland Fund (ASF) over the lifetime of this Parliament. This includes £120m Pupil Equity Funding, which provides resources direct to schools intended to help tackle the attainment gap through targeted improvement activity in literacy, numeracy and health and wellbeing.
+Local Level
+Councils across Scotland are working with community planning partners to plan and deliver joined-up local children’s services which take a holistic approach to meeting the social, emotional and developmental needs
+of children. Working closely with families, communities and the third sector, local partnerships are acting to protect and improve the wellbeing of our children and young people to ensure they have the best start in life. Examples include providing opportunities for safe play, identifying and supporting
+young carers, providing additional support for learning and tackling violence against women and girls.
+All that councils and their partners do to support families through providing community facilities, employment support, housing, education, parenting support and safe outdoor spaces helps to form a strong foundation
+for families and communities to ensure our children can flourish.
+ b
+c
+18
+Priority 2
+A Scotland where we flourish in our early years
+230,000
+230,000 children live in relative poverty after housing costs in Scotland, this is around 1 in 4 children. At least seven out of ten of these live in a house where at least one adult is working..2.2
+        10mins
+A child is born every 10 minutes in Scotland (54,488 births in 2016).2.1
+  Breastfeeding
+ 63%
+ For some time after birth
+ 41%
+ By 6-8 wks
+  63% of babies are breastfed for at least some time after birth, but only 41% were being breastfed by 6-8 weeks of age.
++
+Those in the wealthiest areas are 1.7 times as likely to be breastfed at birth, and 2.3 as likely at 6-8 weeks as those in the most deprived areas.2.3
+Public Health Priorities for Scotland 19
+       47%
+Survey data from England has shown: almost half (47%)
+of individuals experienced at
+least one adverse childhood experience.2.5
+3x 6x 8x Experiencing four or more ACEs was associated with:
+0 3 x odds of smoking as an adult
+0 6 x odds of unintended teenage pregnancy 0 8 x odds of violence perpetration as an adult
+4 9 7944
+1in 1in -+
+    One in four children from the most 7944 teeth are extracted under deprived areas (24%) had at least one general anaesthetics every year
+developmental concern identified in their 27-30 month review compared to one in nine for the least deprived areas (11%).2.4
+at a cost of approx. £5m and at least 8000 days are lost from school/nursery and their parents’ work.2.6
+62 36 %%
+62% of 15 year old girls and 36% of 15 year old boys feel pressured by schoolwork ‘a lot’, the highest ever level. 2.8
+    + 3x - 5x
+  School leavers from the wealthiest areas are three times as likely to be going to higher education as those in the most deprived areas
+School leavers in the most deprived areas were more than five times as likely to be unemployed on leaving school as those from the wealthiest areas.2.7
+b
+c
+ 20
+Priority 3
+A Scotland where we have good mental wellbeing
+             b
+c
+Public Health Priorities for Scotland
+21
+  Mental wellbeing is about both feeling good and functioning effectively, maintaining positive relationships
+and living a life that has a sense
+of purpose. It is shaped by our life circumstances, our relationships and our ability to control or adapt to the adverse circumstances we face.
+Good mental health improves outcomes in education, employment and health and benefits individuals, families, communities and society.
+Why is mental wellbeing important?
+Mental health and wellbeing is a significant public health challenge for Scotland which needs to be addressed if we are to ensure everyone in Scotland can thrive. Good mental health is profoundly important for growth, development, learning and resilience. It
+is associated with better physical health, positive interpersonal relationships and well- functioning, more equitable and productive societies.
+Mental health is also linked to wider inequalities. Socio-economic status has a bearing on mental health and those who experience disadvantage are more likely to have poorer mental health. Considerable progress has been made in reducing the stigma associated with talking about our mental wellbeing and the rates of reported mental health conditions continue to increase, as does the use and cost of prescribed medications. Although our wellbeing
+as a nation remains stable we still face unacceptable inequalities. For example, young women and those living in more deprived areas having lower than average wellbeing than the country as a whole.
+ 22
+Priority 3
+A Scotland where we
+have good mental wellbeing
+In 2016, there were 728 deaths by suicide
+in Scotland; and nearly three-quarters of suicides in Scotland are by men. There is no acceptable number of deaths by suicide and our ambition for suicide prevention is that no one should die by suicide in Scotland. Further reductions in suicide will require building resilience and social capital, at the individual and community level.
+Our society is also facing new challenges to our mental wellbeing, for example social media can have both positive and negative impacts on our children and young people. Over
+three quarters of all mental health problems have their onset before the age of 20, and childhood and adolescence are the key
+stages for promotion and prevention to lay the foundations for future mental wellbeing.
+  Public Health Priorities for Scotland
+23
+   How will we make a difference?
+The Scottish Government’s 2017-27 Mental Health Strategy champions mental health
+as equally important as physical health, and calls for a preventative and early intervention approach to mental health, recognising the broad range of factors required to collectively improve wellbeing. Poverty, education,
+justice, social security and employment are
+all identified as areas beyond the reach of the NHS acting alone, where improved partnership approaches to public health can make a real difference.
+The Scottish Government, NHS Health Scotland and COSLA have jointly endorsed ‘Good Mental Health for All’ as a framework which community planning partnerships, integration authorities, local authorities, NHS boards, the third sector and other partners can use to plan collaborative action to tackle the determinants of mental health and the causes of inequalities in mental health. Integration authorities are also committed to shifting investment into communities and supporting individuals in self-management. These partnerships present opportunities for local work to be informed by public health evidence and approaches.
+The inter-relationship between drugs, alcohol, tobacco and mental health problems is well known. For example, there are particularly high levels of poor mental health and problems of tobacco, alcohol or drugs dependency among Scotland’s prison population. It is now well recognised that Police Scotland is dealing with increasing numbers of people in mental health distress and that this is placing significant demand on their services and that of health services.
+Police Scotland estimate that they responded to around 57,000 incidents in 2015 which had a mental health aspect. Innovative partnership projects, such as the Distress Brief Intervention pilots, show how the whole system working together can offer an alternative approach.
+Councils are working with partners at the local level to develop integrated approaches that balance protecting and improving our communities’ mental wellbeing with mental healthcare and treatment. Local initiatives include action to reduce stigma, to improve support in the workplace, to build more resilient communities and to tackle the inequalities in mental health which still exist.
+Increasingly, integration authorities in collaboration with community planning partners, are developing preventative service responses that focus on early intervention – such as wellbeing services and peer support networks, providing access to the creative arts, environmental projects, employment and training opportunities – all of which support people to build their personal resilience and social networks.
+24
+Priority 3
+A Scotland where we have good mental wellbeing
+1in4 90,000
+    15-20yrs
+People with life-long mental illness are likely to die 15-20 years prematurely because of physical ill-health.3.4
+   Approximately 1 in 4 people in the UK will experience a mental health problem
+each year.3.1
+1 in 8 men
+1in6 women
+1 in 8 men and 1 in 6 women self-reported a possible psychiatric disorder (GHQ 4+)
+in Scotland.3.2
+An estimated 90,000 people have dementia in Scotland.3.3
+16%
+11% of young people
+(18 to 34) report having attempted suicide and 16% report self-harm at some stage in their lives.3.6
+5x In 2012/2013, adults in
+the most deprived areas were
+five times more likely
+to have below average wellbeing than those in the least deprived areas (26% compared to 6%).3.7
+ Mental and substance
+use disorders are
+the third largest cause of death and disability in Scotland after cancer and cardio-vascular diseases.3.5
+  !
+  £10.7bn
+Mental health problems are estimated to cost Scotland £10.7 billion taking account of social and care costs, economic outputs and human costs.3.8
+Public Health Priorities for Scotland 25
+   Mental Health Stigma3.9
+40%
+40% of people would be willing to speak to their manager about their mental health
+57%
+90%
+90% of people would be
+  57% would be willing to have a relationship with a person who has a mental health problem.
+comfortable talking to another person about that person’s mental health
+69%
+94%
+  69% of Scots have witnessed people being treated differently or unfairly because of a mental health
+94% would speak to a health professional about their own mental health problem.
+1,259,000 days
+There were an estimated 1,259,000 days lost due to self-reported stress, depression or anxiety caused or made worse by work in Scotland in 2017. This is around half of all working days lost due to ill health.3.10
+  In Scotland a total of 877,453 patients were dispensed at least one antidepressant during 2016/17 at a cost
+of £44m / year.
+This is 19% of the population of Scotland aged over 15. Two thirds of these were female, one third male.
+877,453
+ +75%
+  The total number of anti- depressants prescribed has increased by 75% since 2006/07.
+Around 2.5 times as many anti-depressants are prescribed each year to patients living in deprived areas as those in less deprived areas.3.11
+ 2
+26
+6
+Priority 4
+A Scotland where we reduce
+the use of and harm from alcohol, tobacco and other drugs
+             b
+c
+  Public Health Priorities for Scotland
+27
+  We need to reduce the harm caused by smoking, drinking and drugs in Scotland. Although there is no safe way to smoke, no safe level of drinking alcohol and no completely safe level
+of drug use, the number of people using these substances and the harm caused to both them and those around them can be minimised.
+Our definition purposefully avoids
+the terms addiction, dependency or misuse and highlights that alcohol
+and tobacco are the major causes
+of substance use harm in Scotland. The majority of the harm experienced across Scotland is not due to addiction, dependency or illegal drug use, but rather due to smoking and
+the large number of people drinking alcohol above the recommended guidelines per week on a regular basis.
+Substance use is a diverse topic and encompasses many issues. People’s use of substances will vary over their lifetime – most will incur little harm as a result. But some will experience personal issues, mental or physical health problems, or even death. Substance use by parents and carers can also have a huge adverse effect on children and young people’s health and wellbeing.
+Why are alcohol, tobacco and other drugs important?
+Difficult economic and social conditions can be a driver of harmful consumption, and substance use varies across communities. Collectively, the harm from these substances is contributing to a considerable proportion of the preventable ill health in Scotland. In a Scotland where we smoked, drank or used drugs less, we would all be healthier.
+Substance use is an area where we can
+make positive and sustainable changes now to realise significant progress through the generations and address the persistent public health problems that face communities. Sadly, Scotland remains a relatively heavy user of alcohol, tobacco and other drugs compared to similar countries. The harm that arises from this is significant and disproportionately affects those living in deprived communities.
+Additionally, we know that our existing care and treatment services are not reaching everyone who needs help, and that those who they do reach are not always treated successfully. For too many people, multiple disadvantage contributes to substance
+use, which in turn contributes to further disadvantage. Drug related deaths have increased dramatically in Scotland over the last five years and are now, roughly, two and
+a half times higher than in England and Wales.
+28
+Priority 4
+A Scotland where we reduce
+the use of and harm from alcohol, tobacco and other drugs
+How will we make a difference?
+The public health approach needs to be as diverse as the people affected and focus
+on the root causes of harm. We need to understand what drives consumption; considering price, availability and marketing as well as the underlying structural determinants such as socio-economic circumstances and the regulatory and legislative context.
+Currently, our younger generation will grow up in a country where they are less likely to be exposed to smoke or commercial influences to smoke and where excessive alcohol consumption may be less affordable due to minimum unit pricing and the ban on ‘buy one get one free’ alcohol promotions. Through national interventions such as these, we can move Scotland’s cultural norms over the long term. However, significant inequalities in terms of both use and impact still exist, with those living in our poorest communities more likely to experience harm caused by substance use.
+Reflecting on how the whole system is tackling this issue, Local Government, alcohol and drug partnerships, integration authorities, Police Scotland, the Scottish Prison Service and community planning partnerships are all developing locally tailored approaches to the issues faced on the ground.
+The Scottish Government has introduced legislative measures to reduce the harms associated with drinking and smoking and a bold ambition exists for a tobacco-free Scotland by 2034. The current national alcohol and drug strategies will be unified in 2018 to form a single strategy on treatment and recovery, focusing on more than just dependency.
+However, new challenges and opportunities are emerging all the time in the area of substance use and our response needs to constantly evolve.
+  Public Health Priorities for Scotland 29
+    Community planning partnerships bring together the main partners in minimising
+the harm resulting from our relationship with alcohol, tobacco and drugs in Scotland. Across Scotland, recovery peer support networks and recovery colleges are growing in strength and providing access to peer support, personal and social development, and learning opportunities to help reduce dependency on harmful substances.
+Local partners are working with communities to develop education programmes in schools and beyond, and to design health-promoting environments which support healthier choices and reduce harm.
+All local authorities have the power and duty to protect and improve public health through the licensing of alcohol sales. Many areas
+are developing over-provision policies which complement action by local trading standards on underage tobacco sales as part of an approach to creating healthier communities.
+30
+Priority 4
+A Scotland where we reduce
+the use of and harm from alcohol, tobacco and other drugs
+£3.6bn
+  In Scotland we have4.1
+   21% of adults smoking (target: 5%)
+2%6
+26% of adults drinking above the recommended (14 units / week)
+6% of adults stated they had used illicit drugs in the last year.
+6% of adults are both smoking and drinking over the recommended units.
+  It has been estimated that alcohol alone costs the Scottish economy £3.6 billion a year in health, social care, crime, productive capacity and wider costs. Only 7% (£268 million) of this is estimated to be incurred by the NHS.4.3
+50%
+Half of Scots report being harmed as a result of someone else’s drinking.4.4
+10,000 deaths per year
+Smoking remains the most important preventable cause of ill-health and premature death in Scotland, around 10,000 deaths every year / around one fifth of all deaths.
+867
+    In 2015, 1,150 people died in Scotland due to an alcohol-related cause, an average of 22 people per week.
+drug related deaths
+There were 867 drug-related deaths in 2016, the largest number ever recorded in Scotland. 23% higher rate of drug related deaths than in 2015 and more than double the rate in 2006.4.2
+Public Health Priorities for Scotland 31
+ 50 pence per unit
+Estimated impact of the minimum price of 50p minimum price per unit of alcohol:
+Alcohol related deaths would
+fall by about 120 per year
+by 2038
+A fall in hospital admission of 2,000 per year by 2038.4.6
+  10 years after the Smoking ban4.5:
+  18%
+A reduction in the rate of child asthma admissions of 18% per year compared to an increase of 5% per year in the years preceding it.
+39%
+39% reduction in second- hand smoke exposure in 11-year-olds and in adult non-smokers.
+17%
+17% reduction in heart attack admissions to nine Scottish hospitals. This compares with an annual reduction in Scottish admissions for heart
+attack of 3% per year in the decade before the ban.
+86%
+86% reduction in second- hand smoke in bars.
+           • Drinking, smoking and drug use are at an all-time low in surveys of 15 year old
+80% school children.
+• 80% of 15 year olds do not take any substance (smoke, alcohol, other drugs) regularly.
+• Less than 20% drank in the last week.4.7
+     3
+32
+2
+Priority 5
+A Scotland where we have a sustainable, inclusive economy with equality of outcomes for all
+             b
+c
+Public Health Priorities for Scotland
+33
+  Inequalities are those unjust and avoidable differences across our population and between groups within it. This can be inequality in disposable income, health, wealth, power or social opportunity. The Organisation for Economic Co-operation and Development (OECD) notes that income inequality undermines educational opportunities for disadvantaged individuals, hampering skills development and ultimately reducing their productivity and earning potential. These are all vitally important, as our health is intrinsically linked to our ability to participate fully in society and having the resources or the social connections to do so.
+Why is the economy important?
+Poverty and inequality remain the biggest
+and most important challenge to Scotland’s health, as the majority of health differences find their root cause in differences in wealth and income. During the development of the priorities, participants from across many different organisations and sectors consistently highlighted the importance of prioritising poverty and inequality. There was a strong message to do what is right and to deliver social justice and fairness. There was a strong recognition that if we truly wish to improve the public’s health, then we must reduce poverty and inequality and the effects of poverty and inequality on health.
+ 34
+ Priority 5
+A Scotland where we have a sustainable, inclusive economy with equality
+of outcomes for all
+ How will we make a difference?
+The health-related harms of relative poverty are complex, but can be reduced and are preventable. To do so, we must reverse the growing gaps in income and wealth
+in Scotland.
+Scotland’s Economic Strategy (SES) places Inclusive Growth as a core priority. This is defined as ‘growth that combines increased prosperity with greater equity; that creates opportunities for all and distributes the dividends of increased prosperity fairly’.
+We must share power and create opportunities for all people, families, communities and groups to be involved
+in decisions that affect them. We must prevent the unfair treatment, exclusion and isolation of both people and groups and the accompanying stigma they feel.
+The NHS, Scottish Government and Local Government also have a role as the employers of over 500,000 employees in Scotland – almost two out of every ten people. While those working in public services have a strong tradition of speaking out on inequality and poverty, public funds – and health resources
+in particular – are overwhelmingly targeted toward treating the consequences of that person’s life in poverty, rather than on tackling the determinants of poverty at a population level. If we are serious about reforming public health, this balance will need to be challenged at a local and national level. We cannot simply keep focusing our time and effort on patching up the impact of such inequalities; we must venture further upstream and fix them
+at source.
+For example, the Fairer Scotland Duty places a legal requirement on the NHS, Local Government and other statutory bodies to set out how they believe they can reduce inequalities caused by socio-economic disadvantage. This goes beyond considering how poverty impacts on service delivery and asks public bodies to address the causes
+of poverty. Agreeing to tackle this challenge through a whole systems approach would be a significant step forward.
+Public Health Priorities for Scotland
+35
+  The Child Poverty Act, changes to rates of income tax and efforts to mitigate the effects of benefit changes should all further contribute to reduce inequality.
+In addition to the Fairer Scotland Duty, the Fairer Scotland Action Plan sets out another 49 actions to tackle poverty and the impact of poverty, many of which intend to have a direct effect on our health. The planned Scottish Social Security agency will have a pivotal
+role in this through distribution of £3.3bn
+of devolved benefits.
+Across community planning partnerships, addressing child poverty, closing the attainment gap and children’s mental health are key priorities as partners work together to implement practical steps in communities to improve outcomes for children.
+Local partnerships, including the third sector and communities themselves, are best-placed to understand and tackle the inequalities
+that still exist in Scotland, and which often become most visible when working at the neighbourhood level. By targeting anti-poverty measures to those in most need, councils
+are working with partners to improve food security by providing out-of-term time meals for children, take action on fuel poverty and ensure people have access to affordable housing.
+ 36
+Priority 5
+A Scotland where we have a sustainable, inclusive economy with equality
+of outcomes for all
+16%
+It is estimated that 16% of Scotland’s population, or 860,000 people each year, were living in relative poverty before housing costs in 2014-17. This compares to 15% in the previous period. After housing costs, 19% of Scotland’s population, or
+1 million people each year, were living in poverty in 2014- 17, the same as in 2013-16.5.2
+  Healthy Male Life Expectancy at birth in the 10% most deprived areas in Scotland was 43.9 years, 26.0 years lower than in the least deprived areas
+(69.8 years).
+Healthy Female Life Expectancy at birth was 49.9 years in the most deprived areas, 22.2 years lower than in the least deprived areas (72.0 years).5.1
++
+Deprived
+- Deprived
+Least Most
+ Gap: 26.0 years
+ 43.9 years
+ 69.8 years
+ Gap: 22.2 years
+ 49.9 years
+ 72 years
+26% above recommended 14 units
+      15%
+  2%
+++-
+The wealthiest 2% of the population own 15% of the nation’s wealth.
+1% 50%
+The wealthiest 1% of Scots own more wealth than the
+bottom 50% put together.5.3 Data relates to 2012/14 as no updated wealth data is available.
+ 40%
+  5%
+  Population
+Wealth
+-
+Whereas the poorest 40% of the population own only 5%.
+Public Health Priorities for Scotland
+37
+     Relative Child poverty poverty
+After housing costs, relative poverty rates and child poverty rates have been rising since the all-time low in 2011-14. 5.5
+£912
+Richest 10% of population
+£240
+Poorest 10% of population
++24%
+The top 10% of the population had 24% more income in 2014-17 than the bottom 40% combined.5.4
+4.6x
+The coronary heart disease mortality rate was 4.6 times greater in Scotland’s most deprived areas compared to the least deprived.
+2x
+Of people in the 45-74
+year age group, those in Scotland’s most deprived areas are more than twice as likely to die of cancer than those in the least deprived.
+ Top 10%
+of population
+Bottom 40% of population combined
+    In-work poverty for working- age adults has continuously increased since 2011-14,
+and six out of every ten households in relative poverty have at least one household member in work.5.6
+The 10% of the population with the highest weekly income received more than 4x more per week (£912) than the lowest 10% (£240).5.4
+2.7x
+In 1997, premature mortality rates were 2.7 times higher in the most deprived areas compared to the least deprived; in 2016, rates were 3.7 times higher in
+6x
+Alcohol-related admissions are 6 times more common in the most deprived areas of Scotland compared to the least even though those living in deprived areas are less likely to be harmful drinkers.5.7
+   the most deprived areas.
+2.6x
+The heart attack admission rate in Scotland’s most deprived areas is 2.6 times greater than that of the least deprived.
+ 3
+3
+8
+8
+Priority 6
+A Scotland where we eat well, have a healthy weight and
+are physically active
+             b
+c
+Public Health Priorities for Scotland
+39
+  We want everyone in Scotland to eat well, have a healthy weight and enjoy being physically active. A healthy diet and regular exercise bring a wide range of benefits for both physical and mental health. They play an important role in attaining and maintaining a healthy weight and help protect us from a wide range of serious health conditions. Conversely, poor diet, an unhealthy weight and physical inactivity are all major and growing issues for Scotland and impact across all public services and communities, and with significant costs to the economy.
+Why are a healthy weight and physical activity important?
+Scotland faces great challenges in this area. Our diet and activity levels are influenced by multiple factors, many of which are outside
+our individual control. For example, our income, the food (including drink) our friends and families consume, the food available and affordable in our shops, food’s energy density, the types of outlets around us and promotional and marketing influences all play a role in
+our daily lives. Our physical activity levels are influenced by the transport and planning systems, access to affordable and attractive sports facilities and clubs, stigma and social expectations and many other factors.
+During the development of the priorities, participants highlighted the value people
+place on improving diet, reducing levels of overweight and obesity and increasing levels of physical activity. For diet, particular emphasis was placed on the food environment, especially the availability and accessibility
+of healthy versus unhealthy food, and the
+role of the food industry in its widest sense
+in supporting transformational change. For physical activity, highlighted priorities included building the need for movement into our daily lives and making the walking or cycling route the most attractive option.
+ 40
+Priority 6
+A Scotland where we eat well, have a healthy weight and are physically active
+How will we make a difference?
+Addressing complex challenges like diet and physical inactivity requires the whole system to work collaboratively, bringing together
+local and national decision-makers within healthcare, transport, planning, education and many other sectors. Success depends on clear leadership and effective partnership working at all levels to deliver meaningful and lasting change. We need to build on existing efforts and help strengthen national and local activity. A significant amount of work is under way to address these challenges, but building on this through partnership working across all sectors will be central to success in meeting this priority.
+The 2017-18 Programme for Government committed the Scottish Government to progress measures to limit the marketing of products high in fat, sugar and salt which disproportionately contribute to ill health and obesity and to deliver new services to support people with, or at risk of, type-2 diabetes,
+to lose weight. It set out the aspiration to increase physical activity levels and tackle diet and obesity in Scotland. It includes commitments to boost investment in walking and cycling and put active travel at the heart of transport planning and to publishing a new Active Scotland Delivery Plan. The Scottish Government will shortly publish detailed plans setting out actions across many areas to support people to eat well, have a healthy weight and to be more physically active.
+There are significant continuing inequalities in diet, weight and physical activity that need to be addressed. So in taking forward relevant actions, it is particularly important to consider how they would contribute to reducing inequalities. There is good and improving evidence that population approaches including making food healthier by reducing fat, salt
+and sugar content; marketing restrictions and taxation are effective means to improve the food environment and can help reduce inequalities in diet and weight as part of a whole system approach to acting on the causes of overweight and obesity.
+   Public Health Priorities for Scotland
+41
+   Collective leadership and partnership working can also make a real difference on the ground, especially in achieving benefits through multiple, targeted interventions. Councils and their partners are working to create community environments that support healthier eating and make it easier to stay active through strategies and programmes such as the “Daily Mileˮ initiative, community gardens and numerous projects focused on food as well as the work of local government in developing cycling and walking networks and green spaces.
+All of this involves taking a multi-faceted approach, involving among other things, the public and private sector working together to help transform the environment to support healthier choices.
+ 42
+Priority 6
+A Scotland where we eat well, have a healthy weight and are physically active
+ 2/3
+Two thirds (65%) of adults in Scotland Obesity (BMI 30+) ranges from 20% in the are overweight least deprived quintile to 35% in the most
+deprived quintile.6.1
+   +
+ -
+ 35%
+ 20%
+      Average daily consumption of fruit and vegetables in Scotland is 3 portions against a recommendation of 5.6.2
+Public Health Priorities for Scotland
+43
+    Children tend to consume foods and drinks high in fat and/or sugar more often than adults6.3:
+    Half eat sweets or A third eat crisps A third drink sugary soft chocolates every day every day drinks every day
+ 12
+Dietary risk factors are the second biggest contributory factor to death and disability in Scotland after smoking.6.4
+£4.6 £94 billion million
+The cost to the economy Physical inactivity
+is estimated to be up to contributes to nearly
+      £4.6 billion.6.5
+2,500 deaths in Scotland
+annually, costing the NHS around £94 million.6.6
+44
+Our Reform Principles
+  This document sets out the things we must focus on across Scotland if we are to improve the nation’s health, but we also need to have a shared understanding of how we will work together to deliver change.
+The Scottish Government and COSLA have committed to the following reform principles, and we will encourage
+our partners and those working with
+us across Scotland to reflect similar principles in all that they do.
+Public Health Priorities for Scotland 45
+   • Reducing Inequalities
+Tackling health inequalities is a matter
+of social justice. Reducing the health inequalities which exist in Scotland will be the primary objective of our collaborative action and runs through all of our public health priorities.
+• Prevention and early intervention Action on Scotland’s public health priorities will prioritise preventative measures to reduce demand and lessen inequalities.
+• Fairness, Equity and Equality Our approach will be based on the principles of fairness and equity, taking account of the avoidable differences
+in health among groups of people and providing access to the resources needed to improve health. Everyone has the right to the highest attainable standard of health and everyone should have equal opportunity to realize this right without discrimination.
+• Collaboration and Engagement Effective services must be designed
+and delivered with, and for, people and communities. Early and meaningful engagement across organisations and with people and communities will be an essential element of action on Scotland’s public health priorities.
+• Empowering People and Communities
+We will work in a way which supports services and communities to produce the change they want to see together, and co- design the services they will use. Our goal will be to put people and communities at the heart of change.
+• Intelligence, evidence
+and innovation
+Action on Scotland’s public health priorities will be evidence-led. We will apply public health expertise, data and intelligence and draw on our communities’ lived experience. The challenges within the priority areas
+will need new thinking and new solutions. Innovation, in particular in the areas of
+data science and technology, and the
+use of digital solutions will be a key tool in enabling, driving and supporting change.
+        46
+Next Steps
+This document reflects the first step in a long journey. Through concerted effort, strong partnerships and innovative approaches and making the best use of data, technology and intelligence, we will be able to improve the health of population – but progress at the population level will take time.
+Over the coming months we will build on
+the approaches and engagement that have helped develop the priorities. We will drive
+a strong focus on effective partnerships of national and local government, the NHS and wider public services, the third and private sectors and communities themselves. Strong partnerships already exist across Scotland, but we need to make these common, and we need to ensure a strengthened and renewed focus on ‘wellbeing creation’.
+The description of the priorities in this document set out the many different activities already underway or planned. We will continue to deliver this work and to deliver new approaches and new interventions in the coming years.
+Our new national public health body –
+Public Health Scotland – will also have a key contribution to make in supporting the delivery of these priorities, with a focus on supporting the delivery of change at a local level, and providing data, intelligence and leadership in digital innovation. Work is underway on the development of the organisation and it
+is expected to be established in 2019.
+   Public Health Priorities for Scotland 47
+48
+Appendix
+A Scotland where we live in vibrant, healthy and safe places and communities
+1.1 Scottish Household Survey 2016
+1.2 Scottish House Condition Survey 2016 1.3 Scottish Social Attitudes Survey, 2015 1.4 Scottish Social Attitudes Survey, 2016 1.5 A cross-sectional analysis of the
+relationship between tobacco
+and alcohol outlet density and neighbourhood deprivation. Shortt et al, BMC Public Health, 2015
+1.6 Scottish Household Survey 2016 1.7 Scottish Household Survey 2016 1.8 Scottish Household Survey 2016 1.9 Scottish Crime & Justice Survey
+2016/17
+A Scotland where we flourish in our early years
+2.1 Vital events reference table, National Records of Scotland, 2016
+2.2 Poverty & Income Inequality in Scotland: 2014-17
+2.3 Infant Feeding Statistics Scotland, ISD, 2016/17
+2.4 Child Health 27-30 Month Review Statistics, Scotland 2016/17, ISD
+2.5 National household survey of adverse childhood experiences and their relationship with resilience to health-harming behaviors in England, Bellis et al, BMC Public Health, 2014
+2.6 Procedures in an acute setting, Information Services Division, 2015/16
+2.7 Summary Statistics for Attainment, Scottish Government, 2017
+2.8 Scottish schools adolescent lifestyle and substance use survey (SALSUS) 2015
+A Scotland where we have good mental wellbeing
+3.1 Adult psychiatric morbidity in England, 2007: results of a household survey. McManus et al, NHS Information Centre for health and social care, 2009
+3.2 Scottish Health Survey, 2016
+3.3 Alzheimers Scotland, 2017
+3.4 Outcomes of Nordic mental health
+systems: life expectancy of patients with mental disorders. Wahlbeck et al, British Journal of Psychiatry, 2011
+3.5 The Scottish Burden of Disease Study 2015, ScotPHO, 2017
+3.6 Suicide attempts and non-suicidal self-harm: national prevalence study of young adults, Connor et al, British Journal of Psychiatry, 2018
+3.7 Long Term Monitoring of Health Inequalities: Headline Indicators - October 2015, Scottish Government
+3.8 What's it worth now? (2009/10) Scottish Association for Mental Health, 2011
+3.9 Fourth report, our Voice Citizens’ Panel Survey, 2018
+3.10 Work-related Stress, Depression or Anxiety statistics, 2017 / Labour Force Survey, 2017
+3.11 Medicines used in Mental Health, 2006/07 to 2016/17, ISD
+ Public Health Priorities for Scotland
+49
+ A Scotland where we reduce the use of and harm from alcohol, tobacco and other drugs
+4.1 Alcohol and smoking: Scottish Health Survey, 2016
+Other drugs: Scottish Crime and Justice Survey, 2014/15
+4.2 Smoking attributable deaths in Scotland, ScotPHO (2016)
+National Records of Scotland (deaths)
+Drug Related Deaths in Scotland in 2016, National Records of Scotland (2017)
+4.3 The Societal Cost of Alcohol Misuse in Scotland for 2007, Scottish Government
+4.4 Unrecognised and under-reported: the impact of alcohol on people other than the drinker in Scotland, Alcohol Focus Scotland
+4.5 National evaluation of Scotland's smoke-free legislation, ASH Scotland
+4.6 Model-based appraisal of the comparative impact of Minimum Unit Pricing and taxation policies in Scotland, version 3, April 2016, University
+of Sheffield
+4.7 Scottish schools adolescent lifestyle and substance use survey (SALSUS) 2015
+A Scotland where we have a sustainable, inclusive economy with equality of outcomes for all
+5.1 Long Term Monitoring of Health Inequalities, 2017
+5.2 Poverty & Income Inequality in Scotland: 2014-17
+5.3 Distribution of total net household wealth by percentile, Scotland (2012/14) Wealth and Assets Survey, ONS
+5.4 Poverty & Income Inequality in Scotland: 2014-17
+5.5 Poverty & Income Inequality in Scotland: 2014-17
+5.6 Poverty & Income Inequality in Scotland: 2014-17
+5.7 Long Term Monitoring of Health Inequalities, 2017
+A Scotland where we eat well, have a healthy weight and are physically active
+6.1 Scottish Health Survey, 2016 6.2 Scottish Health Survey, 2016 6.3 Scottish Health Survey, 2016 6.4 Global burden of disease study,
+Institute of Health Metrics and
+Evaluation, 2016
+6.5 Obesity in Scotland, SPICe Briefing,
+2015
+6.6 Costing the burden of ill health related
+to physical inactivity for Scotland. Foster and Allender, British Heart Foundation Research, 2012
+     © Crown copyright 2018
+This publication is licensed under the terms of the Open Government Licence v3.0 except where otherwise stated. To view this licence, visit nationalarchives.gov.uk/doc/open- government-licence/version/3 or write to the Information Policy Team, The National Archives, Kew, London TW9 4DU, or email: psi@nationalarchives.gsi.gov.uk
+Where we have identified any third party copyright information you will need to obtain permission from the copyright holders concerned.
+This publication is available at www.gov.scot
+Any enquiries regarding this publication should be sent to us at The Scottish Government
+St Andrew’s House
+Edinburgh
+EH1 3DG
+ISBN: 978-1-78851-983-0 (web only)
+Published by The Scottish Government, June 2018
+Produced for The Scottish Government by APS Group Scotland, 21 Tennant Street, Edinburgh EH6 5NA PPDAS406546 (06/18)
+   www.gov.scot
