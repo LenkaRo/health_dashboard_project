@@ -107,7 +107,9 @@ ui <- (fluidPage(
                  hr(),
                  
                  # interactive map
-                 tmapOutput("map", width = "100%", height = 600)
+                 tmapOutput("map", width = "100%", height = 600),
+                 
+                 textOutput("copyright")
                  
                ),
                
@@ -247,6 +249,8 @@ server <- (function(input, output) {
       return(null_distribution_viz)
     }
   })
+  
+  output$copyright <- renderText({ "Copyright Scottish Government, contains Ordnance Survey data © Crown copyright and database right (2021)"  })
   
   # description with the graphs in Overview tab
   output$md_file_overview_tab <- renderUI({
