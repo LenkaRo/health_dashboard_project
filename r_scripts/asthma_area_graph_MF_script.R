@@ -9,7 +9,7 @@ area_graph_asthma_data_graph <- area_graph_asthma_data %>%
   ggplot() +
   aes(x = year, y = deaths_in_scotland, fill = cause_of_death) +
   geom_area() +
-  scale_x_continuous(breaks = 2008: 2018) +
+  scale_x_continuous(breaks = seq(from = 2008, to = 2018, by = 2)) +
   facet_wrap(~sex) +
   theme_classic() +
   labs(

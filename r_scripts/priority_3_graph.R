@@ -1,7 +1,7 @@
 library(tidyverse)
 library(here)
 
-mental_health_clean <- read_csv(here("data/mental_health_data/data/mental_health.csv"))
+mental_health_clean <- read_csv(here("data/mental_health_data/mental_health.csv"))
 
 priority_3_graph <- mental_health_clean %>% 
   arrange(date_code) %>% 
