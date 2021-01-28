@@ -38,14 +38,12 @@ ui <- (fluidPage(
   
   tabsetPanel(
     tabPanel("Intro",
-             
-             # sidebarLayout(
-             #     # sidebarPanel(
-             #     # )    
-             #     #      
-             #     # mainPanel(
-             #     # )         
-             # )            
+             br(),
+             fluidRow(
+               column(8,
+                      includeMarkdown("descriptions/introduction_text.md")  
+               )
+             )
     ),
     
     tabPanel("Overview",
