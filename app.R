@@ -21,6 +21,8 @@ source(here("r_scripts/asthma_line_deaths_by_gender_script.R"))
 source(here("r_scripts/asthma_line_rate_by_gender_script.R"))
 source(here("r_scripts/asthma_MF_boxplot_script.R"))
 source(here("r_scripts/hypothesis_test.R"))
+source(here("r_scripts/priority_5_graph.R"))
+
 
 
 # Define UI for application that draws a presentation with three tabs (add text, graphs, action buttons etc)
@@ -50,7 +52,7 @@ ui <- (fluidPage(
                  
                  selectInput("select_priority",
                              label = "Select Priority",
-                             choices = c("Life Expectancy", "BMI in Children", "BMI in Adults", "Activity Levels of Adults", "Mental Health", "Smoking Levels")
+                             choices = c("Life Expectancy", "BMI in Children", "BMI in Adults", "Activity Levels of Adults", "Mental Health", "Smoking Levels", "Health Inequality")
                  ),
                  
                  br(),
@@ -156,6 +158,11 @@ server <- (function(input, output) {
     if(input$select_priority=="Life Expectancy"){
       
       return(life_expectancy_graph)
+    }
+    
+    if(input$select_priority=="Health Inequality"){
+      
+      return(priority_5_graph)
     }
     
     if(input$select_priority=="BMI in Children"){
