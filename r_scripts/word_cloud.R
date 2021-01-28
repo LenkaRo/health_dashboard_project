@@ -28,7 +28,7 @@ text <- tm_map(text, removeNumbers)
 text <- tm_map(text, removeWords, stopwords("english"))
 # Remove your own stop word
 # specify your stopwords as a character vector
-text <- tm_map(text, removeWords, c("fbfs", "blabla2")) 
+text <- tm_map(text, removeWords, c("fbfs", "blabla")) 
 # Remove punctuations
 text <- tm_map(text, removePunctuation)
 # Eliminate extra white spaces

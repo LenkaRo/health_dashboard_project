@@ -8,6 +8,7 @@ library(shapefiles)
 library(infer)
 library(markdown)
 
+source(here("r_scripts/word_cloud.R"))
 source(here("r_scripts/life_expectancy.R"))
 source(here("r_scripts/priority_2_ p1_bmi_script.R"))
 source(here("r_scripts/bmi.R"))
@@ -50,7 +51,11 @@ ui <- (fluidPage(
                  selectInput("select_priority",
                              label = "Select Priority",
                              choices = c("Life Expectancy", "BMI in Children", "BMI in Adults", "Activity Levels of Adults", "Mental Health", "Smoking Levels")
-                 )
+                 ),
+                 
+                 # show word cloud
+                 plotOutput("word_cloud")
+                 
                ),
                
                mainPanel(
@@ -134,6 +139,14 @@ server <- (function(input, output) {
   
   ### widget - select priority for which to display a graph (Overview Tab)
   output$priority <- renderPrint({ input$select_priority })
+  
+  # plot word cloud
+  output$word_cloud <- renderPlot({
+    
+    wordcloud(words = d$word, freq = d$freq, min.freq = 1,
+              max.words=80, random.order=FALSE, rot.per=0.35, 
+              colors=brewer.pal(8, "Dark2"))
+  })
   
   output$graph <- renderPlot({
     
