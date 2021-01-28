@@ -47,7 +47,7 @@ p1_bmi_for_graph <- p1_bmi_for_graph %>%
     x = "Year",
     y = "Proportion of Total BMIs in Area (%)",
     title = "Primary 1 Children Body Mass Index - Clinical",
-    subtitle = "Percentage of children who are classed in different BMI categories at their Primary 1 review"
+    subtitle = "Percentage of children who are classed in different BMI categories at their Primary 1 review - Scotland"
   )+ 
   scale_fill_discrete(name = "BMI Category",
                       labels = c(
