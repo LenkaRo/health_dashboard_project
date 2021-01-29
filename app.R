@@ -118,7 +118,7 @@ ui <- (fluidPage(
                  
                  selectInput("select_topic",
                              label = "Select Topic",
-                             choices = c("Asthma in proportion", "Death by gender", "Rate by gender", "Asthma by gender", "Hypothesis test - null distribution")
+                             choices = c("Asthma in proportion", "Death by gender", "Rate by gender", "Hypothesis test - box plot", "Hypothesis test - null distribution")
                  ),
                  
                  mainPanel(
@@ -240,9 +240,9 @@ server <- (function(input, output) {
       return(asthma_line_rate_MF_BS_graph)
     }
     
-    if(input$select_topic=="Asthma by gender"){
+    if(input$select_topic=="Hypothesis test - box plot"){
       
-      return(stays_and_rates_2012_2019_graph)
+      return(box_plot_viz)
     }
     
     if(input$select_topic=="Hypothesis test - null distribution"){
@@ -272,7 +272,7 @@ server <- (function(input, output) {
                    "Asthma in proportion" = "descriptions/combined_respiratory_deaths_description.md",
                    "Death by gender" = "descriptions/death_by_gender_description.md",
                    "Rate by gender" = "descriptions/rate_by_gender_description.md",
-                   #"Asthma by gender" = "descriptions/d.md",
+                   "Hypothesis test - box plot" = "descriptions/box_plot.md",
                    "Hypothesis test - null distribution" = "descriptions/null_hypothesis.md"
     )
     includeMarkdown(file_asthma)
