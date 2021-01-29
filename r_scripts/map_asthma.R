@@ -40,7 +40,7 @@ shs_asthma_diagnosed <- read_csv("data/asthma_data/Scottish_Health_Survey_Local_
   filter(FeatureCode %in% hb_codes) %>% 
   filter(`Scottish Health Survey Indicator` == "Doctor-diagnosed asthma: Yes") %>% 
   filter(Measurement == "Percent") %>% 
-  filter(Sex == "Female")
+  filter(Sex == "All")
 
 #shs_asthma_diagnosed
 
@@ -53,12 +53,12 @@ asthma_stays_rate <- read_csv("data/asthma_data/complete_asthma_stays_rate_2012_
 
 asthma_stays_rate_summary <- asthma_stays_rate %>%
   mutate(HBName = str_sub(hbresname, 5)) %>% 
-  filter(HBName %notin% c("cotland", "r")) %>% 
-  filter(sex != "Both Sexes") %>% 
+  filter(HBName %notin% c("cotland", "r", "Scotland")) %>% 
+  filter(sex == "Both Sexes") %>% 
   filter(rate != "-") %>% 
   mutate(rate = as.numeric(rate)) %>% 
   group_by(discharge_fin_yr_end, HBName) %>% 
-  summarise(avg_stay = mean(stays),
+  summarise(stay = sum(stays),
             avg_rate = mean(rate))
 
 
@@ -66,6 +66,8 @@ asthma_stays_rate_summary <- asthma_stays_rate %>%
 map_and_data <- merge(hb, shs_asthma_diagnosed, by.x = "HBCode", by.y = "FeatureCode") %>% 
   merge(asthma_stays_rate_summary, by = "HBName") %>% 
   select(-c(DateCode, Measurement, Units))
+
+head(map_and_data)
 
 # # map Asthma indicator by HB
 # ## create choropleth map with ggplot geom_sf() (map the simple features object)

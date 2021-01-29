@@ -12,8 +12,8 @@ Designed in consultation and collaboration with Scottish Government representati
 
 The content presented within this dashboard derives from two main sources:
 
-1. Scotland's Public Health Priorities report produced in 2018 by the Scottish Government. The report outlines 6 Public Health Priorities (PHPs) that the government believe are most important to focus on over the next decade if we are to improve the health of the nation.
-2. The second main source is the statistics.gov.scot website, which provided the majority of datasets used in the dashboard. Supplementary datasets from other sources have also been used. Specific dataset links are referenced in ****. 
+1. *Scotland's Public Health Priorities* report produced in 2018 by the Scottish Government. The report outlines 6 Public Health Priorities (PHPs) that the government believe are most important to focus on over the next decade if we are to improve the health of the nation.
+2. The second main source is the statistics.gov.scot website, which provided the majority of datasets used in the dashboard. Supplementary datasets from other sources have also been used.  
 
 
 ----------
