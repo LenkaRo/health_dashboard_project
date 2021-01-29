@@ -85,7 +85,7 @@ ui <- (fluidPage(
                  
                  selectInput("select_indicator",
                              label = "Select Indicator",
-                             choices = c("Prevalence of doctor-diagnosed asthma", "Total hospital stays", "Hospital stay rates")
+                             choices = c("Prevalence of doctor-diagnosed asthma", "Hospital stays related to Asthma diagnosis", "Hospital stay rates related to Asthma diagnosis")
                  ),
                  
                  hr(),
@@ -212,7 +212,7 @@ server <- (function(input, output) {
         tmap_mode("view")
     }
 
-    else if (input$select_indicator == "Hospital stay rates") {
+    else if (input$select_indicator == "Hospital stay rates related to Asthma diagnosis") {
       tm_shape(map_and_data) +
         tm_polygons("avg_rate", id = "HBName", fill = "avg_rate", title = "Rate per 100,000 population (%)") +
         tmap_mode("view")

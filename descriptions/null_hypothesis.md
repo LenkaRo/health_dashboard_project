@@ -2,7 +2,7 @@
 
 * The observed statistic (difference in population means) is passed the edge of the null distribution
 	- result: p-value ≈ 0 (< 0.05)
-* Conclusion: Based on our data samples, there was enough evidence to suggests there was a significant difference between average rates of females and males between years 2012 and 2019
+* Conclusion: Based on our data samples, there was enough evidence to suggests there was a statistically significant difference between average rates of females and males between years 2012 and 2019
 
 	
 	
