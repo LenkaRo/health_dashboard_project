@@ -260,8 +260,8 @@ server <- (function(input, output) {
                    "BMI in Children" = "descriptions/children_bmi_p1_description.md",
                    "BMI in Adults" = "descriptions/bmi_id_adults.md",
                    "Activity Levels of Adults" = "descriptions/activity_levels_of_adults.md",
-                   #"Mental Health" = "descriptions/i.md",
-                   #"Smoking Levels" = "descriptions/j.md"
+                   "Mental Health" = "descriptions/Mental_Health_points.md",
+                   "Smoking Levels" = "descriptions/Smoking_points.md"
     )
     includeMarkdown(file_overview)
   })
