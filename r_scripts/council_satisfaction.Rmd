@@ -1,0 +1,41 @@
+
+```{r}
+library(tidyverse)
+library(here)
+library(janitor)
+```
+
+# Read in data, skipping 12 rows of introduction
+```{r}
+satisfaction <- read_csv(here("data/inequality/council_satisfaction.csv"), skip = 12) %>% 
+  clean_names()
+```
+
+Pivot longer
+```{r}
+satisfaction <- satisfaction %>% 
+  pivot_longer(cols = x2012:x2019,
+               names_to = "year",
+               names_prefix = "x",
+               values_to = "satisfaction")
+```
+
+
+```{r}
+satisfaction %>% 
+  filter(reference_area == "Scotland") %>% 
+  ggplot() +
+  aes(x = year, y = satisfaction, group = reference_area, colour = reference_area) +
+  geom_line() +
+  geom_point() +
+  labs(
+    title = "Perceived influence on local decision-making",
+    subtitle = "Percentage of Scottish residents agreeing with the statement \n 'I can influence decisions affecting my local area'",
+    x = "Year measured",
+    y = "Percent agreeing"
+  )
+```
+
+Can be improved by allowing addition of local authority line against national average.
+Can be improved by finding comparable performance, e.g. from England, Ireland and Wales.
+Can be improved by charting this with another metric such as educational attainment?

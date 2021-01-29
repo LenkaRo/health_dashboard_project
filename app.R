@@ -26,6 +26,8 @@ source(here("r_scripts/asthma_line_deaths_by_gender_script.R"))
 source(here("r_scripts/asthma_line_rate_by_gender_script.R"))
 source(here("r_scripts/asthma_MF_boxplot_script.R"))
 source(here("r_scripts/hypothesis_test.R"))
+source(here("r_scripts/priority_5_graph.R"))
+
 
 
 # Define UI for application that draws a presentation with three tabs (add text, graphs, action buttons etc)
@@ -53,7 +55,7 @@ ui <- (fluidPage(
                  
                  selectInput("select_priority",
                              label = "Select Priority",
-                             choices = c("Life Expectancy", "BMI in Children", "BMI in Adults", "Activity Levels of Adults", "Mental Health", "Smoking Levels")
+                             choices = c("Life Expectancy", "BMI in Children", "BMI in Adults", "Activity Levels of Adults", "Mental Health", "Smoking Levels", "Health Inequality")
                  ),
                  
                  br(),
@@ -167,6 +169,11 @@ server <- (function(input, output) {
       return(life_expectancy_graph)
     }
     
+    if(input$select_priority=="Health Inequality"){
+      
+      return(priority_5_graph)
+    }
+    
     if(input$select_priority=="BMI in Children"){
       
       return(p1_bmi_for_graph)
@@ -261,7 +268,8 @@ server <- (function(input, output) {
                    "BMI in Adults" = "descriptions/bmi_id_adults.md",
                    "Activity Levels of Adults" = "descriptions/activity_levels_of_adults.md",
                    "Mental Health" = "descriptions/Mental_Health_points.md",
-                   "Smoking Levels" = "descriptions/Smoking_points.md"
+                   "Smoking Levels" = "descriptions/Smoking_points.md",
+                   "Health Inequality" = "descriptions/health_inequality.md"
     )
     includeMarkdown(file_overview)
   })

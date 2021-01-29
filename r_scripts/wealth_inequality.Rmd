@@ -1,0 +1,35 @@
+```{r}
+library(tidyverse)
+library(here)
+library(janitor)
+```
+
+```{r}
+wealth <- read_csv(here("data/inequality/total_wealth_by_decile.csv")) %>% 
+  clean_names() %>% 
+  select(-x1)
+```
+
+```{r}
+wealth <- wealth %>% 
+  pivot_longer(
+    cols = july_2006_to_june_20081:april_2016_to_march_2018,
+    names_to = "year",
+    values_to = "aggregate_total_wealth_mil"
+  )
+```
+
+# Rename columns to year end
+
+```{r}
+
+```
+
+```{r}
+wealth %>% 
+  ggplot() +
+  aes(x = year, y = aggregate_total_wealth_mil, group = decile, colour = decile) +
+  geom_line() +
+  theme(axis.text.x = element_text(angle = 90))
+```
+
