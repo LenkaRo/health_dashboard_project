@@ -59,7 +59,11 @@ ui <- (fluidPage(
                  br(),
                  br(),
                  # show word cloud
-                 plotOutput("word_cloud")
+                 plotOutput("word_cloud"),
+                 
+                 br(),
+                 # link to the Public Health Priorities document
+                 tags$a("Public Health Priorities for Scotland", href = "https://www.gov.scot/binaries/content/documents/govscot/publications/corporate-report/2018/06/scotlands-public-health-priorities/documents/00536757-pdf/00536757-pdf/govscot%3Adocument/00536757.pdf")
                  
                ),
                
@@ -81,7 +85,7 @@ ui <- (fluidPage(
                  
                  selectInput("select_indicator",
                              label = "Select Indicator",
-                             choices = c("proportion", "stays", "rate")
+                             choices = c("Prevalence of doctor-diagnosed asthma", "Total hospital stays", "Hospital stay rates")
                  ),
                  
                  hr(),
@@ -92,10 +96,9 @@ ui <- (fluidPage(
                                #tags$h3("map"),
                                sliderInput("year_slider",
                                            "Choose year range",
-                                           min = min(map_and_data$discharge_fin_yr_end),
-                                           max = max(map_and_data$discharge_fin_yr_end),
-                                           value = range(map_and_data$discharge_fin_yr_end),
-                                           step = 1,
+                                           min = 2012, # min(map_and_data$discharge_fin_yr_end),
+                                           max = 2019, # max(map_and_data$discharge_fin_yr_end),
+                                           value = 2012,
                                            sep = "", #getting rid of the default "," separator (eg 1,234)
                                            width = "400px"
                                )
@@ -105,7 +108,9 @@ ui <- (fluidPage(
                  hr(),
                  
                  # interactive map
-                 tmapOutput("map", width = "100%", height = 600)
+                 tmapOutput("map", width = "100%", height = 600),
+                 
+                 textOutput("copyright")
                  
                ),
                
@@ -195,21 +200,21 @@ server <- (function(input, output) {
     map_and_data <- map_and_data %>% 
       filter(discharge_fin_yr_end == input$year_slider)
     
-    if (input$select_indicator == "proportion") {
+    if (input$select_indicator == "Prevalence of doctor-diagnosed asthma") {
       tm_shape(map_and_data) +
-        tm_polygons("Value", id = "HBName", fill = "Value", title = "Proportion (%)") + # add polygons colored by the Value (percentage), display name of HB when hovering mouse over the map
+        tm_polygons("Value", id = "HBName", fill = "Value", title = "Asthma prevalence (%)") + # add polygons colored by the Value (percentage), display name of HB when hovering mouse over the map
         tmap_mode("view") # turn it into interactive (clickable) map, set tmap viewing mode to "view" = interactive
     }
     
-    else if (input$select_indicator == "stays") {
+    else if (input$select_indicator == "Hospital stays related to Asthma diagnosis") {
       tm_shape(map_and_data) +
-        tm_polygons("avg_stay", id = "HBName", fill = "avg_stay", title = "Average length of stay (days)") +
+        tm_polygons("stay", id = "HBName", fill = "stay", title = "Hospital stays (days)") +
         tmap_mode("view")
     }
 
-    else if (input$select_indicator == "rate") {
+    else if (input$select_indicator == "Hospital stay rates") {
       tm_shape(map_and_data) +
-        tm_polygons("avg_rate", id = "HBName", fill = "avg_rate", title = "Average rate (units)") +
+        tm_polygons("avg_rate", id = "HBName", fill = "avg_rate", title = "Rate per 100,000 population (%)") +
         tmap_mode("view")
     }
   })
@@ -245,6 +250,8 @@ server <- (function(input, output) {
       return(null_distribution_viz)
     }
   })
+  
+  output$copyright <- renderText({ "Copyright Scottish Government, contains Ordnance Survey data © Crown copyright and database right (2021)"  })
   
   # description with the graphs in Overview tab
   output$md_file_overview_tab <- renderUI({
