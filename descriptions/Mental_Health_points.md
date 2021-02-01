@@ -1,5 +1,5 @@
 
-## name
+---------
 
 * The graph is showing the mental wellbeing of Scots between the ages of 16 and 65+, over the span of 3 years.
 * The data used was gathered using Short Warwick Edinburgh Mental Wellbeing Scale (SWEMWBS)

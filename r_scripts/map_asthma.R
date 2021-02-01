@@ -67,6 +67,8 @@ map_and_data <- merge(hb, shs_asthma_diagnosed, by.x = "HBCode", by.y = "Feature
   merge(asthma_stays_rate_summary, by = "HBName") %>% 
   select(-c(DateCode, Measurement, Units))
 
+head(map_and_data)
+
 # # map Asthma indicator by HB
 # ## create choropleth map with ggplot geom_sf() (map the simple features object)
 # map_and_data %>% 

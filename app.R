@@ -26,6 +26,8 @@ source(here("r_scripts/asthma_line_deaths_by_gender_script.R"))
 source(here("r_scripts/asthma_line_rate_by_gender_script.R"))
 source(here("r_scripts/asthma_MF_boxplot_script.R"))
 source(here("r_scripts/hypothesis_test.R"))
+source(here("r_scripts/priority_5_graph.R"))
+
 
 
 # Define UI for application that draws a presentation with three tabs (add text, graphs, action buttons etc)
@@ -53,7 +55,7 @@ ui <- (fluidPage(
                  
                  selectInput("select_priority",
                              label = "Select Priority",
-                             choices = c("Life Expectancy", "BMI in Children", "BMI in Adults", "Activity Levels of Adults", "Mental Health", "Smoking Levels")
+                             choices = c("Life Expectancy", "BMI in Children", "BMI in Adults", "Activity Levels of Adults", "Mental Health", "Smoking Levels", "Health Inequality")
                  ),
                  
                  br(),
@@ -85,7 +87,7 @@ ui <- (fluidPage(
                  
                  selectInput("select_indicator",
                              label = "Select Indicator",
-                             choices = c("Prevalence of doctor-diagnosed asthma", "Total hospital stays", "Hospital stay rates")
+                             choices = c("Prevalence of doctor-diagnosed asthma", "Hospital stays related to Asthma diagnosis", "Hospital stay rates related to Asthma diagnosis")
                  ),
                  
                  hr(),
@@ -118,7 +120,7 @@ ui <- (fluidPage(
                  
                  selectInput("select_topic",
                              label = "Select Topic",
-                             choices = c("Asthma in proportion", "Death by gender", "Rate by gender", "Asthma by gender", "Hypothesis test - null distribution")
+                             choices = c("Asthma in proportion", "Death by gender", "Rate by gender", "Hypothesis test - box plot", "Hypothesis test - null distribution")
                  ),
                  
                  mainPanel(
@@ -167,6 +169,11 @@ server <- (function(input, output) {
       return(life_expectancy_graph)
     }
     
+    if(input$select_priority=="Health Inequality"){
+      
+      return(priority_5_graph)
+    }
+    
     if(input$select_priority=="BMI in Children"){
       
       return(p1_bmi_for_graph)
@@ -212,7 +219,7 @@ server <- (function(input, output) {
         tmap_mode("view")
     }
 
-    else if (input$select_indicator == "Hospital stay rates") {
+    else if (input$select_indicator == "Hospital stay rates related to Asthma diagnosis") {
       tm_shape(map_and_data) +
         tm_polygons("avg_rate", id = "HBName", fill = "avg_rate", title = "Rate per 100,000 population (%)") +
         tmap_mode("view")
@@ -240,9 +247,9 @@ server <- (function(input, output) {
       return(asthma_line_rate_MF_BS_graph)
     }
     
-    if(input$select_topic=="Asthma by gender"){
+    if(input$select_topic=="Hypothesis test - box plot"){
       
-      return(stays_and_rates_2012_2019_graph)
+      return(box_plot_viz)
     }
     
     if(input$select_topic=="Hypothesis test - null distribution"){
@@ -260,8 +267,9 @@ server <- (function(input, output) {
                    "BMI in Children" = "descriptions/children_bmi_p1_description.md",
                    "BMI in Adults" = "descriptions/bmi_id_adults.md",
                    "Activity Levels of Adults" = "descriptions/activity_levels_of_adults.md",
-                   #"Mental Health" = "descriptions/i.md",
-                   #"Smoking Levels" = "descriptions/j.md"
+                   "Mental Health" = "descriptions/Mental_Health_points.md",
+                   "Smoking Levels" = "descriptions/Smoking_points.md",
+                   "Health Inequality" = "descriptions/health_inequality.md"
     )
     includeMarkdown(file_overview)
   })
@@ -272,7 +280,7 @@ server <- (function(input, output) {
                    "Asthma in proportion" = "descriptions/combined_respiratory_deaths_description.md",
                    "Death by gender" = "descriptions/death_by_gender_description.md",
                    "Rate by gender" = "descriptions/rate_by_gender_description.md",
-                   #"Asthma by gender" = "descriptions/d.md",
+                   "Hypothesis test - box plot" = "descriptions/box_plot.md",
                    "Hypothesis test - null distribution" = "descriptions/null_hypothesis.md"
     )
     includeMarkdown(file_asthma)

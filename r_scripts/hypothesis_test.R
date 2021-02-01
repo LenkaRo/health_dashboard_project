@@ -1,4 +1,4 @@
-# We have two independent samples of asthma rates observed between years 2012 nd 2019 - for females and males. 
+# We have two independent samples of asthma rates observed between years 2012 and 2019 - for females and males. 
 # Is there a significant difference between means of the rates in each patient gender?
 
 # We are interested in hypotheses about the difference in population means μ1−μ2
@@ -6,11 +6,11 @@
 
 # We set the conventional significance level α=0.05
 
-# Hypothesis is a two-tailed test of significance:
-# H0: μ_rate(female) = μ_rate(male)
-# Ha: μ_rate(female) ≠ μ_rate(male)
+# Hypothesis is a one-tailed test of significance:
+# H0: μ_rate(female) - μ_rate(male) = 0
+# Ha: μ_rate(female) - μ_rate(male) > 0
 
-# Under H0 - the gender of a patient has no bearing on the rate, i.e. the gender and rate are independent
+# Under H0 - the gender of a patient has no bearing on the rate, i.e. the gender and rate are independent. 
 # There is no difference between the two groups
 
 library(tidyverse)
@@ -19,7 +19,7 @@ library(here)
 
 population <- read_csv(here("data/asthma_data/complete_asthma_stays_rate_2012_2019_with_codes.csv"))
 
-# average rate across all 14 HB
+# We calculate average rate across all 14 HB
 ## for female
 females <- population %>% 
   filter(sex == "Female") %>% 
@@ -46,13 +46,16 @@ rates <- bind_rows(females, males)
 
 #unique(population$age_grp)
 
-# box plot (8 observations in each group), visualise the distributions
-rates %>% 
+# We visualize the distribution of both samples with a box plot (both size 8)
+# We see there is indication that Female asthma rates tend to be somewhat higher on average.
+box_plot_viz <- rates %>% 
   ggplot(aes(y = avg_rate, x = sex)) +
   geom_boxplot() 
+# box_plot_viz
 
 # calculate exact sample means for each sex
 # there is an indication that Females rate tends to be higher on average
+# female avg_rate = 126, male avg_rate = 86.2
 rates %>%
   group_by(sex) %>% 
   summarise(
@@ -72,6 +75,7 @@ null_distribution <- rates %>%
 head(null_distribution)
 
 # calculate observed statistics
+# 39.4
 observed_stat <- rates %>% 
   specify(avg_rate ~ sex) %>%
   calculate(stat = "diff in means", order = c("Female", "Male"))
@@ -83,13 +87,13 @@ observed_stat
 # So there would be a very very small probability of getting a more extreme value than ours under H0
 null_distribution_viz <- null_distribution %>%
   visualise() +
-  shade_p_value(obs_stat = observed_stat, direction = "both")
+  shade_p_value(obs_stat = observed_stat, direction = "right")
 #null_distribution_viz
 
 # let’s calculate the p-value to be sure
 p_value <- null_distribution %>%
-  get_p_value(obs_stat = observed_stat, direction = "both")
-#p_value
+  get_p_value(obs_stat = observed_stat, direction = "right")
+#p_value = 0
 
 # It is smaller than our critical value of 0.05 and so we reject H0
 # and conclude that we have found enough evidence in our data to suggest that the average rate in Females is statistically significantly greater than in Males

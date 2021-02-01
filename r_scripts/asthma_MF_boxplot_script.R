@@ -17,3 +17,6 @@ stays_and_rates_2012_2019_graph <- stays_and_rates_2012_2019 %>%
     title = "Dispersion of Asthma Rates - by sex",
     subtitle = "All Regions in Scotland - 2012-2019")
     
+stays_and_rates_2012_2019 %>% 
+  group_by(sex) %>% 
+  summarise(avg = mean(as.numeric(rate), na.rm = TRUE))
