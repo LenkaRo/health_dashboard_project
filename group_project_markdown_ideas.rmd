@@ -1,6 +1,6 @@
-![Demo](descriptions/readme_prntscrs/Screen Recording 2021-02-01 at 14.30.19.mov)
+![Demo](descriptions/readme_prntscrs/Screen Recording 2021-02-01 at 14.30.19.gif)
 
-![](descriptions/readme_prntscrs/image.png) 
+![](descriptions/readme_prntscrs/image.png)
 
 ### Names of group members
 
