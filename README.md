@@ -1,9 +1,4 @@
-# health_dashboard_project
-Interactive Shiny App - Scottish Health Data Dashboard - CodeClan group project
-
 ![Demo](https://github.com/LenkaRo/health_dashboard_project/blob/main/descriptions/readme_prntscrs/Screen%20Recording%202021-02-01%20at%2014.30.19.gif)
-
-![](descriptions/readme_prntscrs/image.png)
 
 ### Names of group members
 
@@ -42,6 +37,8 @@ The dashboard contains two key tabs for the user to engage with:
 1. The **Overview** tab presents visualisations of relevant measures which relate to each of the 6 Public Health Priorities (PHPs). Users may select a certain measure and then learn how this measure relates to one of the PHPs. Visualisations of each of the measures are presented in order to give the user a broad understanding of recent historical progress towards the goals established by each of the PHPs.
 
 2. The second **Asthma** tab is a key tab in our dashboard. It provides tools for a more detailed analysis of Asthma in Scotland. This section of the dashboard allows the user to explore measures such as deaths and rates of hospitalization where asthma was the primary cause of such events. Data is presented from Temporal, Geographic and Demographic perspectives. A small statistical analysis is also included and presented.
+
+![](descriptions/readme_prntscrs/image.png)
 
 ### Which tools were used in the project
 
