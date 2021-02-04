@@ -4,7 +4,7 @@
 
 ## Interactive Dashboard Overview
 
-###**Content**
+### **Content**
 
 The content presented within this dashboard derives from two main sources:
 
@@ -12,7 +12,7 @@ The content presented within this dashboard derives from two main sources:
 2. The second main source is the [statistics.gov.scot](https://statistics.gov.scot/home) website, which provided the majority of datasets used in the dashboard. Supplementary datasets from other sources have also been used.  
 
 
-###**Structure**
+### **Structure**
 
 The dashboard contains three tabs. One static (Intro) and two for the user to engage with (Overview and Asthma):
 
