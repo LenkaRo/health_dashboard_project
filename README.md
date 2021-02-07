@@ -1,4 +1,4 @@
-![Demo](https://github.com/LenkaRo/health_dashboard_project/blob/main/descriptions/readme_prntscrs/Screen%20Recording%202021-02-01%20at%2014.30.19_2.gif)
+![Demo](https://github.com/LenkaRo/health_dashboard_project/blob/main/descriptions/readme_prntscrs/screen_recording.gif)
 
 ----------
 

@@ -45,7 +45,7 @@ d <- data.frame(word = names(v),freq=v)
 head(d, 10)
 
 # Generate the Word cloud
-set.seed(1234)
-wordcloud <- wordcloud(words = d$word, freq = d$freq, min.freq = 1,
-          max.words=100, random.order=FALSE, rot.per=0.35, 
-          colors=brewer.pal(8, "Dark2"))
+# set.seed(1234)
+# wordcloud <- wordcloud(words = d$word, freq = d$freq, min.freq = 1,
+#           max.words=100, random.order=FALSE, rot.per=0.35, 
+#           colors=brewer.pal(8, "Dark2"))

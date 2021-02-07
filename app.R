@@ -158,7 +158,7 @@ server <- (function(input, output) {
   output$word_cloud <- renderPlot({
     
     wordcloud(words = d$word, freq = d$freq, min.freq = 1,
-              max.words=80, random.order=FALSE, rot.per=0.35, 
+              max.words=100, random.order=FALSE, rot.per=0.35, 
               colors=brewer.pal(8, "Dark2"))
   })
   
