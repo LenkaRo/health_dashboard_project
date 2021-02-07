@@ -4,6 +4,12 @@
 
 ## Interactive Dashboard Overview
 
+### **Introduction**
+
+This repository contains underlaying code and data sources used to create an interactive dasboard allowing user to explore measures related to the Scottish public health.
+
+The dashboard was built using R Shiny as part of a group project at [CodeClan's](https://codeclan.com) Data Analysis course.
+
 ### **Content**
 
 The content presented within this dashboard derives from two main sources:
@@ -22,9 +28,20 @@ The dashboard contains three tabs. One static (Intro) and two for the user to en
 
 ![](descriptions/readme_prntscrs/overview_tab.png)
 
-3. The second **Asthma** tab is a key tab in our dashboard. It provides tools for a more detailed analysis of Asthma in Scotland. This section of the dashboard allows the user to explore measures such as deaths and rates of hospitalization where asthma was the primary cause of such events. Data is presented from Temporal, Geographic and Demographic perspectives. A small statistical analysis is also included and presented.
+3. The third **Asthma** tab is a key tab in our dashboard. It provides tools for a more detailed analysis of Asthma in Scotland. This section of the dashboard allows the user to explore measures such as deaths and rates of hospitalization where asthma was the primary cause of such events. Data is presented from Temporal, Geographic and Demographic perspectives. A small statistical analysis is also included and presented.
 
 ![](descriptions/readme_prntscrs/asthma_tab.png)
+
+
+### **R libraries**
+
+An example of used R libraries that were fundamental in order to create this dashboard and content - used to read in and tidy data, carry out statistical analyses, plot figures, process and visualize geo spatial metadata, carry out text mining and establish the dashboard's framework:
+ 
+`tidyverse`, `infer`, `tmap`, `shapefiles`, `tm`, `shiny`
+
+
+### Code example
+![](descriptions/readme_prntscrs/code_example.png)
 
 ----------
 **Authors:**
